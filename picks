@@ -1,0 +1,41 @@
+#!/bin/bash
+
+ANDROID_BUILD_TOP="$(dirname $(realpath "$0"))"
+
+function repopick() {
+    #${ANDROID_BUILD_TOP}/vendor/lineage/build/tools/repopick.py $@
+    ${ANDROID_BUILD_TOP}/vendor/lineage/build/tools/repopick.py $@ &
+}
+
+function repopickchain() {
+    `${ANDROID_BUILD_TOP}/gen_chain $@`
+}
+
+function rc() {
+    echo `${ANDROID_BUILD_TOP}/gen_chain $@ | cut -b10-`
+}
+
+#
+# _examples_
+#
+# # repo/1
+# changes=(
+#     2137 # hello
+#     `rc 2137` # hello (chain)
+# )
+# repopick ${changes[@]}
+#
+# # repo/2
+# repopickchain 2137 # hello (chain)
+#
+# # repo/3
+# repopick 2137 # hello
+#
+
+# build/make
+repopick 332045 # Don't enforce vintf kernel requirements when building without LTO
+
+# frameworks/base
+repopick 357988 # Set DEFAULT_ADB_ALLOWED_CONNECTION_TIME to 0
+
+wait
