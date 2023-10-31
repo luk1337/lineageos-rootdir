@@ -56,9 +56,6 @@ repopickchain 371628 # guacamole: Switch to two-stage init mounting
 # device/oneplus/guacamoleb
 repopickchain 371630 # guacamoleb: Switch to two-stage init mounting
 
-# external/libcxx
-repopick 368281 # Make libc++fs vendor available and as a shared lib
-
 # frameworks/av
 repopickchain 368311 # Camera: Avoid roundBufferDimensionsNearest also for HAL_PIXEL_FORMAT_BLOB
 
