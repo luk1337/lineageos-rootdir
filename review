@@ -1,0 +1,29 @@
+#!/bin/bash
+PATCHSET=$(ssh lineage-gerrit gerrit query $1 --current-patch-set --format=JSON | jq --slurp -r '.[0].currentPatchSet.number')
+REVIEW=""
+
+case "$2" in
+    *-2*)
+        REVIEW+=" --code-review -2"
+        ;;
+    *-1*)
+        REVIEW+=" --code-review -1"
+        ;;
+    *+1*)
+        REVIEW+=" --code-review +1"
+        ;;
+    *+2*)
+        REVIEW+=" --code-review +2"
+        ;;
+esac
+
+case "$2" in
+    *-v*|*-V*)
+        REVIEW+=" --verified -1"
+        ;;
+    *+v*|*+V*)
+        REVIEW+=" --verified +1"
+        ;;
+esac
+
+ssh lineage-gerrit gerrit review $REVIEW $1,$PATCHSET
