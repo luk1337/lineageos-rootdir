@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+import json
+import sys
+import urllib.request
+
+
+def get_change_data(change_id):
+    url = f'https://review.lineageos.org/changes/{change_id}?o=CURRENT_REVISION'
+    data = urllib.request.urlopen(url).read().decode()
+    return json.loads(data[5:])
+
+
+print(get_change_data(sys.argv[1])['status'])
