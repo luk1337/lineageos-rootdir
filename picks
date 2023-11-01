@@ -56,6 +56,9 @@ repopickchain 371628 # guacamole: Switch to two-stage init mounting
 # device/oneplus/guacamoleb
 repopickchain 371630 # guacamoleb: Switch to two-stage init mounting
 
+# device/sony/nile-common
+repopickchain 371789 # nile-common: Raise VINTF target level to 4
+
 # frameworks/av
 repopickchain 368311 # Camera: Avoid roundBufferDimensionsNearest also for HAL_PIXEL_FORMAT_BLOB
 
