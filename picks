@@ -68,9 +68,6 @@ repopickchain 371144 # InputDispatcher: On keypress, deliver keycode to pokeUser
 # hardware/interfaces
 repopickchain 369042 # camera: Make overrideFormat from reserved fields opt-in
 
-# hardware/libhardware
-repopickchain 368359 # libhardware: Add new display types.
-
 # kernel/oneplus/sdm845
 repopickchain 370740 # arm64: dts: qcom: Drop vendor fstab entry from dts
 
