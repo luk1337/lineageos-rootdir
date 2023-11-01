@@ -65,6 +65,9 @@ repopickchain 371141 # Camera button support
 # frameworks/native
 repopickchain 371144 # InputDispatcher: On keypress, deliver keycode to pokeUserActivity
 
+# frameworks/opt/telephony
+repopickchain 371574 # Conditionally revert "Block Binder thread until incoming call process completes"
+
 # hardware/interfaces
 repopickchain 369042 # camera: Make overrideFormat from reserved fields opt-in
 
