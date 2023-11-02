@@ -89,7 +89,7 @@
   <project name="LineageOS/android_device_sony_voyager" path="device/sony/voyager" revision="lineage-21" />
   <project name="LineageOS/android_device_sony_kirin" path="device/sony/kirin" revision="lineage-21" />
   <project name="LineageOS/android_device_sony_mermaid" path="device/sony/mermaid" revision="lineage-21" />
-  <project name="LineageOS/android_kernel_sony_sdm660" path="kernel/sony/sdm660" revision="lineage-20" />
+  <project name="LineageOS/android_kernel_sony_sdm660" path="kernel/sony/sdm660" revision="lineage-21" />
 
   <project name="LineageOS/android_device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" revision="lineage-20" />
   <project name="LineageOS/android_device_xiaomi_gemini" path="device/xiaomi/gemini" revision="lineage-20" />
