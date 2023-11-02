@@ -26,4 +26,8 @@ case "$2" in
         ;;
 esac
 
-ssh lineage-gerrit gerrit review $REVIEW $1,$PATCHSET
+if [[ -z "$REVIEW" ]]; then
+    ssh lineage-gerrit gerrit review ${@:2} $1,$PATCHSET
+else
+    ssh lineage-gerrit gerrit review $REVIEW $1,$PATCHSET
+fi
