@@ -57,7 +57,13 @@ repopickchain 371628 # guacamole: Switch to two-stage init mounting
 repopickchain 371630 # guacamoleb: Switch to two-stage init mounting
 
 # device/sony/nile-common
-repopickchain 372146 # nile-common: Switch to two-stage init mounting
+repopickchain 372201 # nile-common: overlay: Decommonize config_wlan_network_service_package
+
+# device/sony/kirin
+repopick 372202 # kirin: overlay: Set config_wlan_network_service_package
+
+# device/sony/mermaid
+repopick 372203 # mermaid: overlay: Set config_wlan_network_service_package
 
 # frameworks/av
 repopickchain 368311 # Camera: Avoid roundBufferDimensionsNearest also for HAL_PIXEL_FORMAT_BLOB
