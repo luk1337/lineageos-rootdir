@@ -91,10 +91,10 @@
   <project name="LineageOS/android_device_sony_mermaid" path="device/sony/mermaid" revision="lineage-21" />
   <project name="LineageOS/android_kernel_sony_sdm660" path="kernel/sony/sdm660" revision="lineage-21" />
 
-  <project name="LineageOS/android_device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" revision="lineage-20" />
-  <project name="LineageOS/android_device_xiaomi_gemini" path="device/xiaomi/gemini" revision="lineage-20" />
-  <project name="LineageOS/android_device_xiaomi_natrium" path="device/xiaomi/natrium" revision="lineage-20" />
-  <project name="LineageOS/android_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" revision="lineage-20" />
+  <project name="LineageOS/android_device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" revision="lineage-21" />
+  <project name="LineageOS/android_device_xiaomi_gemini" path="device/xiaomi/gemini" revision="lineage-21" />
+  <project name="LineageOS/android_device_xiaomi_natrium" path="device/xiaomi/natrium" revision="lineage-21" />
+  <project name="LineageOS/android_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" revision="lineage-21" />
 
   <project name="LineageOS/android_hardware_oneplus" path="hardware/oneplus" revision="lineage-21" />
   <project name="LineageOS/android_hardware_oplus" path="hardware/oplus" revision="lineage-21" />
