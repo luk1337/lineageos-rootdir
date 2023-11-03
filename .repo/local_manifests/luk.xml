@@ -32,9 +32,9 @@
   <project name="TheMuppets/proprietary_vendor_sony_kirin" path="vendor/sony/kirin" revision="lineage-21" />
   <project name="TheMuppets/proprietary_vendor_sony_mermaid" path="vendor/sony/mermaid" revision="lineage-21" />
 
-  <project name="TheMuppets/proprietary_vendor_xiaomi_msm8996-common" path="vendor/xiaomi/msm8996-common" revision="lineage-20" />
-  <project name="TheMuppets/proprietary_vendor_xiaomi_gemini" path="vendor/xiaomi/gemini" revision="lineage-20" />
-  <project name="TheMuppets/proprietary_vendor_xiaomi_natrium" path="vendor/xiaomi/natrium" revision="lineage-20" />
+  <project name="TheMuppets/proprietary_vendor_xiaomi_msm8996-common" path="vendor/xiaomi/msm8996-common" revision="lineage-21" />
+  <project name="TheMuppets/proprietary_vendor_xiaomi_gemini" path="vendor/xiaomi/gemini" revision="lineage-21" />
+  <project name="TheMuppets/proprietary_vendor_xiaomi_natrium" path="vendor/xiaomi/natrium" revision="lineage-21" />
 
   <project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" revision="lineage-21" />
   <project name="LineageOS/android_device_google_gs101" path="device/google/gs101" revision="lineage-21" />
