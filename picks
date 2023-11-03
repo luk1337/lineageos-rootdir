@@ -47,12 +47,6 @@ repopickchain 369119 # Add vendor/lineage-priv/keys to allowlist
 # device/lineage/sepolicy
 repopickchain 369203 # Revert "Revert "common: Drop custom filesystem rules""
 
-# device/oneplus/guacamole
-repopickchain 371628 # guacamole: Switch to two-stage init mounting
-
-# device/oneplus/guacamoleb
-repopickchain 371630 # guacamoleb: Switch to two-stage init mounting
-
 # frameworks/av
 repopickchain 368311 # Camera: Avoid roundBufferDimensionsNearest also for HAL_PIXEL_FORMAT_BLOB
 
@@ -67,9 +61,6 @@ repopickchain 372014 # Make UiccSlot::getPrintableIccIds() skip null values
 
 # hardware/interfaces
 repopickchain 369042 # camera: Make overrideFormat from reserved fields opt-in
-
-# kernel/oneplus/sm8150
-repopickchain 371626 # fs: proc: Add PROC_CMDLINE_APPEND_ANDROID_FORCE_NORMAL_BOOT
 
 # packages/apps/Etar
 repopick 368965 # Fix onSharedPreferenceChanged method signature
