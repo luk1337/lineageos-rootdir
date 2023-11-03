@@ -47,9 +47,6 @@ repopickchain 369119 # Add vendor/lineage-priv/keys to allowlist
 # device/lineage/sepolicy
 repopickchain 369203 # Revert "Revert "common: Drop custom filesystem rules""
 
-# device/oneplus/sdm845-common
-repopickchain 370735 # sdm845-common: Switch to two-stage init mounting
-
 # device/oneplus/guacamole
 repopickchain 371628 # guacamole: Switch to two-stage init mounting
 
@@ -79,9 +76,6 @@ repopickchain 372014 # Make UiccSlot::getPrintableIccIds() skip null values
 
 # hardware/interfaces
 repopickchain 369042 # camera: Make overrideFormat from reserved fields opt-in
-
-# kernel/oneplus/sdm845
-repopickchain 370740 # arm64: dts: qcom: Drop vendor fstab entry from dts
 
 # kernel/oneplus/sm8150
 repopickchain 371626 # fs: proc: Add PROC_CMDLINE_APPEND_ANDROID_FORCE_NORMAL_BOOT
