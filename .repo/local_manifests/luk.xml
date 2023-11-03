@@ -62,7 +62,7 @@
   <project name="LineageOS/android_device_oneplus_guacamoleb" path="device/oneplus/guacamoleb" revision="lineage-21" />
   <project name="LineageOS/android_device_oneplus_hotdog" path="device/oneplus/hotdog" revision="lineage-21" />
   <project name="LineageOS/android_device_oneplus_hotdogb" path="device/oneplus/hotdogb" revision="lineage-21" />
-  <project name="LineageOS/android_kernel_oneplus_sm8150" path="kernel/oneplus/sm8150" revision="lineage-20" />
+  <project name="LineageOS/android_kernel_oneplus_sm8150" path="kernel/oneplus/sm8150" revision="lineage-21" />
 
   <project name="LineageOS/android_device_oneplus_sm8250-common" path="device/oneplus/sm8250-common" revision="lineage-21" />
   <project name="LineageOS/android_device_oneplus_instantnoodle" path="device/oneplus/instantnoodle" revision="lineage-21" />
