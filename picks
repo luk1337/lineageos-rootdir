@@ -1,10 +1,15 @@
 #!/bin/bash
 
 ANDROID_BUILD_TOP="$(dirname $(realpath "$0"))"
+CHECK="$(echo $1 | grep -q check && echo 1)"
 
 function repopick() {
-    #${ANDROID_BUILD_TOP}/vendor/lineage/build/tools/repopick.py $@
-    ${ANDROID_BUILD_TOP}/vendor/lineage/build/tools/repopick.py $@ &
+    if [[ "$CHECK" = "1" ]]; then
+        echo -n "$1 - " ; ./get_status $1
+    else
+        #${ANDROID_BUILD_TOP}/vendor/lineage/build/tools/repopick.py $@
+        ${ANDROID_BUILD_TOP}/vendor/lineage/build/tools/repopick.py $@ &
+    fi
 }
 
 function repopickchain() {
