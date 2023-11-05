@@ -73,6 +73,9 @@ repopick 368965 # Fix onSharedPreferenceChanged method signature
 # packages/apps/Settings
 repopickchain 369885 # Settings: make sure Wifi exists before adding controllers
 
+# packages/apps/SettingsIntelligence
+repopick 372631 # Style search bar to match new Settings UI
+
 # packages/apps/Trebuchet
 repopickchain 369880 # RecentsView: Unconditionally hide split option for Go-enabled targets
 
