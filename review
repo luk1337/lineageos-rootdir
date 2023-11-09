@@ -1,5 +1,5 @@
 #!/bin/bash
-PATCHSET=$(ssh lineage-gerrit gerrit query $1 --current-patch-set --format=JSON | jq --slurp -r '.[0].currentPatchSet.number')
+PATCHSETS=$(ssh lineage-gerrit gerrit query $1 --current-patch-set --format=JSON | jq 'select(.number != null) | [.number,.currentPatchSet.number] | join(",")' | xargs echo)
 REVIEW=""
 
 case "$2" in
@@ -27,7 +27,7 @@ case "$2" in
 esac
 
 if [[ -z "$REVIEW" ]]; then
-    ssh lineage-gerrit gerrit review ${@:2} $1,$PATCHSET
+    echo $PATCHSETS | xargs ssh lineage-gerrit gerrit review ${@:2}
 else
-    ssh lineage-gerrit gerrit review $REVIEW $1,$PATCHSET
+    echo $PATCHSETS | xargs ssh lineage-gerrit gerrit review $REVIEW
 fi
