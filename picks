@@ -67,9 +67,6 @@ repopickchain 372014 # Make UiccSlot::getPrintableIccIds() skip null values
 # hardware/interfaces
 repopickchain 369042 # camera: Make overrideFormat from reserved fields opt-in
 
-# packages/apps/Etar
-repopick 368965 # Fix onSharedPreferenceChanged method signature
-
 # packages/apps/Settings
 repopickchain 369885 # Settings: make sure Wifi exists before adding controllers
 
