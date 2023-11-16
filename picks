@@ -56,7 +56,7 @@ repopickchain 369203 # Revert "Revert "common: Drop custom filesystem rules""
 repopickchain 368311 # Camera: Avoid roundBufferDimensionsNearest also for HAL_PIXEL_FORMAT_BLOB
 
 # frameworks/base
-repopickchain 374248 # Remove redundant broadcasts when adjusting volume on single volume devices
+repopickchain 372672 # Add support for runtime toggle of navbar
 
 # frameworks/native
 repopickchain 371144 # InputDispatcher: On keypress, deliver keycode to pokeUserActivity
