@@ -5,7 +5,7 @@ CHECK="$(echo $1 | grep -q check && echo 1)"
 
 function repopick() {
     if [[ "$CHECK" = "1" ]]; then
-        echo -n "$1 - " ; ./get_status $1
+        echo -n "$1 - " ; ssh lineage-gerrit gerrit query $1 --format=JSON | jq --slurp -r '.[0].status'
     else
         #${ANDROID_BUILD_TOP}/vendor/lineage/build/tools/repopick.py $@
         ${ANDROID_BUILD_TOP}/vendor/lineage/build/tools/repopick.py $@ &
