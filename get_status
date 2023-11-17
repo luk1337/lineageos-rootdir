@@ -1,2 +1,0 @@
-#!/bin/bash
-ssh lineage-gerrit gerrit query $1 --format=JSON | jq --slurp -r '.[0].status'
