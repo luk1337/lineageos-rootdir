@@ -97,12 +97,6 @@ repopickchain 370777 # Removing duplicate CollectImages()
 # system/extras
 repopickchain 368734 # partition_tools: Add lpunpack_static target
 
-# system/keymaster
-repopick 368735 # Restore ImportKeyRequest::SetKeyMaterial
-
-# system/libhidl
-repopick 368736 # libhidlmemory: mark as recovery_available
-
 # system/logging
 repopickchain 368739 # liblog: Always report as debuggable when building userdebug/eng
 
