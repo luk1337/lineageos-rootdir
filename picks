@@ -49,9 +49,6 @@ repopickchain 371191 # Disable sparse images for A/B updater targets
 # build/soong
 repopickchain 369119 # Add vendor/lineage-priv/keys to allowlist
 
-# device/lineage/sepolicy
-repopickchain 369203 # Revert "Revert "common: Drop custom filesystem rules""
-
 # frameworks/av
 repopickchain 368311 # Camera: Avoid roundBufferDimensionsNearest also for HAL_PIXEL_FORMAT_BLOB
 
@@ -107,7 +104,7 @@ repopickchain 369205 # Firewall: Transport-based toggle support (2/3)
 repopick 368744 # Handle key parameter conversion for FBE_ICE tag
 
 # system/sepolicy
-repopickchain 368751 # Label system properties to config audio codec priority
+repopickchain 375288 # Ignore access to /proc/pagetypeinfo for Settings
 
 # system/tools/mkbootimg
 repopick 368752 # mkbootimg: add support for --dt
