@@ -82,17 +82,11 @@ repopickchain 368681 # Fix OPP comparison
 # packages/modules/Connectivity
 repopickchain 369211 # Keep UID in lockdown when present in any range
 
-# packages/providers/DownloadProvider
-repopickchain 368693 # DownloadProvider: Add support for manual pause/resume
-
 # packages/services/Telephony
 repopickchain 368707 # Telephony: Add ERI configuration for U.S. Cellular
 
 # system/core
 repopickchain 370777 # Removing duplicate CollectImages()
-
-# system/extras
-repopickchain 368734 # partition_tools: Add lpunpack_static target
 
 # system/logging
 repopickchain 368739 # liblog: Always report as debuggable when building userdebug/eng
@@ -105,9 +99,6 @@ repopick 368744 # Handle key parameter conversion for FBE_ICE tag
 
 # system/sepolicy
 repopickchain 375288 # Ignore access to /proc/pagetypeinfo for Settings
-
-# system/tools/mkbootimg
-repopick 368752 # mkbootimg: add support for --dt
 
 # system/update_engine
 repopickchain 368759 # update_engine: Do not attempt to run backuptool in recovery
