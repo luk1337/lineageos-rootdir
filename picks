@@ -98,7 +98,7 @@ repopickchain 369205 # Firewall: Transport-based toggle support (2/3)
 repopick 368744 # Handle key parameter conversion for FBE_ICE tag
 
 # system/sepolicy
-repopickchain 375288 # Ignore access to /proc/pagetypeinfo for Settings
+repopickchain 375640 # Label wifi.interface.
 
 # system/update_engine
 repopickchain 368759 # update_engine: Do not attempt to run backuptool in recovery
