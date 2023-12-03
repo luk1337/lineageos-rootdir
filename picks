@@ -106,7 +106,4 @@ repopickchain 368759 # update_engine: Do not attempt to run backuptool in recove
 # system/vold
 repopickchain 368773 # vold: fix failing to format zero-ed out SD card
 
-# vendor/lineage
-repopick 374839 # config: Introduce common dynamic partition reserved sizes
-
 wait
