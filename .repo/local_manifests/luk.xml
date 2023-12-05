@@ -4,8 +4,6 @@
 
   <remove-project name="platform/prebuilts/remoteexecution-client" />
 
-  <!-- <project name="The-Muppets/proprietary_vendor_firmware" path="vendor/firmware" remote="gitlab" revision="lineage-21" clone-depth="1"/> -->
-
   <project name="TheMuppets/proprietary_vendor_oneplus_sdm845-common" path="vendor/oneplus/sdm845-common" revision="lineage-21" />
   <project name="TheMuppets/proprietary_vendor_oneplus_enchilada" path="vendor/oneplus/enchilada" revision="lineage-21" />
   <project name="TheMuppets/proprietary_vendor_oneplus_fajita" path="vendor/oneplus/fajita" revision="lineage-21" />
