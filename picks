@@ -53,7 +53,7 @@ repopickchain 369119 # Add vendor/lineage-priv/keys to allowlist
 repopickchain 368311 # Camera: Avoid roundBufferDimensionsNearest also for HAL_PIXEL_FORMAT_BLOB
 
 # frameworks/base
-repopickchain 372672 # Add support for runtime toggle of navbar
+repopickchain 376989 # fixup! SystemUI: Fix uneven DND icon padding in status bar
 
 # frameworks/native
 repopickchain 371144 # InputDispatcher: On keypress, deliver keycode to pokeUserActivity
