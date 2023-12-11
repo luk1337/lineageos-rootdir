@@ -65,7 +65,7 @@ repopickchain 372014 # Make UiccSlot::getPrintableIccIds() skip null values
 repopickchain 369042 # camera: Make overrideFormat from reserved fields opt-in
 
 # packages/apps/Settings
-repopickchain 369885 # Settings: make sure Wifi exists before adding controllers
+repopickchain 376991 # Hide fingerprint settings help if URL is empty
 
 # packages/apps/SettingsIntelligence
 repopick 372631 # Style search bar to match new Settings UI
