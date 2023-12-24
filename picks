@@ -13,7 +13,11 @@ function repopick() {
 }
 
 function repopickchain() {
-    `${ANDROID_BUILD_TOP}/gen_chain $@`
+    if [[ "$CHECK" = "1" ]]; then
+        echo -n "$1 - " ; ssh lineage-gerrit gerrit query $1 --format=JSON | jq --slurp -r '.[0].status'
+    else
+        `${ANDROID_BUILD_TOP}/gen_chain $@`
+    fi
 }
 
 function rc() {
