@@ -58,9 +58,6 @@ repopickchain 377077 # Implement edge long swipe gesture to new back gesture aff
 # frameworks/native
 repopickchain 371144 # InputDispatcher: On keypress, deliver keycode to pokeUserActivity
 
-# frameworks/opt/telephony
-repopickchain 372014 # Make UiccSlot::getPrintableIccIds() skip null values
-
 # hardware/interfaces
 repopickchain 369042 # camera: Make overrideFormat from reserved fields opt-in
 
@@ -75,12 +72,6 @@ repopickchain 369880 # RecentsView: Unconditionally hide split option for Go-ena
 
 # packages/modules/adb
 repopickchain 368672 # Squashed import of adb root patches
-
-# packages/modules/Bluetooth
-repopickchain 368681 # Fix OPP comparison
-
-# packages/modules/Connectivity
-repopickchain 369211 # Keep UID in lockdown when present in any range
 
 # packages/services/Telephony
 repopickchain 368707 # Telephony: Add ERI configuration for U.S. Cellular
