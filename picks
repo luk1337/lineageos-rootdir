@@ -59,6 +59,9 @@ repopickchain 371144 # InputDispatcher: On keypress, deliver keycode to pokeUser
 # packages/apps/Settings
 repopickchain 376991 # Hide fingerprint settings help if URL is empty
 
+# packages/apps/SetupWizard
+repopickchain 371961 # SetupWizard: Add step for changing theme
+
 # packages/modules/adb
 repopickchain 368672 # Squashed import of adb root patches
 
