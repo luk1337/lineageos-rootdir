@@ -51,7 +51,7 @@ function rc() {
 repopickchain 368311 # Camera: Avoid roundBufferDimensionsNearest also for HAL_PIXEL_FORMAT_BLOB
 
 # frameworks/base
-repopickchain 377077 # Implement edge long swipe gesture to new back gesture affordance
+repopickchain 377843 # Screenrecord: Dismiss notification on stop
 
 # frameworks/native
 repopickchain 371144 # InputDispatcher: On keypress, deliver keycode to pokeUserActivity
