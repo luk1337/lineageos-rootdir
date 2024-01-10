@@ -51,25 +51,16 @@ function rc() {
 repopickchain 368311 # Camera: Avoid roundBufferDimensionsNearest also for HAL_PIXEL_FORMAT_BLOB
 
 # frameworks/base
-repopickchain 377843 # Screenrecord: Dismiss notification on stop
-
-# frameworks/native
-repopickchain 371144 # InputDispatcher: On keypress, deliver keycode to pokeUserActivity
-
-# packages/apps/Settings
-repopickchain 376991 # Hide fingerprint settings help if URL is empty
+repopickchain 371340 # Add nvidia profile manager
 
 # packages/apps/SetupWizard
 repopickchain 371961 # SetupWizard: Add step for changing theme
-
-# packages/modules/adb
-repopickchain 368672 # Squashed import of adb root patches
 
 # packages/services/Telephony
 repopickchain 368707 # Telephony: Add ERI configuration for U.S. Cellular
 
 # system/sepolicy
-repopickchain 375640 # Label wifi.interface.
+repopickchain 375191 # sepolicy: Allow fsck_untrusted to be sys_admin
 
 # system/vold
 repopickchain 368773 # vold: fix failing to format zero-ed out SD card
