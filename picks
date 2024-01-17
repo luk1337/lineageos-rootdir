@@ -51,7 +51,7 @@ function rc() {
 repopickchain 368311 # Camera: Avoid roundBufferDimensionsNearest also for HAL_PIXEL_FORMAT_BLOB
 
 # frameworks/base
-repopickchain 371340 # Add nvidia profile manager
+repopickchain 377843 # Screenrecord: Dismiss notification on stop
 
 # packages/apps/SetupWizard
 repopickchain 371961 # SetupWizard: Add step for changing theme
