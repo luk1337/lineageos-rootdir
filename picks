@@ -47,9 +47,6 @@ function rc() {
 # frameworks/base
 # repopick 357988 # Set DEFAULT_ADB_ALLOWED_CONNECTION_TIME to 0
 
-# frameworks/av
-repopickchain 368311 # Camera: Avoid roundBufferDimensionsNearest also for HAL_PIXEL_FORMAT_BLOB
-
 # frameworks/base
 repopickchain 377843 # Screenrecord: Dismiss notification on stop
 
@@ -58,11 +55,5 @@ repopickchain 371961 # SetupWizard: Add step for changing theme
 
 # packages/services/Telephony
 repopickchain 368707 # Telephony: Add ERI configuration for U.S. Cellular
-
-# system/sepolicy
-repopickchain 375191 # sepolicy: Allow fsck_untrusted to be sys_admin
-
-# system/vold
-repopickchain 368773 # vold: fix failing to format zero-ed out SD card
 
 wait
