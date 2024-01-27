@@ -53,7 +53,4 @@ repopickchain 377843 # Screenrecord: Dismiss notification on stop
 # packages/apps/SetupWizard
 repopickchain 371961 # SetupWizard: Add step for changing theme
 
-# packages/services/Telephony
-repopickchain 368707 # Telephony: Add ERI configuration for U.S. Cellular
-
 wait
