@@ -47,10 +47,4 @@ function rc() {
 # frameworks/base
 # repopick 357988 # Set DEFAULT_ADB_ALLOWED_CONNECTION_TIME to 0
 
-# frameworks/base
-repopickchain 377843 # Screenrecord: Dismiss notification on stop
-
-# packages/apps/SetupWizard
-repopickchain 371961 # SetupWizard: Add step for changing theme
-
 wait
