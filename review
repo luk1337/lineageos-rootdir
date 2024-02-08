@@ -1,5 +1,8 @@
 #!/bin/bash
-PATCHSETS=$(ssh lineage-gerrit gerrit query $1 --current-patch-set --format=JSON | jq 'select(.number != null) | [.number,.currentPatchSet.number] | join(",")' | xargs echo)
+GERRIT_USERNAME="$(git config review.review.lineageos.org.username)"
+GERRIT_SSH="ssh://$GERRIT_USERNAME@review.lineageos.org:29418"
+
+PATCHSETS=$(ssh $GERRIT_SSH gerrit query $1 --current-patch-set --format=JSON | jq 'select(.number != null) | [.number,.currentPatchSet.number] | join(",")' | xargs echo)
 REVIEW=""
 
 case "$2" in
@@ -27,7 +30,7 @@ case "$2" in
 esac
 
 if [[ -z "$REVIEW" ]]; then
-    echo $PATCHSETS | xargs ssh lineage-gerrit gerrit review ${@:2}
+    echo $PATCHSETS | xargs ssh $GERRIT_SSH gerrit review ${@:2}
 else
-    echo $PATCHSETS | xargs ssh lineage-gerrit gerrit review $REVIEW
+    echo $PATCHSETS | xargs ssh $GERRIT_SSH gerrit review $REVIEW
 fi
