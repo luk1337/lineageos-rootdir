@@ -105,7 +105,6 @@
   <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" revision="lineage-21" />
 
   <project name="CalyxOS/platform_packages_apps_Bellis" path="packages/apps/Bellis" revision="android14" />
-  <project name="LineageOS/android_packages_apps_Glimpse" path="packages/apps/Glimpse" />
   <project name="luk1337/android_vendor_extra" path="vendor/extra" />
   <project name="MindTheGapps/vendor_gapps" path="vendor/gapps" remote="gitlab" revision="upsilon" />
   <project name="luk1337/ih8sn" path="vendor/ih8sn" revision="master" />
