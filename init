@@ -1,0 +1,2 @@
+#!/bin/bash
+repo init --git-lfs -u ssh://git@github.com/LineageOS/android.git -b lineage-21.0 -g default,-darwin
