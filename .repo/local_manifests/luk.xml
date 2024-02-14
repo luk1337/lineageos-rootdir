@@ -44,7 +44,7 @@
   <project name="LineageOS/android_device_google_pantah" path="device/google/pantah" revision="lineage-21" />
   <project name="LineageOS/android_device_google_panther" path="device/google/panther" revision="lineage-21" />
   <project name="LineageOS/android_device_google_tangorpro" path="device/google/tangorpro" revision="lineage-21" />
-  <project name="LineageOS/android_kernel_google_gs201" path="kernel/google/gs201/private/gs-google" revision="lineage-21" />
+  <project name="device/google/tangorpro-kernel" path="device/google/tangorpro-kernel" remote="aosp-tangorpro" clone-depth="1" />
 
   <project name="LineageOS/android_device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" revision="lineage-21" />
   <project name="LineageOS/android_device_oneplus_enchilada" path="device/oneplus/enchilada" revision="lineage-21" />
