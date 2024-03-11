@@ -2,8 +2,6 @@
 <manifest>
   <remote fetch="ssh://git@gitlab.com" name="gitlab" />
 
-  <remove-project name="platform/prebuilts/remoteexecution-client" />
-
   <project name="TheMuppets/proprietary_vendor_google_tangorpro" path="vendor/google/tangorpro" revision="lineage-21" />
 
   <project name="TheMuppets/proprietary_vendor_oneplus_sdm845-common" path="vendor/oneplus/sdm845-common" revision="lineage-21" />
