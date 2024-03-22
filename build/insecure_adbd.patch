@@ -1,0 +1,24 @@
+diff --git a/tools/post_process_props.py b/tools/post_process_props.py
+index 8f6c60e297..97c752735f 100755
+--- a/tools/post_process_props.py
++++ b/tools/post_process_props.py
+@@ -28,16 +28,9 @@ PROP_VALUE_MAX = 91
+ # Put the modifications that you need to make into the */build.prop into this
+ # function.
+ def mangle_build_prop(prop_list):
+-  # If ro.adb.secure is 0, then enable adb on USB by default
+-  # (this is for eng builds)
+-  if prop_list.get_value("ro.adb.secure") == "0":
+-    val = prop_list.get_value("persist.sys.usb.config")
+-    if "adb" not in val:
+-      if val == "":
+-        val = "adb"
+-      else:
+-        val = val + ",adb"
+-      prop_list.put("persist.sys.usb.config", val)
++  prop_list.put("persist.sys.usb.config", "mtp,adb")
++  prop_list.put("ro.adb.secure", "0")
++  prop_list.put("ro.secure", "0")
+ 
+ def validate_grf_props(prop_list):
+   """Validate GRF properties if exist.
