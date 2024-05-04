@@ -1,7 +1,7 @@
 #!/bin/bash
 if ! docker image exists lineageos/www; then
     echo "
-    FROM docker.io/ruby:2.6
+    FROM docker.io/ruby:3.2
 
     WORKDIR /pwd
     RUN mkdir -p /.repo/projects/lineage/website.git
