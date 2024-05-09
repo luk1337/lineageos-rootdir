@@ -1,0 +1,22 @@
+diff --git a/development/scripts/gdbclient.py b/development/scripts/gdbclient.py
+index e10a72051..56eafa763 100755
+--- a/development/scripts/gdbclient.py
++++ b/development/scripts/gdbclient.py
+@@ -95,7 +95,7 @@ def parse_args() -> argparse.Namespace:
+         "--port", nargs="?", default="5039",
+         help="Unused **host** port to forward the debug_socket to.[default: 5039]")
+     parser.add_argument(
+-        "--user", nargs="?", default="root",
++        "--user", nargs="?", default="",
+         help="user to run commands as on the device [default: root]")
+     parser.add_argument(
+         "--setup-forwarding", default=None,
+@@ -460,7 +460,7 @@ def do_main() -> None:
+     # Skip when running in a chroot because the chroot lunch target may not
+     # match the device's lunch target.
+     if not args.chroot:
+-        verify_device(device)
++        pass # verify_device(device)
+ 
+     debug_socket = "/data/local/tmp/debug_socket"
+     pid = None
