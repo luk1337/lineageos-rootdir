@@ -1,0 +1,8 @@
+#!/bin/bash
+ANDROID_BUILD_TOP="$(dirname $(realpath "$0"))"
+
+for d in $@; do
+    cd "$ANDROID_BUILD_TOP/$d"
+    echo "pushd \"$d\" && git reset --hard $(git rev-parse HEAD) && popd"
+    cd "$ANDROID_BUILD_TOP"
+done
