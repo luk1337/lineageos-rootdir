@@ -1,0 +1,57 @@
+#!/usr/bin/env python3
+import json
+import subprocess
+from collections import defaultdict
+from xml.etree import ElementTree
+
+GERRIT_USERNAME = (
+    subprocess.check_output(["git", "config", "review.review.lineageos.org.username"])
+    .decode()
+    .strip()
+)
+GERRIT_SSH = f"ssh://{GERRIT_USERNAME}@review.lineageos.org:29418"
+GIT_BRANCH = (
+    subprocess.check_output(["git", "rev-parse", "--abbrev-ref", "HEAD"])
+    .decode()
+    .strip()
+)
+
+doc = ElementTree.fromstring(subprocess.check_output(["repo", "manifest"]))
+out = defaultdict(list)
+
+for x in subprocess.check_output(
+    [
+        "ssh",
+        GERRIT_SSH,
+        "gerrit",
+        "query",
+        f"branch:^{GIT_BRANCH}.* status:open",
+        "--format",
+        "json",
+        "--dependencies",
+        "--no-limit",
+    ],
+).splitlines()[:-1]:
+    j = json.loads(x)
+
+    for tag in doc.findall(".//project"):
+        if (
+            tag.attrib["name"] == j["project"]
+            and tag.attrib.get("revision", j["branch"]) == j["branch"]
+        ):
+            project = tag.attrib["path"]
+            break
+    else:
+        continue
+
+    if "neededBy" not in j and "dependsOn" in j:
+        out[project].append(f"repopickchain {j['number']} # {j['subject']}")
+    elif "neededBy" not in j and "dependsOn" not in j:
+        out[project].append(f"repopick {j['number']} # {j['subject']}")
+
+
+for project in sorted(out.keys()):
+    print("#", project)
+    for cmd in out[project]:
+        print(cmd)
+    print()
