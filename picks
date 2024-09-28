@@ -132,7 +132,7 @@ repopickchain 401669 # zstd: Android.bp: Allow rsync to add zstd compression sup
 repopickchain 403076 # Changing interface creation for Large audio frame
 
 # frameworks/base
-repopickchain 403856 # [incomplete] SystemUI: screenshot: open long screenshot activity for partial screenshots
+repopickchain 404088 # SystemUI: screenshot: close QS after launching long screenshot activity
 
 # frameworks/libs/systemui
 repopick 401670 # ClockDrawableWrapper: Set DISABLE_SECONDS to false
