@@ -270,6 +270,9 @@ repopickchain 401838 # DocumentsUI: fix crash in desktop/tablet mode when select
 # packages/apps/EmergencyInfo
 repopickchain 401840 # Fix activity name for EmergencyGestureAction
 
+# packages/apps/LineageParts
+repopick 404099 # LineageParts: Set fitsSystemWindows to true for PartsActivity
+
 # packages/apps/Messaging
 repopickchain 402745 # Messaging: FrameSequence -> ImageDecoder
 
@@ -302,6 +305,7 @@ repopickchain 402294 # Allow disabling Frame Rate settings
 repopick 401896 # Implement USB debugging dialog
 
 # packages/apps/WallpaperPicker2
+repopickchain 401898 # WallpaperPicker2: Remove unnecessary top padding in Change wallpaper button
 
 # packages/inputmethods/LatinIME
 repopickchain 401968 # LatinIME: Update emojis
