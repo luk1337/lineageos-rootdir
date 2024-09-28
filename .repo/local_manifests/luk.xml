@@ -19,9 +19,9 @@
   <project name="TheMuppets/proprietary_vendor_oneplus_lemonadep" path="vendor/oneplus/lemonadep" revision="lineage-21" />
   <project name="TheMuppets/proprietary_vendor_oneplus_martini" path="vendor/oneplus/martini" revision="lineage-21" /> -->
 
-  <!-- <project name="TheMuppets/proprietary_vendor_samsung_gts4lv-common" path="vendor/samsung/gts4lv-common" revision="lineage-21" />
+  <project name="TheMuppets/proprietary_vendor_samsung_gts4lv-common" path="vendor/samsung/gts4lv-common" revision="lineage-21" />
   <project name="TheMuppets/proprietary_vendor_samsung_gts4lv" path="vendor/samsung/gts4lv" revision="lineage-21" />
-  <project name="TheMuppets/proprietary_vendor_samsung_gts4lvwifi" path="vendor/samsung/gts4lvwifi" revision="lineage-21" /> -->
+  <project name="TheMuppets/proprietary_vendor_samsung_gts4lvwifi" path="vendor/samsung/gts4lvwifi" revision="lineage-21" />
 
   <!-- <project name="TheMuppets/proprietary_vendor_sony_nile-common" path="vendor/sony/nile-common" revision="lineage-21" />
   <project name="TheMuppets/proprietary_vendor_sony_discovery" path="vendor/sony/discovery" revision="lineage-21" />
@@ -75,11 +75,11 @@
   <project name="LineageOS/android_device_oneplus_martini" path="device/oneplus/martini" revision="lineage-21" />
   <project name="LineageOS/android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" revision="lineage-21" /> -->
 
-  <!-- <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" revision="lineage-21" />
+  <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" revision="lineage-21" />
   <project name="LineageOS/android_device_samsung_gts4lv-common" path="device/samsung/gts4lv-common" revision="lineage-21" />
   <project name="LineageOS/android_device_samsung_gts4lv" path="device/samsung/gts4lv" revision="lineage-21" />
   <project name="LineageOS/android_device_samsung_gts4lvwifi" path="device/samsung/gts4lvwifi" revision="lineage-21" />
-  <project name="LineageOS/android_kernel_samsung_sdm670" path="kernel/samsung/sdm670" revision="lineage-21" /> -->
+  <project name="LineageOS/android_kernel_samsung_sdm670" path="kernel/samsung/sdm670" revision="lineage-21" />
 
   <!-- <project name="LineageOS/android_device_sony_nile-common" path="device/sony/nile-common" revision="lineage-21" />
   <project name="LineageOS/android_device_sony_discovery" path="device/sony/discovery" revision="lineage-21" />
@@ -95,9 +95,9 @@
   <project name="LineageOS/android_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" revision="lineage-21" /> -->
 
   <!-- <project name="LineageOS/android_hardware_oneplus" path="hardware/oneplus" revision="lineage-21" />
-  <project name="LineageOS/android_hardware_oplus" path="hardware/oplus" revision="lineage-21" />
+  <project name="LineageOS/android_hardware_oplus" path="hardware/oplus" revision="lineage-21" /> -->
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" revision="lineage-21" />
-  <project name="LineageOS/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" revision="lineage-21" />
+  <!-- <project name="LineageOS/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" revision="lineage-21" />
   <project name="LineageOS/android_hardware_sony_simdetect" path="hardware/sony/simdetect" revision="lineage-21" />
   <project name="LineageOS/android_hardware_sony_SonyOpenTelephony" path="hardware/sony/SonyOpenTelephony" revision="lineage-21" />
   <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" revision="lineage-21" /> -->
