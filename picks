@@ -238,6 +238,8 @@ repopickchain 401799 # media: Drop LOCAL_COPY_HEADERS usage
 
 # hardware/qcom/wlan
 repopickchain 403992 # wifi_hal: Fix conversion from string literal to 'char *' error
+
+# hardware/qcom-caf/wlan
 repopick 401800 # Resolve compilation error for fib_rule_port_range with fib_rules.h
 
 # hardware/ril
