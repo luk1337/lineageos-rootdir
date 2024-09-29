@@ -135,7 +135,7 @@ repopickchain 401669 # zstd: Android.bp: Allow rsync to add zstd compression sup
 repopickchain 403076 # Changing interface creation for Large audio frame
 
 # frameworks/base
-repopickchain 404088 # SystemUI: screenshot: close QS after launching long screenshot activity
+repopickchain 404182 # FingerprintProvider: Add support for HIDL workaround props
 
 # frameworks/libs/systemui
 repopick 401670 # ClockDrawableWrapper: Set DISABLE_SECONDS to false
