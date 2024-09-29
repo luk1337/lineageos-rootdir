@@ -30,9 +30,9 @@
   <project name="TheMuppets/proprietary_vendor_sony_kirin" path="vendor/sony/kirin" revision="lineage-21" />
   <project name="TheMuppets/proprietary_vendor_sony_mermaid" path="vendor/sony/mermaid" revision="lineage-21" />
 
-  <!-- <project name="TheMuppets/proprietary_vendor_xiaomi_msm8996-common" path="vendor/xiaomi/msm8996-common" revision="lineage-21" />
+  <project name="TheMuppets/proprietary_vendor_xiaomi_msm8996-common" path="vendor/xiaomi/msm8996-common" revision="lineage-21" />
   <project name="TheMuppets/proprietary_vendor_xiaomi_gemini" path="vendor/xiaomi/gemini" revision="lineage-21" />
-  <project name="TheMuppets/proprietary_vendor_xiaomi_natrium" path="vendor/xiaomi/natrium" revision="lineage-21" /> -->
+  <project name="TheMuppets/proprietary_vendor_xiaomi_natrium" path="vendor/xiaomi/natrium" revision="lineage-21" />
 
   <!-- <project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" revision="lineage-21" />
   <project name="LineageOS/android_device_google_gs101" path="device/google/gs101" revision="lineage-21" />
@@ -89,10 +89,10 @@
   <project name="LineageOS/android_device_sony_mermaid" path="device/sony/mermaid" revision="lineage-21" />
   <project name="LineageOS/android_kernel_sony_sdm660" path="kernel/sony/sdm660" revision="lineage-21" />
 
-  <!-- <project name="LineageOS/android_device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" revision="lineage-21" />
+  <project name="LineageOS/android_device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" revision="lineage-21" />
   <project name="LineageOS/android_device_xiaomi_gemini" path="device/xiaomi/gemini" revision="lineage-21" />
   <project name="LineageOS/android_device_xiaomi_natrium" path="device/xiaomi/natrium" revision="lineage-21" />
-  <project name="LineageOS/android_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" revision="lineage-21" /> -->
+  <project name="LineageOS/android_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" revision="lineage-21" />
 
   <!-- <project name="LineageOS/android_hardware_oneplus" path="hardware/oneplus" revision="lineage-21" />
   <project name="LineageOS/android_hardware_oplus" path="hardware/oplus" revision="lineage-21" /> -->
@@ -100,7 +100,7 @@
   <project name="LineageOS/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" revision="lineage-21" />
   <project name="LineageOS/android_hardware_sony_simdetect" path="hardware/sony/simdetect" revision="lineage-21" />
   <project name="LineageOS/android_hardware_sony_SonyOpenTelephony" path="hardware/sony/SonyOpenTelephony" revision="lineage-21" />
-  <!-- <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" revision="lineage-21" /> -->
+  <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" revision="lineage-21" />
 
   <project name="CalyxOS/platform_packages_apps_Bellis" path="packages/apps/Bellis" revision="android14" />
   <project name="luk1337/android_vendor_extra" path="vendor/extra" />

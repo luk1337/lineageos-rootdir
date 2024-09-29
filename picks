@@ -95,6 +95,9 @@ repopickchain 403981 # common: Switch to AIDL USB HALs
 # device/qcom/sepolicy_vndr/sm8550
 repopickchain 403983 # common: Switch to AIDL USB HALs
 
+# device/xiaomi/msm8996-common
+repopickchain 404335 # msm8996-common: Shim widevine with libcrypto_shim
+
 # external/ant-wireless/hidl
 repopick 402928 # Add .gitupstream file
 
@@ -262,6 +265,9 @@ repopickchain 404171 # drivers: soc: qcom: Fix clang -Wasm-operand-widths warnin
 
 # kernel/sony/sdm660
 repopickchain 404320 # kbuild: clang: Disable 'asm-operand-widths warnings' warning
+
+# kernel/xiaomi/msm8996
+repopickchain 404339 # kbuild: clang: Disable 'asm-operand-widths warnings' warning
 
 # lineage-sdk
 repopickchain 403525 # sdk: Add GLOBAL_ACTION_KEY_SYSTEM_UPDATE
