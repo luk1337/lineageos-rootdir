@@ -23,12 +23,12 @@
   <project name="TheMuppets/proprietary_vendor_samsung_gts4lv" path="vendor/samsung/gts4lv" revision="lineage-21" />
   <project name="TheMuppets/proprietary_vendor_samsung_gts4lvwifi" path="vendor/samsung/gts4lvwifi" revision="lineage-21" />
 
-  <!-- <project name="TheMuppets/proprietary_vendor_sony_nile-common" path="vendor/sony/nile-common" revision="lineage-21" />
+  <project name="TheMuppets/proprietary_vendor_sony_nile-common" path="vendor/sony/nile-common" revision="lineage-21" />
   <project name="TheMuppets/proprietary_vendor_sony_discovery" path="vendor/sony/discovery" revision="lineage-21" />
   <project name="TheMuppets/proprietary_vendor_sony_pioneer" path="vendor/sony/pioneer" revision="lineage-21" />
   <project name="TheMuppets/proprietary_vendor_sony_voyager" path="vendor/sony/voyager" revision="lineage-21" />
   <project name="TheMuppets/proprietary_vendor_sony_kirin" path="vendor/sony/kirin" revision="lineage-21" />
-  <project name="TheMuppets/proprietary_vendor_sony_mermaid" path="vendor/sony/mermaid" revision="lineage-21" /> -->
+  <project name="TheMuppets/proprietary_vendor_sony_mermaid" path="vendor/sony/mermaid" revision="lineage-21" />
 
   <!-- <project name="TheMuppets/proprietary_vendor_xiaomi_msm8996-common" path="vendor/xiaomi/msm8996-common" revision="lineage-21" />
   <project name="TheMuppets/proprietary_vendor_xiaomi_gemini" path="vendor/xiaomi/gemini" revision="lineage-21" />
@@ -81,13 +81,13 @@
   <project name="LineageOS/android_device_samsung_gts4lvwifi" path="device/samsung/gts4lvwifi" />
   <project name="LineageOS/android_kernel_samsung_sdm670" path="kernel/samsung/sdm670" />
 
-  <!-- <project name="LineageOS/android_device_sony_nile-common" path="device/sony/nile-common" revision="lineage-21" />
+  <project name="LineageOS/android_device_sony_nile-common" path="device/sony/nile-common" revision="lineage-21" />
   <project name="LineageOS/android_device_sony_discovery" path="device/sony/discovery" revision="lineage-21" />
   <project name="LineageOS/android_device_sony_pioneer" path="device/sony/pioneer" revision="lineage-21" />
   <project name="LineageOS/android_device_sony_voyager" path="device/sony/voyager" revision="lineage-21" />
   <project name="LineageOS/android_device_sony_kirin" path="device/sony/kirin" revision="lineage-21" />
   <project name="LineageOS/android_device_sony_mermaid" path="device/sony/mermaid" revision="lineage-21" />
-  <project name="LineageOS/android_kernel_sony_sdm660" path="kernel/sony/sdm660" revision="lineage-21" /> -->
+  <project name="LineageOS/android_kernel_sony_sdm660" path="kernel/sony/sdm660" revision="lineage-21" />
 
   <!-- <project name="LineageOS/android_device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" revision="lineage-21" />
   <project name="LineageOS/android_device_xiaomi_gemini" path="device/xiaomi/gemini" revision="lineage-21" />
@@ -97,10 +97,10 @@
   <!-- <project name="LineageOS/android_hardware_oneplus" path="hardware/oneplus" revision="lineage-21" />
   <project name="LineageOS/android_hardware_oplus" path="hardware/oplus" revision="lineage-21" /> -->
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
-  <!-- <project name="LineageOS/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" revision="lineage-21" />
+  <project name="LineageOS/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" revision="lineage-21" />
   <project name="LineageOS/android_hardware_sony_simdetect" path="hardware/sony/simdetect" revision="lineage-21" />
   <project name="LineageOS/android_hardware_sony_SonyOpenTelephony" path="hardware/sony/SonyOpenTelephony" revision="lineage-21" />
-  <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" revision="lineage-21" /> -->
+  <!-- <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" revision="lineage-21" /> -->
 
   <project name="CalyxOS/platform_packages_apps_Bellis" path="packages/apps/Bellis" revision="android14" />
   <project name="luk1337/android_vendor_extra" path="vendor/extra" />

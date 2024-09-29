@@ -80,6 +80,9 @@ repopickchain 401625 # Revert "Removing references to arm7 emulator targets."
 # device/samsung/gts4lv-common
 repopickchain 404210 # gts4lv-common: Temporarily disable ELF checks for WFD
 
+# device/sony/nile-common
+repopickchain 404315 # nile-common: Shim libwvhidl with libcrypto_shim
+
 # device/qcom/sepolicy
 repopickchain 402927 # sepolicy: add the attributes corresponding to the umdservice
 
@@ -256,6 +259,9 @@ repopickchain 401810 # Lower q/android-4.9 requirements
 
 # kernel/samsung/sdm670
 repopickchain 404171 # drivers: soc: qcom: Fix clang -Wasm-operand-widths warnings
+
+# kernel/sony/sdm660
+repopickchain 404320 # kbuild: clang: Disable 'asm-operand-widths warnings' warning
 
 # lineage-sdk
 repopickchain 403525 # sdk: Add GLOBAL_ACTION_KEY_SYSTEM_UPDATE
