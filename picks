@@ -78,7 +78,7 @@ repopick 401621 # Compile guard aosp apns conf in gsi product
 repopickchain 401625 # Revert "Removing references to arm7 emulator targets."
 
 # device/samsung/gts4lv-common
-repopickchain 404172 # gts4lv-common: Shim libwvhidl with libcrypto_shim
+repopickchain 404210 # gts4lv-common: Temporarily disable ELF checks for WFD
 
 # device/qcom/sepolicy
 repopickchain 402927 # sepolicy: add the attributes corresponding to the umdservice
