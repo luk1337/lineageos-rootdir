@@ -231,7 +231,7 @@ repopickchain 403960 # extract_utils: Remove TARGET_DISABLE_XML_FIXING
 repopickchain 404380 # rm -rf
 
 # vendor/lineage
-repopickchain 403971 # kernel: Update default clang version to r522817
+repopickchain 404407 # kernel: Nuke --cuda-path/--hip-path
 
 # vendor/qcom/opensource/commonsys/fm
 repopickchain 403061 # FM2: Slight design adjustments
