@@ -227,6 +227,9 @@ repopickchain 403869 # vold: Add support for ISO9660/UDF CD-ROM
 # tools/extract-utils
 repopickchain 403960 # extract_utils: Remove TARGET_DISABLE_XML_FIXING
 
+# vendor/crowdin
+repopickchain 404380 # rm -rf
+
 # vendor/lineage
 repopickchain 403971 # kernel: Update default clang version to r522817
 
