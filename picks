@@ -300,7 +300,6 @@ repopickchain 402745 # Messaging: FrameSequence -> ImageDecoder
 repopick 401873 # Nfc: Bring in the new icon
 
 # packages/apps/Settings
-repopickchain 402902 # Settings: Hide Flashlight
 repopickchain 402919 # NetworkProvider: Remove header start padding in SuW
 
 # packages/apps/SettingsIntelligence
