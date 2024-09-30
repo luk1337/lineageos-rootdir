@@ -60,7 +60,7 @@ repopickchain 401533 # updater: Support loading dynamic partition metadata from 
 repopickchain 403877 # minui: drm: Add support for DRM_FORMAT_XRGB8888
 
 # build/make
-repopickchain 404240 # fixup! envsetup: Set INLINE_KERNEL_BUILDING if TARGET_PREBUILT_KERNEL is set
+repopickchain 401499 # Don't copy recovery.img to BOOTABLE_IMAGES if it doesn't exist
 
 # build/soong
 repopickchain 401526 # check_boot_jars: Add oplus packages to whitelist
