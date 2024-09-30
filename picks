@@ -111,7 +111,7 @@ repopickchain 401705 # Restore drv2624 vibrator HAL APEX
 repopickchain 401709 # Move turbo_adapter policy out of googlebattery
 
 # hardware/interfaces
-repopickchain 401720 # compatibility_matrices: Add p/android-4.4 into FCM 5
+repopickchain 404379 # fpc: Fix potential nullptr derefs
 
 # hardware/lineage/compat
 repopickchain 401141 # compat: Extend libhidlbase shim with Parcel::setData method
