@@ -6,7 +6,7 @@ GERRIT_USERNAME="$(git config review.review.lineageos.org.username)"
 
 function repopick() {
     if [[ "$CHECK" = "1" ]]; then
-        echo -n "$1 - " ; ssh lineage-gerrit gerrit query $1 --format=JSON | jq --slurp -r '.[0].status'
+        echo -n "${@: -1} - " ; ssh lineage-gerrit gerrit query ${@: -1} --format=JSON | jq --slurp -r '.[0].status'
     else
         ${ANDROID_BUILD_TOP}/vendor/lineage/build/tools/repopick.py \
             -g "ssh://$GERRIT_USERNAME@review.lineageos.org:29418" $@ &
