@@ -60,7 +60,7 @@ repopickchain 401533 # updater: Support loading dynamic partition metadata from 
 repopickchain 403877 # minui: drm: Add support for DRM_FORMAT_XRGB8888
 
 # build/make
-repopickchain 401499 # Don't copy recovery.img to BOOTABLE_IMAGES if it doesn't exist
+repopickchain 404240 # fixup! envsetup: Set INLINE_KERNEL_BUILDING if TARGET_PREBUILT_KERNEL is set
 
 # build/soong
 repopickchain 401526 # check_boot_jars: Add oplus packages to whitelist
@@ -68,14 +68,14 @@ repopickchain 401526 # check_boot_jars: Add oplus packages to whitelist
 # device/google/atv
 repopickchain 401625 # Revert "Removing references to arm7 emulator targets."
 
+# device/qcom/sepolicy_vndr/sm8550
+repopickchain 403983 # common: Switch to AIDL USB HALs
+
 # device/samsung/gts4lv-common
 repopickchain 404210 # gts4lv-common: Temporarily disable ELF checks for WFD
 
 # device/sony/nile-common
 repopickchain 404315 # nile-common: Shim libwvhidl with libcrypto_shim
-
-# device/qcom/sepolicy_vndr/sm8550
-repopickchain 403983 # common: Switch to AIDL USB HALs
 
 # device/xiaomi/msm8996-common
 repopickchain 404335 # msm8996-common: Shim widevine with libcrypto_shim
@@ -87,7 +87,7 @@ repopick 401626 # fix(tegra194/ras): remove incorrect erxctlr assert
 repopickchain 403076 # Changing interface creation for Large audio frame
 
 # frameworks/base
-repopickchain 404182 # FingerprintProvider: Add support for HIDL workaround props
+repopickchain 404177 # fixup! Update the cutout side override doc to encourage all side override
 
 # frameworks/native
 repopickchain 402790 # input: Bring back PointerProperties::copyFrom()
@@ -165,7 +165,7 @@ repopickchain 404339 # kbuild: clang: Disable 'asm-operand-widths warnings' warn
 repopickchain 401814 # VolumeSettingsPreferenceController: Fix NPE when changing volumes
 
 # packages/apps/LineageParts
-repopick 404099 # LineageParts: Set fitsSystemWindows to true for PartsActivity
+repopickchain 404099 # LineageParts: Set fitsSystemWindows to true for PartsActivity
 
 # packages/apps/Settings
 repopickchain 402919 # NetworkProvider: Remove header start padding in SuW
