@@ -68,9 +68,6 @@ repopickchain 401526 # check_boot_jars: Add oplus packages to whitelist
 # device/google/atv
 repopickchain 401625 # Revert "Removing references to arm7 emulator targets."
 
-# device/qcom/sepolicy_vndr/sm8550
-repopickchain 403983 # common: Switch to AIDL USB HALs
-
 # device/samsung/gts4lv-common
 repopickchain 404210 # gts4lv-common: Temporarily disable ELF checks for WFD
 
