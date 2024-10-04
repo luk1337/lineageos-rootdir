@@ -68,6 +68,9 @@ repopickchain 401526 # check_boot_jars: Add oplus packages to whitelist
 # device/google/atv
 repopickchain 401625 # Revert "Removing references to arm7 emulator targets."
 
+# device/oneplus/sm8350-common
+repopickchain 404714 # sm8350-common: Sync extract scripts with 22 templates
+
 # device/samsung/gts4lv-common
 repopickchain 404210 # gts4lv-common: Temporarily disable ELF checks for WFD
 
