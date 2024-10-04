@@ -63,7 +63,7 @@ repopickchain 403877 # minui: drm: Add support for DRM_FORMAT_XRGB8888
 repopickchain 401499 # Don't copy recovery.img to BOOTABLE_IMAGES if it doesn't exist
 
 # build/soong
-repopickchain 401526 # check_boot_jars: Add oplus packages to whitelist
+repopickchain 401525 # soong: paths: Fix out of tree $OUT
 
 # device/google/atv
 repopickchain 401625 # Revert "Removing references to arm7 emulator targets."
