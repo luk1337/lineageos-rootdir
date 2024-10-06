@@ -197,6 +197,9 @@ repopickchain 401979 # BondStateMachine: Allow skipping confirm for some remotes
 # packages/modules/Connectivity
 repopickchain 403925 # netd: Limit V specific bpf progs to kernel 4.14+
 
+# packages/modules/NetworkStack
+repopick -P packages/modules/NetworkStack 404780 # ApfFilter: Skip startReadPacketFilter when counters aren't supported
+
 # packages/modules/adb
 repopickchain 401973 # adb_root: Handle Automotive builds usecase
 
