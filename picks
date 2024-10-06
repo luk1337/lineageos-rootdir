@@ -68,14 +68,29 @@ repopickchain 401525 # soong: paths: Fix out of tree $OUT
 # device/google/atv
 repopickchain 401625 # Revert "Removing references to arm7 emulator targets."
 
+# device/oneplus/instantnoodle
+repopickchain 404885 # instantnoodle: overlay: Update pixel pitch
+
+# device/oneplus/instantnoodlep
+repopickchain 404886 # instantnoodlep: overlay: Update pixel pitch
+
+# device/oneplus/kebab
+repopickchain 404883 # kebab: overlay: Update pixel pitch
+
 # device/oneplus/lemonade
 repopickchain 404774 # lemonade: overlay: Update pixel pitch
 
 # device/oneplus/lemonadep
 repopickchain 404772 # lemonadep: overlay: Update pixel pitch
 
+# device/oneplus/lemonades
+repopickchain 404884 # lemonades: overlay: Update pixel pitch
+
 # device/oneplus/martini
 repopickchain 404773 # martini: overlay: Update pixel pitch
+
+# device/oneplus/sm8250-common
+repopickchain 404882 # sm8250-common: Sync extract scripts with 22 templates
 
 # device/oneplus/sm8350-common
 repopickchain 404714 # sm8350-common: Sync extract scripts with 22 templates
