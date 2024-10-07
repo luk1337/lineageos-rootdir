@@ -140,12 +140,6 @@ repopickchain 401683 # Revert "Clear up the obsoleted cascading signal strength 
 # hardware/broadcom/libbt
 repopickchain 401694 # Improve UART baud rate handling
 
-# hardware/google/gchips
-repopick 401696 # libexynosutils: Depend on device kernel headers
-
-# hardware/google/graphics/common
-repopickchain 401698 # libdrmresource: Add missing epoll_event.h include
-
 # hardware/google/pixel
 repopickchain 401705 # Restore drv2624 vibrator HAL APEX
 
