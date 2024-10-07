@@ -8,6 +8,12 @@
   <project name="TheMuppets/proprietary_vendor_oneplus_enchilada" path="vendor/oneplus/enchilada" revision="lineage-21" />
   <project name="TheMuppets/proprietary_vendor_oneplus_fajita" path="vendor/oneplus/fajita" revision="lineage-21" /> -->
 
+  <!-- <project name="TheMuppets/proprietary_vendor_oneplus_sm8150-common" path="vendor/oneplus/sm8150-common" revision="lineage-21" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_guacamole" path="vendor/oneplus/guacamole" revision="lineage-21" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_guacamoleb" path="vendor/oneplus/guacamoleb" revision="lineage-21" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_hotdog" path="vendor/oneplus/hotdog" revision="lineage-21" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_hotdogb" path="vendor/oneplus/hotdogb" revision="lineage-21" /> -->
+
   <project name="TheMuppets/proprietary_vendor_oneplus_sm8250-common" path="vendor/oneplus/sm8250-common" revision="lineage-21" />
   <project name="TheMuppets/proprietary_vendor_oneplus_instantnoodle" path="vendor/oneplus/instantnoodle" revision="lineage-21" />
   <project name="TheMuppets/proprietary_vendor_oneplus_instantnoodlep" path="vendor/oneplus/instantnoodlep" revision="lineage-21" />
@@ -48,12 +54,6 @@
   <project name="LineageOS/android_device_oneplus_enchilada" path="device/oneplus/enchilada" revision="lineage-21" />
   <project name="LineageOS/android_device_oneplus_fajita" path="device/oneplus/fajita" revision="lineage-21" />
   <project name="LineageOS/android_kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" revision="lineage-21" /> -->
-
-  <!-- <project name="TheMuppets/proprietary_vendor_oneplus_sm8150-common" path="vendor/oneplus/sm8150-common" revision="lineage-21" />
-  <project name="TheMuppets/proprietary_vendor_oneplus_guacamole" path="vendor/oneplus/guacamole" revision="lineage-21" />
-  <project name="TheMuppets/proprietary_vendor_oneplus_guacamoleb" path="vendor/oneplus/guacamoleb" revision="lineage-21" />
-  <project name="TheMuppets/proprietary_vendor_oneplus_hotdog" path="vendor/oneplus/hotdog" revision="lineage-21" />
-  <project name="TheMuppets/proprietary_vendor_oneplus_hotdogb" path="vendor/oneplus/hotdogb" revision="lineage-21" /> -->
 
   <!-- <project name="LineageOS/android_device_oneplus_sm8150-common" path="device/oneplus/sm8150-common" revision="lineage-21" />
   <project name="LineageOS/android_device_oneplus_guacamole" path="device/oneplus/guacamole" revision="lineage-21" />
