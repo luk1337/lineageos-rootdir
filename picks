@@ -68,6 +68,24 @@ repopickchain 401525 # soong: paths: Fix out of tree $OUT
 # device/google/atv
 repopickchain 401625 # Revert "Removing references to arm7 emulator targets."
 
+# device/google/gs-common
+repopickchain 403977 # Disable userdebug diagnostics
+
+# device/google/gs101
+repopickchain 404292 # Disable userdebug diagnostics
+
+# device/google/gs201
+repopickchain 404646 # gs201: Ignore missing system_dlkm.modules.load warning
+
+# device/google/lynx
+repopickchain 404864 # lynx: Disable userdebug diagnostics
+
+# device/google/pantah
+repopickchain 404839 # pantah: Disable userdebug diagnostics
+
+# device/google/tangorpro
+repopickchain 404879 # tangorpro: Opt out of GMS comms suite
+
 # device/oneplus/instantnoodle
 repopickchain 404885 # instantnoodle: overlay: Update pixel pitch
 
@@ -221,6 +239,9 @@ repopickchain 401973 # adb_root: Handle Automotive builds usecase
 # packages/services/Car
 repopickchain 402011 # car_product: Remove non-existent pppd from PRODUCT_PACKAGES
 
+# scripts
+repopickchain 404381 # DO NOT MERGE: Android 15 beta factory images
+
 # system/bpf
 repopickchain 402599 # bpfloader: prog names are only valid on 4.15+
 
@@ -255,7 +276,7 @@ repopickchain 403869 # vold: Add support for ISO9660/UDF CD-ROM
 repopickchain 404380 # rm -rf
 
 # vendor/lineage
-repopickchain 404407 # kernel: Nuke --cuda-path/--hip-path
+repopickchain 404692 # kernel: Add rust prebuilts to path
 
 # vendor/qcom/opensource/commonsys/fm
 repopickchain 403061 # FM2: Slight design adjustments

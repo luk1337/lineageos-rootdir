@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="ssh://git@gitlab.com" name="gitlab" />
 
-  <!-- <project name="TheMuppets/proprietary_vendor_google_tangorpro" path="vendor/google/tangorpro" revision="lineage-21" /> -->
+  <!-- <project name="TheMuppets/proprietary_vendor_google_tangorpro" path="vendor/google/tangorpro" /> -->
 
   <!-- <project name="TheMuppets/proprietary_vendor_oneplus_sdm845-common" path="vendor/oneplus/sdm845-common" revision="lineage-21" />
   <project name="TheMuppets/proprietary_vendor_oneplus_enchilada" path="vendor/oneplus/enchilada" revision="lineage-21" />
@@ -34,15 +34,15 @@
   <project name="TheMuppets/proprietary_vendor_xiaomi_gemini" path="vendor/xiaomi/gemini" revision="lineage-21" />
   <project name="TheMuppets/proprietary_vendor_xiaomi_natrium" path="vendor/xiaomi/natrium" revision="lineage-21" />
 
-  <!-- <project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" revision="lineage-21" />
-  <project name="LineageOS/android_device_google_gs101" path="device/google/gs101" revision="lineage-21" />
-  <project name="LineageOS/android_device_google_gs201" path="device/google/gs201" revision="lineage-21" />
-  <project name="LineageOS/android_device_google_cheetah" path="device/google/cheetah" revision="lineage-21" />
-  <project name="LineageOS/android_device_google_lynx" path="device/google/lynx" revision="lineage-21" />
-  <project name="LineageOS/android_device_google_pantah" path="device/google/pantah" revision="lineage-21" />
-  <project name="LineageOS/android_device_google_panther" path="device/google/panther" revision="lineage-21" />
-  <project name="LineageOS/android_device_google_tangorpro" path="device/google/tangorpro" revision="lineage-21" />
-  <project name="device/google/tangorpro-kernel" path="device/google/tangorpro-kernel" remote="aosp-tangorpro" clone-depth="1" /> -->
+  <project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" />
+  <project name="LineageOS/android_device_google_gs101" path="device/google/gs101" />
+  <project name="LineageOS/android_device_google_gs201" path="device/google/gs201" />
+  <project name="LineageOS/android_device_google_cheetah" path="device/google/cheetah" />
+  <project name="LineageOS/android_device_google_lynx" path="device/google/lynx" />
+  <project name="LineageOS/android_device_google_pantah" path="device/google/pantah" />
+  <project name="LineageOS/android_device_google_panther" path="device/google/panther" />
+  <project name="LineageOS/android_device_google_tangorpro" path="device/google/tangorpro" />
+  <project name="device/google/tangorpro-kernels/5.10" path="device/google/tangorpro-kernels/5.10" remote="aosp-tangorpro" clone-depth="1" />
 
   <!-- <project name="LineageOS/android_device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" revision="lineage-21" />
   <project name="LineageOS/android_device_oneplus_enchilada" path="device/oneplus/enchilada" revision="lineage-21" />
