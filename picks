@@ -86,6 +86,18 @@ repopickchain 404839 # pantah: Disable userdebug diagnostics
 # device/google/tangorpro
 repopickchain 404879 # tangorpro: Opt out of GMS comms suite
 
+# device/oneplus/guacamole
+repopickchain 405044 # guacamole: overlay: Update pixel pitch
+
+# device/oneplus/guacamoleb
+repopickchain 405045 # guacamoleb: overlay: Update pixel pitch
+
+# device/oneplus/hotdog
+repopickchain 405046 # hotdog: overlay: Update pixel pitch
+
+# device/oneplus/hotdogb
+repopickchain 405047 # hotdogb: overlay: Update pixel pitch
+
 # device/oneplus/instantnoodle
 repopickchain 404885 # instantnoodle: overlay: Update pixel pitch
 
@@ -106,6 +118,9 @@ repopickchain 404884 # lemonades: overlay: Update pixel pitch
 
 # device/oneplus/martini
 repopickchain 404773 # martini: overlay: Update pixel pitch
+
+# device/oneplus/sm8150-common
+repopickchain 405043 # sm8150-common: Sync extract scripts with 22 templates
 
 # device/oneplus/sm8250-common
 repopickchain 404882 # sm8250-common: Sync extract scripts with 22 templates
@@ -225,7 +240,7 @@ repopick 401896 # Implement USB debugging dialog
 repopickchain 401979 # BondStateMachine: Allow skipping confirm for some remotes
 
 # packages/modules/Connectivity
-repopickchain 403925 # netd: Limit V specific bpf progs to kernel 4.14+
+repopickchain 405071 # netd: Require 4.19+ for programs using connect/recvmsg/sendmsg hooks
 
 # packages/modules/NetworkStack
 repopick -P packages/modules/NetworkStack 404780 # ApfFilter: Skip startReadPacketFilter when counters aren't supported
