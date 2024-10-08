@@ -152,6 +152,9 @@ repopickchain 404379 # fpc: Fix potential nullptr derefs
 # hardware/lineage/compat
 repopickchain 401141 # compat: Extend libhidlbase shim with Parcel::setData method
 
+# hardware/lineage/interfaces/power-libperfmgr
+repopickchain 404346 # power-libperfmgr: Fix shared_ptr conversion for HintManager
+
 # hardware/qcom-caf/sm8550/audio/primary-hal
 repopickchain 404030 # audio-ar: compilation fix for KS sync path change.
 
