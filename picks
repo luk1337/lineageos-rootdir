@@ -86,6 +86,9 @@ repopickchain 404839 # pantah: Disable userdebug diagnostics
 # device/google/tangorpro
 repopickchain 404879 # tangorpro: Opt out of GMS comms suite
 
+# device/oneplus/fajita
+repopickchain 405072 # fajita: overlay: Update pixel pitch
+
 # device/oneplus/guacamole
 repopickchain 405044 # guacamole: overlay: Update pixel pitch
 
@@ -118,6 +121,13 @@ repopickchain 404884 # lemonades: overlay: Update pixel pitch
 
 # device/oneplus/martini
 repopickchain 404773 # martini: overlay: Update pixel pitch
+
+# device/oneplus/sdm845-common
+changes=(
+    404507 # sdm845-common: Shim widevine libs with libcrypto_shim
+    404349 # sdm845-common: Switch to AIDL thermal HAL
+)
+repopick ${changes[@]}
 
 # device/oneplus/sm8150-common
 repopickchain 405043 # sm8150-common: Sync extract scripts with 22 templates
@@ -205,6 +215,9 @@ repopickchain 401799 # media: Drop LOCAL_COPY_HEADERS usage
 
 # kernel/configs
 repopickchain 401810 # Lower q/android-4.9 requirements
+
+# kernel/oneplus/sdm845
+repopickchain 404358 # msm: camera_oneplus: Fix misleading indentation warnings
 
 # kernel/samsung/sdm670
 repopickchain 404171 # drivers: soc: qcom: Fix clang -Wasm-operand-widths warnings
