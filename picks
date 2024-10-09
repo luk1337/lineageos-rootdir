@@ -216,18 +216,6 @@ repopickchain 401799 # media: Drop LOCAL_COPY_HEADERS usage
 # kernel/configs
 repopickchain 401810 # Lower q/android-4.9 requirements
 
-# kernel/oneplus/sdm845
-repopickchain 404358 # msm: camera_oneplus: Fix misleading indentation warnings
-
-# kernel/samsung/sdm670
-repopickchain 404170 # tracing: Fix clang -Wint-in-bool-context warnings in IF_ASSIGN macro
-
-# kernel/sony/sdm660
-repopickchain 404320 # kbuild: clang: Disable 'asm-operand-widths warnings' warning
-
-# kernel/xiaomi/msm8996
-repopickchain 404339 # kbuild: clang: Disable 'asm-operand-widths warnings' warning
-
 # packages/apps/Car/Settings
 repopickchain 401814 # VolumeSettingsPreferenceController: Fix NPE when changing volumes
 
