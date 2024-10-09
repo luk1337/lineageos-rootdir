@@ -244,7 +244,7 @@ repopickchain 401979 # BondStateMachine: Allow skipping confirm for some remotes
 repopickchain 405071 # netd: Require 4.19+ for programs using connect/recvmsg/sendmsg hooks
 
 # packages/modules/NetworkStack
-repopick -P packages/modules/NetworkStack 404780 # ApfFilter: Skip startReadPacketFilter when counters aren't supported
+repopick -P packages/modules/NetworkStack 405253 # Reduce the performance impact of reading APF counters
 
 # packages/modules/adb
 repopickchain 401973 # adb_root: Handle Automotive builds usecase
