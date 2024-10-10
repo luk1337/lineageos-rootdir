@@ -154,7 +154,7 @@ repopick 401626 # fix(tegra194/ras): remove incorrect erxctlr assert
 repopickchain 403076 # Changing interface creation for Large audio frame
 
 # frameworks/base
-repopickchain 404723 # HidlFingerprintSensorConfig: UNKNOWN -> UNDER_DISPLAY_OPTICAL
+repopickchain 405323 # webkit: SystemImpl: Filter out unavailable providers
 
 # frameworks/native
 repopickchain 402790 # input: Bring back PointerProperties::copyFrom()
