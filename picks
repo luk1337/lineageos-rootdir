@@ -175,7 +175,7 @@ repopickchain 401709 # Move turbo_adapter policy out of googlebattery
 repopickchain 404379 # fpc: Fix potential nullptr derefs
 
 # hardware/lineage/compat
-repopickchain 401141 # compat: Extend libhidlbase shim with Parcel::setData method
+repopickchain 405468 # libinput: Add KeyEvent::initialize shim
 
 # hardware/lineage/interfaces/power-libperfmgr
 repopickchain 404346 # power-libperfmgr: Fix shared_ptr conversion for HintManager
