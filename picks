@@ -139,7 +139,7 @@ repopickchain 404882 # sm8250-common: Sync extract scripts with 22 templates
 repopickchain 404714 # sm8350-common: Sync extract scripts with 22 templates
 
 # device/samsung/gts4lv-common
-repopickchain 404210 # gts4lv-common: Temporarily disable ELF checks for WFD
+repopickchain 405477 # gts4lv-common: Shim WFD with libgui_shim/libinput_shim
 
 # device/sony/nile-common
 repopickchain 404315 # nile-common: Shim libwvhidl with libcrypto_shim
