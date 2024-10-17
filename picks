@@ -180,9 +180,6 @@ repopickchain 405468 # libinput: Add KeyEvent::initialize shim
 # hardware/lineage/interfaces/power-libperfmgr
 repopickchain 404346 # power-libperfmgr: Fix shared_ptr conversion for HintManager
 
-# hardware/qcom-caf/sm8550/audio/primary-hal
-repopickchain 404030 # audio-ar: compilation fix for KS sync path change.
-
 # hardware/qcom/audio
 repopickchain 401726 # hal: Fix CFI errors
 
