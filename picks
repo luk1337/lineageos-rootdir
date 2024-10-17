@@ -57,13 +57,13 @@ repopickchain 401530 # linker: Add support for dynamic SHIM libraries
 repopickchain 401533 # updater: Support loading dynamic partition metadata from OTA
 
 # bootable/recovery
-repopickchain 403877 # minui: drm: Add support for DRM_FORMAT_XRGB8888
+repopickchain 405941 # install: Only check ro.build.tags for user builds
 
 # build/make
-repopickchain 401499 # Don't copy recovery.img to BOOTABLE_IMAGES if it doesn't exist
+repopickchain 404702 # core/Makefile: Fix filenames with commas
 
 # build/soong
-repopickchain 401525 # soong: paths: Fix out of tree $OUT
+repopickchain 405479 # Remove zeros from build number
 
 # device/google/atv
 repopickchain 401625 # Revert "Removing references to arm7 emulator targets."
@@ -177,7 +177,7 @@ repopickchain 404379 # fpc: Fix potential nullptr derefs
 # hardware/lineage/compat
 repopickchain 405468 # libinput: Add KeyEvent::initialize shim
 
-# hardware/lineage/interfaces/power-libperfmgr
+# hardware/lineage/interfaces
 repopickchain 404346 # power-libperfmgr: Fix shared_ptr conversion for HintManager
 
 # hardware/qcom/audio
@@ -199,7 +199,7 @@ repopickchain 401740 # msm8998: Replace copy headers with header libraries
 repopickchain 401744 # Remove unnecessary makefile warning
 
 # hardware/qcom/sm8150/data/ipacfg-mgr
-repopick 401784 # Kernel Header Changes
+repopickchain 404412 # ipacm: Get rid of `using namespace std;`
 
 # hardware/qcom/sm8150/display
 repopickchain 401795 # Convert some display libraries to blueprint
