@@ -246,9 +246,6 @@ repopickchain 401973 # adb_root: Handle Automotive builds usecase
 # packages/services/Car
 repopickchain 402011 # car_product: Remove non-existent pppd from PRODUCT_PACKAGES
 
-# scripts
-repopickchain 404381 # DO NOT MERGE: Android 15 beta factory images
-
 # system/bpf
 repopickchain 402599 # bpfloader: prog names are only valid on 4.15+
 
