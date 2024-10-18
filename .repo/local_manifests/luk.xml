@@ -73,7 +73,7 @@
   <project name="LineageOS/android_device_oneplus_lemonade" path="device/oneplus/lemonade" />
   <project name="LineageOS/android_device_oneplus_lemonadep" path="device/oneplus/lemonadep" />
   <project name="LineageOS/android_device_oneplus_martini" path="device/oneplus/martini" />
-  <project name="LineageOS/android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" />
+  <project name="LineageOS/android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" revision="lineage-21" />
 
   <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" />
   <project name="LineageOS/android_device_samsung_gts4lv-common" path="device/samsung/gts4lv-common" />
