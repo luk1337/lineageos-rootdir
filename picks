@@ -60,7 +60,7 @@ repopickchain 401533 # updater: Support loading dynamic partition metadata from 
 repopickchain 405941 # install: Only check ro.build.tags for user builds
 
 # build/blueprint
-repopickchain 401171 # Fix postProcessors having value semantics when unset
+repopickchain -P build/blueprint 401171 # Fix postProcessors having value semantics when unset
 
 # build/make
 repopickchain 405932 # Add TARGET_RECOVERY_DEFAULT_TOUCH_ROTATION flag
