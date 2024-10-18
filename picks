@@ -300,7 +300,7 @@ repopickchain 402245 # extract_utils: implement in python
 repopickchain 404380 # rm -rf
 
 # vendor/lineage
-repopickchain 405129 # flag_values: Enable AVF Custom VM support
+repopickchain 406013 # common: Update date UTC prop override key
 
 # vendor/qcom/opensource/commonsys/fm
 repopickchain 403061 # FM2: Slight design adjustments
