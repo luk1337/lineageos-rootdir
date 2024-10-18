@@ -283,7 +283,7 @@ repopickchain 403869 # vold: Add support for ISO9660/UDF CD-ROM
 repopickchain 404380 # rm -rf
 
 # vendor/lineage
-repopickchain 404692 # kernel: Add rust prebuilts to path
+repopickchain 405129 # flag_values: Enable AVF Custom VM support
 
 # vendor/qcom/opensource/commonsys/fm
 repopickchain 403061 # FM2: Slight design adjustments
