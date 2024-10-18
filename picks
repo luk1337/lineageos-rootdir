@@ -59,11 +59,21 @@ repopickchain 401533 # updater: Support loading dynamic partition metadata from 
 # bootable/recovery
 repopickchain 405941 # install: Only check ro.build.tags for user builds
 
+# build/blueprint
+repopickchain 401171 # Fix postProcessors having value semantics when unset
+
 # build/make
-repopickchain 404702 # core/Makefile: Fix filenames with commas
+repopickchain 405932 # Add TARGET_RECOVERY_DEFAULT_TOUCH_ROTATION flag
 
 # build/soong
-repopickchain 405479 # Remove zeros from build number
+changes=(
+    `rc 405479` # Remove zeros from build number
+    `rc 405933` # gen_build_prop: Set ro.minui.default_touch_rotation
+)
+repopick ${changes[@]}
+
+# development
+repopickchain 401216 # Update bpflatten for blueprint changes
 
 # device/google/atv
 repopickchain 401625 # Revert "Removing references to arm7 emulator targets."
@@ -240,6 +250,9 @@ repopickchain 401979 # BondStateMachine: Allow skipping confirm for some remotes
 # packages/modules/Connectivity
 repopickchain 405071 # netd: Require 4.19+ for programs using connect/recvmsg/sendmsg hooks
 
+# packages/modules/Virtualization
+repopickchain -P packages/modules/Virtualization 401219 # Revert^6 "Use build.prop instead of buildinfo.prop"
+
 # packages/modules/adb
 repopickchain 401973 # adb_root: Handle Automotive builds usecase
 
@@ -268,7 +281,11 @@ repopickchain 402063 # Prevent DNS traffic from bypassing lockdown VPNs
 repopick 402064 # Handle key parameter conversion for FBE_ICE tag
 
 # system/sepolicy
-repopickchain 402746 # Label ro.audio.usb.period_us
+changes=(
+    `rc 402746` # Label ro.audio.usb.period_us
+    `rc 401218` # Change PRODUCT_PRECOMPILED_SEPOLICY to a bool
+)
+repopick ${changes[@]}
 
 # system/update_engine
 repopickchain 402087 # update_engine: Add static ota_extractor target
