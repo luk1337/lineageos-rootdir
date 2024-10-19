@@ -25,9 +25,9 @@
   <project name="TheMuppets/proprietary_vendor_oneplus_lemonadep" path="vendor/oneplus/lemonadep" revision="lineage-21" />
   <project name="TheMuppets/proprietary_vendor_oneplus_martini" path="vendor/oneplus/martini" revision="lineage-21" />
 
-  <project name="TheMuppets/proprietary_vendor_samsung_gts4lv-common" path="vendor/samsung/gts4lv-common" revision="lineage-21" />
-  <project name="TheMuppets/proprietary_vendor_samsung_gts4lv" path="vendor/samsung/gts4lv" revision="lineage-21" />
-  <project name="TheMuppets/proprietary_vendor_samsung_gts4lvwifi" path="vendor/samsung/gts4lvwifi" revision="lineage-21" />
+  <project name="TheMuppets/proprietary_vendor_samsung_gts4lv-common" path="vendor/samsung/gts4lv-common" />
+  <project name="TheMuppets/proprietary_vendor_samsung_gts4lv" path="vendor/samsung/gts4lv" />
+  <project name="TheMuppets/proprietary_vendor_samsung_gts4lvwifi" path="vendor/samsung/gts4lvwifi" />
 
   <project name="TheMuppets/proprietary_vendor_sony_nile-common" path="vendor/sony/nile-common" revision="lineage-21" />
   <project name="TheMuppets/proprietary_vendor_sony_discovery" path="vendor/sony/discovery" revision="lineage-21" />
