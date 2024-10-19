@@ -87,23 +87,11 @@ repopickchain 404879 # tangorpro: Opt out of GMS comms suite
 # device/oneplus/fajita
 repopickchain 405072 # fajita: overlay: Update pixel pitch
 
-# device/oneplus/instantnoodle
-repopickchain 404885 # instantnoodle: overlay: Update pixel pitch
-
-# device/oneplus/instantnoodlep
-repopickchain 404886 # instantnoodlep: overlay: Update pixel pitch
-
-# device/oneplus/kebab
-repopickchain 404883 # kebab: overlay: Update pixel pitch
-
 # device/oneplus/lemonade
 repopickchain 404774 # lemonade: overlay: Update pixel pitch
 
 # device/oneplus/lemonadep
 repopickchain 404772 # lemonadep: overlay: Update pixel pitch
-
-# device/oneplus/lemonades
-repopickchain 404884 # lemonades: overlay: Update pixel pitch
 
 # device/oneplus/martini
 repopickchain 404773 # martini: overlay: Update pixel pitch
