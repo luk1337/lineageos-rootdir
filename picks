@@ -184,9 +184,6 @@ repopickchain 401709 # Move turbo_adapter policy out of googlebattery
 # hardware/interfaces
 repopickchain 404379 # fpc: Fix potential nullptr derefs
 
-# hardware/lineage/compat
-repopickchain 405468 # libinput: Add KeyEvent::initialize shim
-
 # hardware/lineage/interfaces
 repopickchain 404346 # power-libperfmgr: Fix shared_ptr conversion for HintManager
 
