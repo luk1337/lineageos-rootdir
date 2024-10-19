@@ -115,9 +115,6 @@ changes=(
 )
 repopick ${changes[@]}
 
-# device/oneplus/sm8250-common
-repopickchain 404882 # sm8250-common: Sync extract scripts with 22 templates
-
 # device/oneplus/sm8350-common
 repopickchain 404714 # sm8350-common: Sync extract scripts with 22 templates
 
