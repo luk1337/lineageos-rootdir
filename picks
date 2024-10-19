@@ -53,12 +53,6 @@ function rc() {
 # bionic
 repopickchain 401530 # linker: Add support for dynamic SHIM libraries
 
-# bootable/deprecated-ota
-repopickchain 401533 # updater: Support loading dynamic partition metadata from OTA
-
-# bootable/recovery
-repopickchain 405941 # install: Only check ro.build.tags for user builds
-
 # build/blueprint
 repopickchain -P build/blueprint 401171 # Fix postProcessors having value semantics when unset
 
@@ -154,29 +148,14 @@ repopickchain 404315 # nile-common: Shim libwvhidl with libcrypto_shim
 # device/xiaomi/msm8996-common
 repopickchain 404335 # msm8996-common: Shim widevine with libcrypto_shim
 
-# external/arm-trusted-firmware
-repopick 401626 # fix(tegra194/ras): remove incorrect erxctlr assert
-
-# frameworks/av
-repopickchain 403076 # Changing interface creation for Large audio frame
-
 # frameworks/base
 repopickchain 405323 # webkit: SystemImpl: Filter out unavailable providers
-
-# frameworks/native
-repopickchain 402789 # Do not return glGetString error on desktop GL context
 
 # frameworks/opt/telephony
 repopickchain 401683 # Revert "Clear up the obsoleted cascading signal strength polling logic"
 
 # hardware/broadcom/libbt
 repopickchain 401694 # Improve UART baud rate handling
-
-# hardware/google/pixel
-repopickchain 401705 # Restore drv2624 vibrator HAL APEX
-
-# hardware/google/pixel-sepolicy
-repopickchain 401709 # Move turbo_adapter policy out of googlebattery
 
 # hardware/interfaces
 repopickchain 404379 # fpc: Fix potential nullptr derefs
@@ -201,21 +180,6 @@ repopickchain 401740 # msm8998: Replace copy headers with header libraries
 
 # hardware/qcom/media
 repopickchain 401744 # Remove unnecessary makefile warning
-
-# hardware/qcom/sm8150/data/ipacfg-mgr
-repopickchain 404412 # ipacm: Get rid of `using namespace std;`
-
-# hardware/qcom/sm8150/display
-repopickchain 401795 # Convert some display libraries to blueprint
-
-# hardware/qcom/sm8150/gps
-repopick 401796 # Implement xtra-daemon control via property
-
-# hardware/qcom/sm8150/media
-repopickchain 401799 # media: Drop LOCAL_COPY_HEADERS usage
-
-# kernel/configs
-repopickchain 401810 # Lower q/android-4.9 requirements
 
 # packages/apps/Car/Settings
 repopickchain 401814 # VolumeSettingsPreferenceController: Fix NPE when changing volumes
@@ -253,39 +217,12 @@ repopickchain 401973 # adb_root: Handle Automotive builds usecase
 # packages/services/Car
 repopickchain 402011 # car_product: Remove non-existent pppd from PRODUCT_PACKAGES
 
-# system/bpf
-repopickchain 402599 # bpfloader: prog names are only valid on 4.15+
-
-# system/core
-repopickchain 403868 # fs_mgr: Add virtiofs to supported fs list
-
-# system/extras
-repopickchain 402054 # partition_tools: Add lpunpack_static target
-
-# system/keymaster
-repopick 402055 # Restore ImportKeyRequest::SetKeyMaterial
-
-# system/libhidl
-repopick 402056 # libhidlmemory: mark as recovery_available
-
-# system/netd
-repopickchain 402063 # Prevent DNS traffic from bypassing lockdown VPNs
-
-# system/security
-repopick 402064 # Handle key parameter conversion for FBE_ICE tag
-
 # system/sepolicy
 changes=(
     `rc 402746` # Label ro.audio.usb.period_us
     `rc 401218` # Change PRODUCT_PRECOMPILED_SEPOLICY to a bool
 )
 repopick ${changes[@]}
-
-# system/update_engine
-repopickchain 402087 # update_engine: Add static ota_extractor target
-
-# system/vold
-repopickchain 403869 # vold: Add support for ISO9660/UDF CD-ROM
 
 # vendor/crowdin
 repopickchain 404380 # rm -rf
