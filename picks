@@ -87,18 +87,6 @@ repopickchain 404879 # tangorpro: Opt out of GMS comms suite
 # device/oneplus/fajita
 repopickchain 405072 # fajita: overlay: Update pixel pitch
 
-# device/oneplus/guacamole
-repopickchain 405044 # guacamole: overlay: Update pixel pitch
-
-# device/oneplus/guacamoleb
-repopickchain 405045 # guacamoleb: overlay: Update pixel pitch
-
-# device/oneplus/hotdog
-repopickchain 405046 # hotdog: overlay: Update pixel pitch
-
-# device/oneplus/hotdogb
-repopickchain 405047 # hotdogb: overlay: Update pixel pitch
-
 # device/oneplus/instantnoodle
 repopickchain 404885 # instantnoodle: overlay: Update pixel pitch
 
