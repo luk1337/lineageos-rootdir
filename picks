@@ -293,9 +293,6 @@ repopickchain 402087 # update_engine: Add static ota_extractor target
 # system/vold
 repopickchain 403869 # vold: Add support for ISO9660/UDF CD-ROM
 
-# tools/extract-utils
-repopickchain 402245 # extract_utils: implement in python
-
 # vendor/crowdin
 repopickchain 404380 # rm -rf
 
