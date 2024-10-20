@@ -69,24 +69,12 @@ repopickchain 401625 # Revert "Removing references to arm7 emulator targets."
 # device/oneplus/fajita
 repopickchain 405072 # fajita: overlay: Update pixel pitch
 
-# device/oneplus/lemonade
-repopickchain 404774 # lemonade: overlay: Update pixel pitch
-
-# device/oneplus/lemonadep
-repopickchain 404772 # lemonadep: overlay: Update pixel pitch
-
-# device/oneplus/martini
-repopickchain 404773 # martini: overlay: Update pixel pitch
-
 # device/oneplus/sdm845-common
 changes=(
     404507 # sdm845-common: Shim widevine libs with libcrypto_shim
     404349 # sdm845-common: Switch to AIDL thermal HAL
 )
 repopick ${changes[@]}
-
-# device/oneplus/sm8350-common
-repopickchain 404714 # sm8350-common: Sync extract scripts with 22 templates
 
 # device/sony/nile-common
 repopickchain 404315 # nile-common: Shim libwvhidl with libcrypto_shim
