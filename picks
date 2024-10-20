@@ -66,24 +66,6 @@ repopick ${changes[@]}
 # device/google/atv
 repopickchain 401625 # Revert "Removing references to arm7 emulator targets."
 
-# device/google/gs-common
-repopickchain 403977 # Disable userdebug diagnostics
-
-# device/google/gs101
-repopickchain 404292 # Disable userdebug diagnostics
-
-# device/google/gs201
-repopickchain 404646 # gs201: Ignore missing system_dlkm.modules.load warning
-
-# device/google/lynx
-repopickchain 404864 # lynx: Disable userdebug diagnostics
-
-# device/google/pantah
-repopickchain 404839 # pantah: Disable userdebug diagnostics
-
-# device/google/tangorpro
-repopickchain 404879 # tangorpro: Opt out of GMS comms suite
-
 # device/oneplus/fajita
 repopickchain 405072 # fajita: overlay: Update pixel pitch
 
