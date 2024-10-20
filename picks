@@ -53,16 +53,6 @@ function rc() {
 # bionic
 repopickchain 401530 # linker: Add support for dynamic SHIM libraries
 
-# build/make
-repopickchain 405932 # Add TARGET_RECOVERY_DEFAULT_TOUCH_ROTATION flag
-
-# build/soong
-changes=(
-    `rc 405479` # Remove zeros from build number
-    `rc 405933` # gen_build_prop: Set ro.minui.default_touch_rotation
-)
-repopick ${changes[@]}
-
 # device/google/atv
 repopickchain 401625 # Revert "Removing references to arm7 emulator targets."
 
@@ -142,9 +132,6 @@ repopickchain 401979 # BondStateMachine: Allow skipping confirm for some remotes
 # packages/modules/Connectivity
 repopickchain 405071 # netd: Require 4.19+ for programs using connect/recvmsg/sendmsg hooks
 
-# packages/modules/adb
-repopickchain 401973 # adb_root: Handle Automotive builds usecase
-
 # packages/services/Car
 repopickchain 402011 # car_product: Remove non-existent pppd from PRODUCT_PACKAGES
 
@@ -153,9 +140,6 @@ repopickchain 402746 # Label ro.audio.usb.period_us
 
 # vendor/crowdin
 repopickchain 404380 # rm -rf
-
-# vendor/lineage
-repopickchain 406013 # common: Update date UTC prop override key
 
 # vendor/qcom/opensource/commonsys/fm
 repopickchain 403061 # FM2: Slight design adjustments
