@@ -4,9 +4,9 @@
 
   <project name="TheMuppets/proprietary_vendor_google_tangorpro" path="vendor/google/tangorpro" />
 
-  <project name="TheMuppets/proprietary_vendor_oneplus_sdm845-common" path="vendor/oneplus/sdm845-common" revision="lineage-21" />
-  <project name="TheMuppets/proprietary_vendor_oneplus_enchilada" path="vendor/oneplus/enchilada" revision="lineage-21" />
-  <project name="TheMuppets/proprietary_vendor_oneplus_fajita" path="vendor/oneplus/fajita" revision="lineage-21" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_sdm845-common" path="vendor/oneplus/sdm845-common" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_enchilada" path="vendor/oneplus/enchilada" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_fajita" path="vendor/oneplus/fajita" />
 
   <project name="TheMuppets/proprietary_vendor_oneplus_sm8150-common" path="vendor/oneplus/sm8150-common" />
   <project name="TheMuppets/proprietary_vendor_oneplus_guacamole" path="vendor/oneplus/guacamole" />
@@ -50,10 +50,10 @@
   <project name="LineageOS/android_device_google_tangorpro" path="device/google/tangorpro" />
   <project name="device/google/tangorpro-kernels/5.10" path="device/google/tangorpro-kernels/5.10" remote="aosp-tangorpro" clone-depth="1" />
 
-  <project name="LineageOS/android_device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" revision="lineage-21" />
-  <project name="LineageOS/android_device_oneplus_enchilada" path="device/oneplus/enchilada" revision="lineage-21" />
-  <project name="LineageOS/android_device_oneplus_fajita" path="device/oneplus/fajita" revision="lineage-21" />
-  <project name="LineageOS/android_kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" revision="lineage-21" />
+  <project name="LineageOS/android_device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" />
+  <project name="LineageOS/android_device_oneplus_enchilada" path="device/oneplus/enchilada" />
+  <project name="LineageOS/android_device_oneplus_fajita" path="device/oneplus/fajita" />
+  <project name="LineageOS/android_kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" />
 
   <project name="LineageOS/android_device_oneplus_sm8150-common" path="device/oneplus/sm8150-common" />
   <project name="LineageOS/android_device_oneplus_guacamole" path="device/oneplus/guacamole" />
