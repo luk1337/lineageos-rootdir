@@ -114,9 +114,6 @@ repopickchain 404099 # LineageParts: Set fitsSystemWindows to true for PartsActi
 # packages/apps/Settings
 repopickchain 402919 # NetworkProvider: Remove header start padding in SuW
 
-# packages/apps/ThemePicker
-repopickchain 402747 # Revert "Clean up unused checkmark xml files"
-
 # packages/apps/Trebuchet
 repopickchain 402832 # Trebuchet: Let's keep 2-button nav alive for a little longer
 
