@@ -132,9 +132,6 @@ repopickchain 405071 # netd: Require 4.19+ for programs using connect/recvmsg/se
 # packages/services/Car
 repopickchain 402011 # car_product: Remove non-existent pppd from PRODUCT_PACKAGES
 
-# system/sepolicy
-repopickchain 402746 # Label ro.audio.usb.period_us
-
 # vendor/crowdin
 repopickchain 404380 # rm -rf
 
