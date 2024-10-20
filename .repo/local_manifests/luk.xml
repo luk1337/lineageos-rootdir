@@ -20,10 +20,10 @@
   <project name="TheMuppets/proprietary_vendor_oneplus_kebab" path="vendor/oneplus/kebab" />
   <project name="TheMuppets/proprietary_vendor_oneplus_lemonades" path="vendor/oneplus/lemonades" />
 
-  <project name="TheMuppets/proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" revision="lineage-21" />
-  <project name="TheMuppets/proprietary_vendor_oneplus_lemonade" path="vendor/oneplus/lemonade" revision="lineage-21" />
-  <project name="TheMuppets/proprietary_vendor_oneplus_lemonadep" path="vendor/oneplus/lemonadep" revision="lineage-21" />
-  <project name="TheMuppets/proprietary_vendor_oneplus_martini" path="vendor/oneplus/martini" revision="lineage-21" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_lemonade" path="vendor/oneplus/lemonade" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_lemonadep" path="vendor/oneplus/lemonadep" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_martini" path="vendor/oneplus/martini" />
 
   <project name="TheMuppets/proprietary_vendor_samsung_gts4lv-common" path="vendor/samsung/gts4lv-common" />
   <project name="TheMuppets/proprietary_vendor_samsung_gts4lv" path="vendor/samsung/gts4lv" />
