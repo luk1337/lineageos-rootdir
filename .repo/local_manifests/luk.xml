@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="ssh://git@gitlab.com" name="gitlab" />
 
-  <!-- <project name="TheMuppets/proprietary_vendor_google_tangorpro" path="vendor/google/tangorpro" /> -->
+  <project name="TheMuppets/proprietary_vendor_google_tangorpro" path="vendor/google/tangorpro" />
 
   <project name="TheMuppets/proprietary_vendor_oneplus_sdm845-common" path="vendor/oneplus/sdm845-common" revision="lineage-21" />
   <project name="TheMuppets/proprietary_vendor_oneplus_enchilada" path="vendor/oneplus/enchilada" revision="lineage-21" />
