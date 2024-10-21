@@ -48,9 +48,6 @@ function rc() {
 # frameworks/base
 # repopick -f 357988 # Set DEFAULT_ADB_ALLOWED_CONNECTION_TIME to 0
 
-# device/sony/nile-common
-repopickchain 404315 # nile-common: Shim libwvhidl with libcrypto_shim
-
 # device/xiaomi/msm8996-common
 repopickchain 404335 # msm8996-common: Shim widevine with libcrypto_shim
 
