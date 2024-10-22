@@ -57,9 +57,6 @@ repopickchain 405323 # webkit: SystemImpl: Filter out unavailable providers
 # frameworks/opt/telephony
 repopickchain 401683 # Revert "Clear up the obsoleted cascading signal strength polling logic"
 
-# hardware/interfaces
-repopickchain 404379 # fpc: Fix potential nullptr derefs
-
 # hardware/lineage/interfaces
 repopickchain 404346 # power-libperfmgr: Fix shared_ptr conversion for HintManager
 
@@ -71,9 +68,6 @@ repopickchain 402919 # NetworkProvider: Remove header start padding in SuW
 
 # packages/apps/Trebuchet
 repopickchain 402832 # Trebuchet: Let's keep 2-button nav alive for a little longer
-
-# packages/modules/Bluetooth
-repopickchain 401979 # BondStateMachine: Allow skipping confirm for some remotes
 
 # packages/modules/Connectivity
 repopickchain 405071 # netd: Require 4.19+ for programs using connect/recvmsg/sendmsg hooks
