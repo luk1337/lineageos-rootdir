@@ -69,9 +69,6 @@ repopickchain 404099 # LineageParts: Set fitsSystemWindows to true for PartsActi
 # packages/apps/Settings
 repopickchain 406061 # Settings: Set correct category and styling for google and digital wellbeing
 
-# packages/apps/Trebuchet
-repopickchain 402832 # Trebuchet: Let's keep 2-button nav alive for a little longer
-
 # packages/modules/Connectivity
 repopickchain 405071 # netd: Require 4.19+ for programs using connect/recvmsg/sendmsg hooks
 
