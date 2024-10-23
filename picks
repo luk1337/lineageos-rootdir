@@ -57,9 +57,6 @@ repopickchain 403713 # Stop domain verification delegated from UIDs blocked by n
 # frameworks/opt/telephony
 repopickchain 401683 # Revert "Clear up the obsoleted cascading signal strength polling logic"
 
-# hardware/lineage/compat
-repopickchain 406418 # compat: libinput: Provide KeyEvent fromNative/toNative JNI methods
-
 # hardware/lineage/interfaces
 repopickchain 404346 # power-libperfmgr: Fix shared_ptr conversion for HintManager
 
