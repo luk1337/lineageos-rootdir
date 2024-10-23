@@ -60,6 +60,9 @@ repopickchain 401683 # Revert "Clear up the obsoleted cascading signal strength 
 # hardware/lineage/interfaces
 repopickchain 404346 # power-libperfmgr: Fix shared_ptr conversion for HintManager
 
+# lineage-sdk
+repopickchain 405324 # Clear restricted networking mode allowlist
+
 # packages/apps/LineageParts
 repopickchain 404099 # LineageParts: Set fitsSystemWindows to true for PartsActivity
 
