@@ -52,7 +52,7 @@ function rc() {
 repopickchain 404335 # msm8996-common: Shim widevine with libcrypto_shim
 
 # frameworks/base
-repopickchain 405323 # webkit: SystemImpl: Filter out unavailable providers
+repopickchain 403713 # Stop domain verification delegated from UIDs blocked by network policy
 
 # frameworks/opt/telephony
 repopickchain 401683 # Revert "Clear up the obsoleted cascading signal strength polling logic"
