@@ -79,6 +79,6 @@ repopickchain 404380 # rm -rf
 repopickchain 403061 # FM2: Slight design adjustments
 
 # vendor/qcom/opensource/usb
-repopickchain 403987 # hal: Make it build with -Werror
+repopickchain 406613 # usb: Set permissions for common USB toggle paths
 
 wait
