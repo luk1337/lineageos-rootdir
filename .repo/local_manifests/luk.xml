@@ -97,6 +97,7 @@
   <project name="LineageOS/android_hardware_oneplus" path="hardware/oneplus" />
   <project name="LineageOS/android_hardware_oplus" path="hardware/oplus" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
+  <project name="LineageOS/android_hardware_sony" path="hardware/sony" />
   <project name="LineageOS/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" />
   <project name="LineageOS/android_hardware_sony_simdetect" path="hardware/sony/simdetect" />
   <project name="LineageOS/android_hardware_sony_SonyOpenTelephony" path="hardware/sony/SonyOpenTelephony" />
