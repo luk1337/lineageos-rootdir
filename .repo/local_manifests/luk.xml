@@ -37,6 +37,10 @@
   <project name="TheMuppets/proprietary_vendor_sony_kirin" path="vendor/sony/kirin" />
   <project name="TheMuppets/proprietary_vendor_sony_mermaid" path="vendor/sony/mermaid" />
 
+  <project name="sony-sm6375/proprietary_vendor_sony_sm6375-common" path="vendor/sony/sm6375-common" />
+  <project name="sony-sm6375/proprietary_vendor_sony_pdx225" path="vendor/sony/pdx225" />
+  <project name="sony-sm6375/proprietary_vendor_sony_pdx235" path="vendor/sony/pdx235" />
+
   <project name="TheMuppets/proprietary_vendor_xiaomi_msm8996-common" path="vendor/xiaomi/msm8996-common" />
   <project name="TheMuppets/proprietary_vendor_xiaomi_gemini" path="vendor/xiaomi/gemini" />
   <project name="TheMuppets/proprietary_vendor_xiaomi_natrium" path="vendor/xiaomi/natrium" />
@@ -89,6 +93,11 @@
   <project name="LineageOS/android_device_sony_kirin" path="device/sony/kirin" />
   <project name="LineageOS/android_device_sony_mermaid" path="device/sony/mermaid" />
   <project name="LineageOS/android_kernel_sony_sdm660" path="kernel/sony/sdm660" />
+
+  <project name="sony-sm6375/android_device_sony_sm6375-common" path="device/sony/sm6375-common" />
+  <project name="sony-sm6375/android_device_sony_pdx225" path="device/sony/pdx225" />
+  <project name="sony-sm6375/android_device_sony_pdx235" path="device/sony/pdx235" />
+  <project name="sony-sm6375/android_kernel_sony_sm6375" path="kernel/sony/sm6375" revision="refs/hidden/shit" />
 
   <project name="LineageOS/android_device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" />
   <project name="LineageOS/android_device_xiaomi_gemini" path="device/xiaomi/gemini" />
