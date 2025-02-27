@@ -48,4 +48,7 @@ repopick -f 332045 # Don't enforce vintf kernel requirements when building witho
 # hardware/sony
 repopickchain 416034 # sepolicy: Label pdx225 wakeup nodes
 
+# packages/apps/SimpleSettingsConfig
+repopick 420253 # Add support for "first boot" configs
+
 wait
