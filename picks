@@ -45,7 +45,4 @@ function rc() {
 # build/make
 repopick -f 332045 # Don't enforce vintf kernel requirements when building without LTO
 
-# hardware/sony
-repopickchain 416034 # sepolicy: Label pdx225 wakeup nodes
-
 wait
