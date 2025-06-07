@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Apply patches
-sed -i 's/Product name/RD Product name/g' bootable/recovery/recovery.cpp bootable/recovery/fastboot/fastboot.cpp
+sed -i 's/"Product name/"RD Product name/g' bootable/recovery/recovery.cpp bootable/recovery/fastboot/fastboot.cpp
 sed -i 's/androidboot.force_normal_boot/androidboot.force_normal_boox/g' system/core/init/first_stage_init.cpp
 
 # Build boot
@@ -14,7 +14,7 @@ sed -i 's/CONFIG_BUILD_ARM64_DT_OVERLAY=y/CONFIG_BUILD_ARM64_DT_OVERLAY=n/g' ker
 m bootimage
 
 # Restore original code
-sed -i 's/RD Product name/Product name/g' bootable/recovery/recovery.cpp bootable/recovery/fastboot/fastboot.cpp
+sed -i 's/"RD Product name/"Product name/g' bootable/recovery/recovery.cpp bootable/recovery/fastboot/fastboot.cpp
 sed -i 's/CONFIG_BUILD_ARM64_DT_OVERLAY=n/CONFIG_BUILD_ARM64_DT_OVERLAY=y/g' kernel/sony/sm6375/arch/arm64/configs/diffconfig/common.config
 sed -i 's/androidboot.force_normal_boox/androidboot.force_normal_boot/g' system/core/init/first_stage_init.cpp
 
