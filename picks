@@ -43,6 +43,318 @@ function rc() {
 #
 
 # build/make
-repopick -f 332045 # Don't enforce vintf kernel requirements when building without LTO
+# repopick -f 332045 # Don't enforce vintf kernel requirements when building without LTO
+
+# android
+repopickchain 433642 # WIP manifest: Switch to lineage-23.0 branch
+
+# bionic
+repopickchain 433204 # Add ability to build scudo-free 32-bit libc variant.
+
+# bootable/deprecated-ota
+repopickchain 433207 # updater: Support loading dynamic partition metadata from OTA
+
+# bootable/recovery
+repopickchain 433302 # minui: events: Add support to exclude blacklisted input devices
+
+# build/make
+repopickchain 434616 # DNM: com.android.ranging fix
+
+# build/soong
+repopickchain 434117 # soong: Allow adb_keys to be installed into recovery
+
+# development
+repopick 433303 # make-key: Enforce PBEv1 password-protected signing keys
+
+# device/generic/common
+repopick 433304 # Compile guard aosp apns conf in gsi product
+
+# device/generic/goldfish
+repopickchain 433306 # goldfish: Add BUILD_BROKEN_DUP_RULES entries for emulator
+
+# device/google/atv
+repopickchain 433314 # products: Make generic x86_64 TV target inherit 64bit_only
+
+# device/google/contexthub
+repopick 433315 # contexthub: sensorhal: allow building it again with Android.bp
+
+# external/arm-trusted-firmware
+repopickchain 433317 # Partial Revert "Tegra: memctrl: cleanup streamid override registers"
+
+# external/avb
+repopickchain 433319 # avbtool: Add retry to generate_fec_data()
+
+# external/bash
+repopick -p 434107 # bash: Compile with gnu89 for legacy K&R compatability
+
+# external/cronet
+repopick 433320 # cronet: Fix build with custom out directory
+
+# external/dtc
+repopickchain 433334 # Add build support for more host utils
+
+# external/e2fsprogs
+repopickchain 433335 # resize: Make a target for standalone resize2fs_static binary
+
+# external/gptfdisk
+repopickchain 433344 # gptfdisk: Make libgptf available to product/vendor
+
+# external/htop
+repopick -p 434662 # htop: Update srcs[], shared_libs[] and config.h
+
+# external/libncurses
+repopickchain 434656 # Update libncurses cflags
+
+# external/mksh
+repopickchain 433347 # mksh: Set TERM to xterm-256color
+
+# external/rsync
+repopickchain 434148 # rsync: Compile with gnu89 for legacy K&R compatability
+
+# external/setupcompat
+repopickchain 433354 # Change some more defaults
+
+# external/tinycompress
+repopickchain 433356 # tinycompress: Add conditional compilation check for compress param
+
+# external/vim
+repopick -p 434674 # vim: Remove src/auto/config.mk
+
+# external/wpa_supplicant_8
+repopick 433358 # wpa_supplicant: add support for bcmdhd SAE authentication offload
+
+# external/zstd
+repopickchain 433360 # zstd: Android.bp: Allow rsync to add zstd compression support
+
+# frameworks/av
+repopickchain 433713 # codec2: Extend the queue empty work hack to MTK decoders too
+
+# frameworks/base
+repopickchain 434605 # fixup! Firewall: Transport-based toggle support (1/3)
+
+# frameworks/libs/systemui
+repopick 433362 # ClockDrawableWrapper: Set DISABLE_SECONDS to false
+
+# frameworks/native
+repopickchain 433384 # libgui: Add guards around mPictureProfileHandle
+
+# frameworks/opt/calendar
+repopick 433385 # fix invalid time being set when `Time.set(Time)` is being called on itself
+
+# frameworks/opt/colorpicker
+repopick 433386 # Migrate to androidx
+
+# frameworks/opt/telephony
+repopickchain 433395 # telephony: Make "Do not ask again" functional
+
+# frameworks/opt/timezonepicker
+repopickchain 433398 # Migrate to androidx fragment library
+
+# hardware/broadcom/libbt
+repopickchain 433406 # Improve UART baud rate handling
+
+# hardware/google/camera
+repopick 433407 # camera: Guard with soong namespace
+
+# hardware/google/pixel
+repopickchain 433415 # pixel: Disable lineage health HAL
+
+# hardware/google/pixel-sepolicy
+repopickchain 433421 # Restore pixelstats-vendor rules
+
+# hardware/interfaces
+repopickchain 433906 # interfaces: fix disable_configstore
+
+# hardware/libhardware
+repopickchain 433441 # libhardware: Add new display types.
+
+# hardware/qcom/wlan
+repopickchain 433443 # Convert lib_driver_cmd_qcwcn for legacy to soong
+
+# hardware/samsung/nfc
+repopickchain 433448 # nfc: Rename debug level property
+
+# hardware/st/nfc
+repopickchain 433452 # Add support for text FW configs
+
+# kernel/configs
+repopickchain 433460 # Lower q/android-4.9 requirements
+
+# lineage-sdk
+repopickchain 434617 # sdk: Add GLOBAL_ACTION_KEY_STANDBY
+
+# packages/apps/Camera2
+repopick 433461 # Override Aperture app
+
+# packages/apps/Car/Settings
+repopickchain 433464 # VolumeSettingsPreferenceController: Fix NPE when changing volumes
+
+# packages/apps/Car/SystemUI
+repopick 433465 # CarSystemUI: Fixes after QPR2
+
+# packages/apps/CellBroadcastReceiver
+repopick 433467 # CellBroadcastReceiver: Bring in the new icon
+
+# packages/apps/Contacts
+repopick -p 433468 # Merge tag 'android-16.0.0_r1' into lineage-23.0
+
+# packages/apps/Dialer
+repopick -p 433469 # Merge tag 'android-16.0.0_r1' into lineage-23.0
+
+# packages/apps/DocumentsUI
+repopickchain 433474 # DocumentsUI: add icons for shortcuts
+
+# packages/apps/EmergencyInfo
+repopickchain 433477 # EmergencyInfo: Apply insets
+
+# packages/apps/Launcher3
+repopickchain 433979 # Launcher3: implement hidden & protected apps
+
+# packages/apps/Messaging
+repopick -p 433478 # Merge tag 'android-16.0.0_r1' into lineage-23.0
+
+# packages/apps/Settings
+repopickchain 434294 # New string for "Hotspot VPN" feature
+
+# packages/apps/SettingsIntelligence
+repopickchain 433482 # Style search bar to match new Settings UI
+
+# packages/apps/Stk
+repopick 433483 # Stk: Bring in the new icon
+
+# packages/apps/Tag
+repopick 433484 # Tag: Bring in the new icon
+
+# packages/apps/ThemePicker
+repopickchain 433495 # ThemePicker: Drop corner radius from icon shapes
+
+# packages/apps/TvSettings
+repopickchain 433752 # TvSettings: Fix energy optimization setting
+
+# packages/apps/TvSystemUI
+repopick 433753 # Implement USB debugging dialog
+
+# packages/apps/WallpaperPicker2
+repopickchain 433497 # WallpaperPicker2: Remove unnecessary top padding in Change wallpaper button
+
+# packages/inputmethods/LatinIME
+repopick -p 433498 # Merge tag 'android-16.0.0_r1' into lineage-23.0
+
+# packages/inputmethods/LeanbackIME
+repopick 433499 # LeanbackIME: Bring in the new icon
+
+# packages/modules/Bluetooth
+repopickchain 433508 # BondStateMachine: Check name for validity before access
+
+# packages/modules/Connectivity
+repopickchain 433520 # fixup! Firewall: Transport-based toggle support (3/3)
+
+# packages/modules/Nfc
+repopick 433643 # Nfc: Bring in the new icon
+
+# packages/modules/Permission
+repopickchain 433523 # permissions: check verity before using
+
+# packages/modules/Wifi
+repopick 433524 # Wifi: Ingore miracast scan from connectivity manager
+
+# packages/modules/adb
+repopickchain 433502 # Add ADB root service changes
+
+# packages/modules/common
+repopick 433509 # Make adbroot_aidl_interface-ndk available for adbd
+
+# packages/providers/BlockedNumberProvider
+repopick 433533 # BlockedNumberProvider: Bring in the new icon
+
+# packages/providers/BookmarkProvider
+repopick 433534 # BookmarkProvider: Bring in the new icon
+
+# packages/providers/CalendarProvider
+repopick 433535 # CalendarProvider: Bring in the new icon
+
+# packages/providers/CallLogProvider
+repopick 433536 # CallLogProvider: Bring in the new icon
+
+# packages/providers/ContactsProvider
+repopick 433537 # ContactsProvider: Bring in the new icon
+
+# packages/providers/DownloadProvider
+repopickchain 433527 # DownloadProvider: Add support for manual pause/resume
+
+# packages/providers/MediaProvider
+repopickchain 433530 # Reject private paths with ignorable codepoints
+
+# packages/providers/TelephonyProvider
+repopickchain 433532 # TelephonyProvider: add upgrade support from lineage-17.1
+
+# packages/screensavers/PhotoTable
+repopick 433538 # PhotoTable: Bring in the new icon
+
+# packages/services/Car
+repopickchain 433542 # car_product: Guard APN copy with LINEAGE_BUILD
+
+# packages/services/DeviceAsWebcam
+repopickchain 433544 # DeviceAsWebcam: jni: Make dwMaxPayloadTransferSize adjustable via property
+
+# packages/services/Mms
+repopickchain 433546 # Mms: Bring in the new icon
+
+# packages/services/Telecomm
+repopickchain 433549 # CallLog: Get rid of warning
+
+# packages/services/Telephony
+repopickchain 433555 # Telephony: Migrate RadioInfo from ScrollView to NestedScrollView
+
+# packages/wallpapers/LivePicker
+repopick 433556 # LivePicker: Bring in the new icon
+
+# system/bpf
+repopickchain 433560 # bpfloader: prog names are only valid on 4.15+
+
+# system/chre
+repopick 433561 # Restore MSM CHRE daemon support
+
+# system/core
+repopickchain 433591 # Revert "init: Remove schedtune support"
+
+# system/extras
+repopickchain 433594 # partition_tools: Add lpunpack_static target
+
+# system/keymaster
+repopick 433595 # Restore ImportKeyRequest::SetKeyMaterial
+
+# system/libhidl
+repopick 433596 # libhidlmemory: mark as recovery_available
+
+# system/libziparchive
+repopick 433598 # ziptool: restore unzip for recovery
+
+# system/logging
+repopickchain 433600 # liblog: Always report as debuggable when building userdebug/eng
+
+# system/media
+repopick 433601 # media: update path for vendor specific config files
+
+# system/netd
+repopickchain 433604 # VPN-covered DNS traffic may not fall through
+
+# system/security
+repopick 433605 # Handle key parameter conversion for FBE_ICE tag
+
+# system/sepolicy
+repopickchain 434112 # Allow vsock_socket in recovery
+
+# system/tools/mkbootimg
+repopick 433617 # mkbootimg: add support for --dt
+
+# system/update_engine
+repopickchain 433625 # update_engine: Add static ota_extractor target
+
+# system/vold
+repopickchain 433641 # vold: Add support for ISO9660/UDF CD-ROM
+
+# vendor/lineage
+repopickchain 434611 # vars: Add tegu
 
 wait
