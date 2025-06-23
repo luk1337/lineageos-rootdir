@@ -109,7 +109,7 @@ repopickchain 434656 # Update libncurses cflags
 repopickchain 433347 # mksh: Set TERM to xterm-256color
 
 # external/rsync
-repopickchain 434148 # rsync: Compile with gnu89 for legacy K&R compatability
+repopick -p 434148 # rsync: Compile with c17 for legacy K&R compatibility
 
 # external/setupcompat
 repopickchain 433354 # Change some more defaults
