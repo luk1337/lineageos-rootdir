@@ -108,6 +108,9 @@ repopickchain 434656 # Update libncurses cflags
 # external/mksh
 repopickchain 433347 # mksh: Set TERM to xterm-256color
 
+# external/nano
+repopick -p 435356 # nano: Regenerate config.h
+
 # external/rsync
 repopick -p 434148 # rsync: Compile with c17 for legacy K&R compatibility
 
