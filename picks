@@ -210,9 +210,6 @@ repopick 433509 # Make adbroot_aidl_interface-ndk available for adbd
 # packages/providers/DownloadProvider
 repopickchain 433527 # DownloadProvider: Add support for manual pause/resume
 
-# packages/providers/MediaProvider
-repopickchain 433530 # Reject private paths with ignorable codepoints
-
 # packages/providers/TelephonyProvider
 repopickchain 433532 # TelephonyProvider: add upgrade support from lineage-17.1
 
