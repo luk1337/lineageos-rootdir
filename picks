@@ -93,20 +93,11 @@ repopickchain 433344 # gptfdisk: Make libgptf available to product/vendor
 # external/mksh
 repopickchain 433347 # mksh: Set TERM to xterm-256color
 
-# external/nano
-repopick -p 435356 # nano: Regenerate config.h
-
 # external/setupcompat
 repopickchain 433354 # Change some more defaults
 
 # external/tinycompress
 repopickchain 433356 # tinycompress: Add conditional compilation check for compress param
-
-# external/wpa_supplicant_8
-repopick 433358 # wpa_supplicant: add support for bcmdhd SAE authentication offload
-
-# external/zstd
-repopickchain 433360 # zstd: Android.bp: Allow rsync to add zstd compression support
 
 # frameworks/av
 repopickchain 433713 # codec2: Extend the queue empty work hack to MTK decoders too
