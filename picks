@@ -46,7 +46,7 @@ function rc() {
 # repopick -f 332045 # Don't enforce vintf kernel requirements when building without LTO
 
 # android
-repopickchain 433642 # WIP manifest: Switch to lineage-23.0 branch
+repopickchain 436442 # lineage: Temporarily track lineage-22.2 for certain repos
 
 # bionic
 repopickchain 433204 # Add ability to build scudo-free 32-bit libc variant.
