@@ -255,9 +255,6 @@ repopickchain 433542 # car_product: Guard APN copy with LINEAGE_BUILD
 # packages/services/DeviceAsWebcam
 repopickchain 433544 # DeviceAsWebcam: jni: Make dwMaxPayloadTransferSize adjustable via property
 
-# packages/services/Telephony
-repopickchain 433555 # Telephony: Migrate RadioInfo from ScrollView to NestedScrollView
-
 # system/bpf
 repopickchain 433560 # bpfloader: prog names are only valid on 4.15+
 
