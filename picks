@@ -93,6 +93,9 @@ repopick 436499 # sepolicy: Remove mem_sleep sysfs label
 # device/qcom/sepolicy_vndr/sm8750
 repopick 436500 # sepolicy: Remove mem_sleep sysfs label
 
+# device/sony/sm6375-common
+repopickchain 436817 # sm6375-common: Update WFD system blobs from dada OS2.0.217.0.WOCMIXM
+
 # external/arm-trusted-firmware
 repopickchain 433317 # Partial Revert "Tegra: memctrl: cleanup streamid override registers"
 
