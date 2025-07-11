@@ -159,32 +159,11 @@ repopickchain 435530 # compat: Enable ELF checks
 # hardware/lineage/interfaces
 repopickchain 435216 # power-libperfmgr: Use HintManagerT instead of HintManager.
 
-# hardware/qcom-caf/bootctrl
-repopickchain 436208 # fuzzer: Correct bootctrl path
-
-# hardware/qcom-caf/common
-repopickchain 436428 # qcom: Include additional wlan soong namespace
-
-# hardware/qcom-caf/sm8150/audio
-repopickchain 432573 # hal: Convert audio extensions to blueprint
-
-# hardware/qcom-caf/sm8250/audio
-repopickchain 415689 # hal: Convert audio extensions to blueprint
-
-# hardware/qcom-caf/sm8350/audio
-repopickchain 415699 # hal: Convert audio extensions to blueprint
-
 # hardware/qcom-caf/sm8650/display/hal
 repopick 436541 # composer: Link against proper vendor.qti.hardware.display.composer3 version
 
 # hardware/qcom-caf/sm8750/display/hal
 repopick 436542 # composer: Link against proper vendor.qti.hardware.display.composer3 version
-
-# hardware/qcom-caf/thermal
-repopick -p 436243 # Merge tag 'LA.VENDOR.1.0.r1-27600-WAIPIO.QSSI15.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/thermal into lineage-23.0
-
-# hardware/qcom/wlan
-repopickchain 436278 # wifihal: Disable support for Groupkeys
 
 # hardware/st/nfc
 repopickchain 433452 # Add support for text FW configs
@@ -293,24 +272,6 @@ repopickchain 433625 # update_engine: Add static ota_extractor target
 
 # system/vold
 repopickchain 433641 # vold: Add support for ISO9660/UDF CD-ROM
-
-# vendor/codeaurora/telephony
-repopickchain 436136 # IMS: Add Motorola specific API for VT
-
-# vendor/qcom/opensource/commonsys-intf/display
-repopickchain 436142 # Partially revert gralloc struct changes
-
-# vendor/qcom/opensource/commonsys/display
-repopickchain 436156 # commonsys: services: Delete device_obj_ to release the memory
-
-# vendor/qcom/opensource/commonsys/fm
-repopick -p 436138 # Merge tag 'LA.QSSI.16.0.r1-07300-qssi.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/fm-commonsys into lineage-23.0
-
-# vendor/qcom/opensource/core-utils-vendor
-repopickchain 436320 # qspaframework: Convert to blueprint
-
-# vendor/qcom/opensource/healthd-ext
-repopickchain 436323 # healthd-ext: update data type for members of array ucsiPSYName
 
 # vendor/qcom/opensource/interfaces
 repopickchain 436164 # IUMDAdaptor: Add interface to enable umd-daemon
