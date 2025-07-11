@@ -3,115 +3,115 @@
   <remote fetch="https://gitea.angry.im" name="angry" />
   <remote fetch="ssh://git@gitlab.com" name="gitlab" />
 
-  <!-- <project name="TheMuppets/proprietary_vendor_google_tangorpro" path="vendor/google/tangorpro" />
+  <project name="TheMuppets/proprietary_vendor_google_tangorpro" path="vendor/google/tangorpro" groups="_devices,_devices_google_gs2" />
 
-  <project name="TheMuppets/proprietary_vendor_oneplus_sdm845-common" path="vendor/oneplus/sdm845-common" />
-  <project name="TheMuppets/proprietary_vendor_oneplus_enchilada" path="vendor/oneplus/enchilada" />
-  <project name="TheMuppets/proprietary_vendor_oneplus_fajita" path="vendor/oneplus/fajita" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_sdm845-common" path="vendor/oneplus/sdm845-common" groups="_devices,_devices_oneplus_sdm845" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_enchilada" path="vendor/oneplus/enchilada" groups="_devices,_devices_oneplus_sdm845" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_fajita" path="vendor/oneplus/fajita" groups="_devices,_devices_oneplus_sdm845" />
 
-  <project name="TheMuppets/proprietary_vendor_oneplus_sm8150-common" path="vendor/oneplus/sm8150-common" />
-  <project name="TheMuppets/proprietary_vendor_oneplus_guacamole" path="vendor/oneplus/guacamole" />
-  <project name="TheMuppets/proprietary_vendor_oneplus_guacamoleb" path="vendor/oneplus/guacamoleb" />
-  <project name="TheMuppets/proprietary_vendor_oneplus_hotdog" path="vendor/oneplus/hotdog" />
-  <project name="TheMuppets/proprietary_vendor_oneplus_hotdogb" path="vendor/oneplus/hotdogb" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_sm8150-common" path="vendor/oneplus/sm8150-common" groups="_devices,_devices_oneplus_sm8150" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_guacamole" path="vendor/oneplus/guacamole" groups="_devices,_devices_oneplus_sm8150" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_guacamoleb" path="vendor/oneplus/guacamoleb" groups="_devices,_devices_oneplus_sm8150" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_hotdog" path="vendor/oneplus/hotdog" groups="_devices,_devices_oneplus_sm8150" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_hotdogb" path="vendor/oneplus/hotdogb" groups="_devices,_devices_oneplus_sm8150" />
 
-  <project name="TheMuppets/proprietary_vendor_oneplus_sm8250-common" path="vendor/oneplus/sm8250-common" />
-  <project name="TheMuppets/proprietary_vendor_oneplus_instantnoodle" path="vendor/oneplus/instantnoodle" />
-  <project name="TheMuppets/proprietary_vendor_oneplus_instantnoodlep" path="vendor/oneplus/instantnoodlep" />
-  <project name="TheMuppets/proprietary_vendor_oneplus_kebab" path="vendor/oneplus/kebab" />
-  <project name="TheMuppets/proprietary_vendor_oneplus_lemonades" path="vendor/oneplus/lemonades" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_sm8250-common" path="vendor/oneplus/sm8250-common" groups="_devices,_devices_oneplus_sm8250" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_instantnoodle" path="vendor/oneplus/instantnoodle" groups="_devices,_devices_oneplus_sm8250" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_instantnoodlep" path="vendor/oneplus/instantnoodlep" groups="_devices,_devices_oneplus_sm8250" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_kebab" path="vendor/oneplus/kebab" groups="_devices,_devices_oneplus_sm8250" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_lemonades" path="vendor/oneplus/lemonades" groups="_devices,_devices_oneplus_sm8250" />
 
-  <project name="TheMuppets/proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" />
-  <project name="TheMuppets/proprietary_vendor_oneplus_lemonade" path="vendor/oneplus/lemonade" />
-  <project name="TheMuppets/proprietary_vendor_oneplus_lemonadep" path="vendor/oneplus/lemonadep" />
-  <project name="TheMuppets/proprietary_vendor_oneplus_martini" path="vendor/oneplus/martini" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" groups="_devices,_devices_oneplus_sm8350" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_lemonade" path="vendor/oneplus/lemonade" groups="_devices,_devices_oneplus_sm8350" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_lemonadep" path="vendor/oneplus/lemonadep" groups="_devices,_devices_oneplus_sm8350" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_martini" path="vendor/oneplus/martini" groups="_devices,_devices_oneplus_sm8350" />
 
-  <project name="TheMuppets/proprietary_vendor_samsung_gts4lv-common" path="vendor/samsung/gts4lv-common" />
-  <project name="TheMuppets/proprietary_vendor_samsung_gts4lv" path="vendor/samsung/gts4lv" />
-  <project name="TheMuppets/proprietary_vendor_samsung_gts4lvwifi" path="vendor/samsung/gts4lvwifi" />
+  <project name="TheMuppets/proprietary_vendor_samsung_gts4lv-common" path="vendor/samsung/gts4lv-common" groups="_devices,_devices_samsung_gts4lv" />
+  <project name="TheMuppets/proprietary_vendor_samsung_gts4lv" path="vendor/samsung/gts4lv" groups="_devices,_devices_samsung_gts4lv" />
+  <project name="TheMuppets/proprietary_vendor_samsung_gts4lvwifi" path="vendor/samsung/gts4lvwifi" groups="_devices,_devices_samsung_gts4lv" />
 
-  <project name="TheMuppets/proprietary_vendor_sony_nile-common" path="vendor/sony/nile-common" />
-  <project name="TheMuppets/proprietary_vendor_sony_discovery" path="vendor/sony/discovery" />
-  <project name="TheMuppets/proprietary_vendor_sony_pioneer" path="vendor/sony/pioneer" />
-  <project name="TheMuppets/proprietary_vendor_sony_voyager" path="vendor/sony/voyager" />
-  <project name="TheMuppets/proprietary_vendor_sony_kirin" path="vendor/sony/kirin" />
-  <project name="TheMuppets/proprietary_vendor_sony_mermaid" path="vendor/sony/mermaid" />
+  <project name="TheMuppets/proprietary_vendor_sony_nile-common" path="vendor/sony/nile-common" groups="_devices,_devices_sony_nile" />
+  <project name="TheMuppets/proprietary_vendor_sony_discovery" path="vendor/sony/discovery" groups="_devices,_devices_sony_nile" />
+  <project name="TheMuppets/proprietary_vendor_sony_pioneer" path="vendor/sony/pioneer" groups="_devices,_devices_sony_nile" />
+  <project name="TheMuppets/proprietary_vendor_sony_voyager" path="vendor/sony/voyager" groups="_devices,_devices_sony_nile" />
+  <project name="TheMuppets/proprietary_vendor_sony_kirin" path="vendor/sony/kirin" groups="_devices,_devices_sony_nile" />
+  <project name="TheMuppets/proprietary_vendor_sony_mermaid" path="vendor/sony/mermaid" groups="_devices,_devices_sony_nile" />
 
-  <project name="TheMuppets/proprietary_vendor_sony_sm6375-common" path="vendor/sony/sm6375-common" />
-  <project name="TheMuppets/proprietary_vendor_sony_pdx225" path="vendor/sony/pdx225" />
-  <project name="TheMuppets/proprietary_vendor_sony_pdx235" path="vendor/sony/pdx235" />
+  <project name="TheMuppets/proprietary_vendor_sony_sm6375-common" path="vendor/sony/sm6375-common" groups="_devices,_devices_sony_sm6375" />
+  <project name="TheMuppets/proprietary_vendor_sony_pdx225" path="vendor/sony/pdx225" groups="_devices,_devices_sony_sm6375" />
+  <project name="TheMuppets/proprietary_vendor_sony_pdx235" path="vendor/sony/pdx235" groups="_devices,_devices_sony_sm6375" />
 
-  <project name="TheMuppets/proprietary_vendor_xiaomi_msm8996-common" path="vendor/xiaomi/msm8996-common" />
-  <project name="TheMuppets/proprietary_vendor_xiaomi_gemini" path="vendor/xiaomi/gemini" />
-  <project name="TheMuppets/proprietary_vendor_xiaomi_natrium" path="vendor/xiaomi/natrium" />
+  <project name="TheMuppets/proprietary_vendor_xiaomi_msm8996-common" path="vendor/xiaomi/msm8996-common" groups="_devices,_devices_xiaomi_msm8996" />
+  <project name="TheMuppets/proprietary_vendor_xiaomi_gemini" path="vendor/xiaomi/gemini" groups="_devices,_devices_xiaomi_msm8996" />
+  <project name="TheMuppets/proprietary_vendor_xiaomi_natrium" path="vendor/xiaomi/natrium" groups="_devices,_devices_xiaomi_msm8996" />
 
-  <project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" />
-  <project name="LineageOS/android_device_google_gs101" path="device/google/gs101" />
-  <project name="LineageOS/android_device_google_gs201" path="device/google/gs201" />
-  <project name="LineageOS/android_device_google_cheetah" path="device/google/cheetah" />
-  <project name="LineageOS/android_device_google_lynx" path="device/google/lynx" />
-  <project name="LineageOS/android_device_google_pantah" path="device/google/pantah" />
-  <project name="LineageOS/android_device_google_panther" path="device/google/panther" />
-  <project name="LineageOS/android_device_google_tangorpro" path="device/google/tangorpro" />
-  <project name="device/google/tangorpro-kernels/6.1" path="device/google/tangorpro-kernels/6.1" remote="aosp-tangorpro" clone-depth="1" />
+  <project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" groups="_devices,_devices_google_gs2" />
+  <project name="LineageOS/android_device_google_gs101" path="device/google/gs101" groups="_devices,_devices_google_gs2" />
+  <project name="LineageOS/android_device_google_gs201" path="device/google/gs201" groups="_devices,_devices_google_gs2" />
+  <project name="LineageOS/android_device_google_cheetah" path="device/google/cheetah" groups="_devices,_devices_google_gs2" />
+  <project name="LineageOS/android_device_google_lynx" path="device/google/lynx" groups="_devices,_devices_google_gs2" />
+  <project name="LineageOS/android_device_google_pantah" path="device/google/pantah" groups="_devices,_devices_google_gs2" />
+  <project name="LineageOS/android_device_google_panther" path="device/google/panther" groups="_devices,_devices_google_gs2" />
+  <project name="LineageOS/android_device_google_tangorpro" path="device/google/tangorpro" groups="_devices,_devices_google_gs2" />
+  <project name="device/google/tangorpro-kernels/6.1" path="device/google/tangorpro-kernels/6.1" remote="aosp-tangorpro" groups="_devices,_devices_google_gs2" clone-depth="1" />
 
-  <project name="LineageOS/android_device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" />
-  <project name="LineageOS/android_device_oneplus_enchilada" path="device/oneplus/enchilada" />
-  <project name="LineageOS/android_device_oneplus_fajita" path="device/oneplus/fajita" />
-  <project name="LineageOS/android_kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" />
+  <project name="LineageOS/android_device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" groups="_devices,_devices_oneplus_sdm845" />
+  <project name="LineageOS/android_device_oneplus_enchilada" path="device/oneplus/enchilada" groups="_devices,_devices_oneplus_sdm845" />
+  <project name="LineageOS/android_device_oneplus_fajita" path="device/oneplus/fajita" groups="_devices,_devices_oneplus_sdm845" />
+  <project name="LineageOS/android_kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" groups="_devices,_devices_oneplus_sdm845" />
 
-  <project name="LineageOS/android_device_oneplus_sm8150-common" path="device/oneplus/sm8150-common" />
-  <project name="LineageOS/android_device_oneplus_guacamole" path="device/oneplus/guacamole" />
-  <project name="LineageOS/android_device_oneplus_guacamoleb" path="device/oneplus/guacamoleb" />
-  <project name="LineageOS/android_device_oneplus_hotdog" path="device/oneplus/hotdog" />
-  <project name="LineageOS/android_device_oneplus_hotdogb" path="device/oneplus/hotdogb" />
-  <project name="LineageOS/android_kernel_oneplus_sm8150" path="kernel/oneplus/sm8150" />
+  <project name="LineageOS/android_device_oneplus_sm8150-common" path="device/oneplus/sm8150-common" groups="_devices,_devices_oneplus_sm8150" />
+  <project name="LineageOS/android_device_oneplus_guacamole" path="device/oneplus/guacamole" groups="_devices,_devices_oneplus_sm8150" />
+  <project name="LineageOS/android_device_oneplus_guacamoleb" path="device/oneplus/guacamoleb" groups="_devices,_devices_oneplus_sm8150" />
+  <project name="LineageOS/android_device_oneplus_hotdog" path="device/oneplus/hotdog" groups="_devices,_devices_oneplus_sm8150" />
+  <project name="LineageOS/android_device_oneplus_hotdogb" path="device/oneplus/hotdogb" groups="_devices,_devices_oneplus_sm8150" />
+  <project name="LineageOS/android_kernel_oneplus_sm8150" path="kernel/oneplus/sm8150" groups="_devices,_devices_oneplus_sm8150" />
 
-  <project name="LineageOS/android_device_oneplus_sm8250-common" path="device/oneplus/sm8250-common" />
-  <project name="LineageOS/android_device_oneplus_instantnoodle" path="device/oneplus/instantnoodle" />
-  <project name="LineageOS/android_device_oneplus_instantnoodlep" path="device/oneplus/instantnoodlep" />
-  <project name="LineageOS/android_device_oneplus_kebab" path="device/oneplus/kebab" />
-  <project name="LineageOS/android_device_oneplus_lemonades" path="device/oneplus/lemonades" />
-  <project name="LineageOS/android_kernel_oneplus_sm8250" path="kernel/oneplus/sm8250" />
+  <project name="LineageOS/android_device_oneplus_sm8250-common" path="device/oneplus/sm8250-common" groups="_devices,_devices_oneplus_sm8250" />
+  <project name="LineageOS/android_device_oneplus_instantnoodle" path="device/oneplus/instantnoodle" groups="_devices,_devices_oneplus_sm8250" />
+  <project name="LineageOS/android_device_oneplus_instantnoodlep" path="device/oneplus/instantnoodlep" groups="_devices,_devices_oneplus_sm8250" />
+  <project name="LineageOS/android_device_oneplus_kebab" path="device/oneplus/kebab" groups="_devices,_devices_oneplus_sm8250" />
+  <project name="LineageOS/android_device_oneplus_lemonades" path="device/oneplus/lemonades" groups="_devices,_devices_oneplus_sm8250" />
+  <project name="LineageOS/android_kernel_oneplus_sm8250" path="kernel/oneplus/sm8250" groups="_devices,_devices_oneplus_sm8250" />
 
-  <project name="LineageOS/android_device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" />
-  <project name="LineageOS/android_device_oneplus_lemonade" path="device/oneplus/lemonade" />
-  <project name="LineageOS/android_device_oneplus_lemonadep" path="device/oneplus/lemonadep" />
-  <project name="LineageOS/android_device_oneplus_martini" path="device/oneplus/martini" />
-  <project name="LineageOS/android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" />
+  <project name="LineageOS/android_device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" groups="_devices,_devices_oneplus_sm8350" />
+  <project name="LineageOS/android_device_oneplus_lemonade" path="device/oneplus/lemonade" groups="_devices,_devices_oneplus_sm8350" />
+  <project name="LineageOS/android_device_oneplus_lemonadep" path="device/oneplus/lemonadep" groups="_devices,_devices_oneplus_sm8350" />
+  <project name="LineageOS/android_device_oneplus_martini" path="device/oneplus/martini" groups="_devices,_devices_oneplus_sm8350" />
+  <project name="LineageOS/android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" groups="_devices,_devices_oneplus_sm8350" />
 
-  <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" />
-  <project name="LineageOS/android_device_samsung_gts4lv-common" path="device/samsung/gts4lv-common" />
-  <project name="LineageOS/android_device_samsung_gts4lv" path="device/samsung/gts4lv" />
-  <project name="LineageOS/android_device_samsung_gts4lvwifi" path="device/samsung/gts4lvwifi" />
-  <project name="LineageOS/android_kernel_samsung_sdm670" path="kernel/samsung/sdm670" />
+  <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" groups="_devices,_devices_samsung_gts4lv" />
+  <project name="LineageOS/android_device_samsung_gts4lv-common" path="device/samsung/gts4lv-common" groups="_devices,_devices_samsung_gts4lv" />
+  <project name="LineageOS/android_device_samsung_gts4lv" path="device/samsung/gts4lv" groups="_devices,_devices_samsung_gts4lv" />
+  <project name="LineageOS/android_device_samsung_gts4lvwifi" path="device/samsung/gts4lvwifi" groups="_devices,_devices_samsung_gts4lv" />
+  <project name="LineageOS/android_kernel_samsung_sdm670" path="kernel/samsung/sdm670" groups="_devices,_devices_samsung_gts4lv" />
 
-  <project name="LineageOS/android_device_sony_nile-common" path="device/sony/nile-common" />
-  <project name="LineageOS/android_device_sony_discovery" path="device/sony/discovery" />
-  <project name="LineageOS/android_device_sony_pioneer" path="device/sony/pioneer" />
-  <project name="LineageOS/android_device_sony_voyager" path="device/sony/voyager" />
-  <project name="LineageOS/android_device_sony_kirin" path="device/sony/kirin" />
-  <project name="LineageOS/android_device_sony_mermaid" path="device/sony/mermaid" />
-  <project name="LineageOS/android_kernel_sony_sdm660" path="kernel/sony/sdm660" />
+  <project name="LineageOS/android_device_sony_nile-common" path="device/sony/nile-common" groups="_devices,_devices_sony_nile" />
+  <project name="LineageOS/android_device_sony_discovery" path="device/sony/discovery" groups="_devices,_devices_sony_nile" />
+  <project name="LineageOS/android_device_sony_pioneer" path="device/sony/pioneer" groups="_devices,_devices_sony_nile" />
+  <project name="LineageOS/android_device_sony_voyager" path="device/sony/voyager" groups="_devices,_devices_sony_nile" />
+  <project name="LineageOS/android_device_sony_kirin" path="device/sony/kirin" groups="_devices,_devices_sony_nile" />
+  <project name="LineageOS/android_device_sony_mermaid" path="device/sony/mermaid" groups="_devices,_devices_sony_nile" />
+  <project name="LineageOS/android_kernel_sony_sdm660" path="kernel/sony/sdm660" groups="_devices,_devices_sony_nile" />
 
-  <project name="LineageOS/android_device_sony_sm6375-common" path="device/sony/sm6375-common" />
-  <project name="LineageOS/android_device_sony_pdx225" path="device/sony/pdx225" />
-  <project name="LineageOS/android_device_sony_pdx235" path="device/sony/pdx235" />
-  <project name="LineageOS/android_kernel_sony_sm6375" path="kernel/sony/sm6375" />
+  <project name="LineageOS/android_device_sony_sm6375-common" path="device/sony/sm6375-common" groups="_devices,_devices_sony_sm6375" />
+  <project name="LineageOS/android_device_sony_pdx225" path="device/sony/pdx225" groups="_devices,_devices_sony_sm6375" />
+  <project name="LineageOS/android_device_sony_pdx235" path="device/sony/pdx235" groups="_devices,_devices_sony_sm6375" />
+  <project name="LineageOS/android_kernel_sony_sm6375" path="kernel/sony/sm6375" groups="_devices,_devices_sony_sm6375" />
 
-  <project name="LineageOS/android_device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" />
-  <project name="LineageOS/android_device_xiaomi_gemini" path="device/xiaomi/gemini" />
-  <project name="LineageOS/android_device_xiaomi_natrium" path="device/xiaomi/natrium" />
-  <project name="LineageOS/android_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" />
+  <project name="LineageOS/android_device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" groups="_devices,_devices_xiaomi_msm8996" />
+  <project name="LineageOS/android_device_xiaomi_gemini" path="device/xiaomi/gemini" groups="_devices,_devices_xiaomi_msm8996" />
+  <project name="LineageOS/android_device_xiaomi_natrium" path="device/xiaomi/natrium" groups="_devices,_devices_xiaomi_msm8996" />
+  <project name="LineageOS/android_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" groups="_devices,_devices_xiaomi_msm8996" />
 
-  <project name="LineageOS/android_hardware_oneplus" path="hardware/oneplus" />
-  <project name="LineageOS/android_hardware_oplus" path="hardware/oplus" />
-  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
-  <project name="LineageOS/android_hardware_sony" path="hardware/sony" />
-  <project name="LineageOS/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" />
-  <project name="LineageOS/android_hardware_sony_simdetect" path="hardware/sony/simdetect" />
-  <project name="LineageOS/android_hardware_sony_SonyOpenTelephony" path="hardware/sony/SonyOpenTelephony" />
-  <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" /> -->
+  <project name="LineageOS/android_hardware_oneplus" path="hardware/oneplus" groups="_devices,_devices_oneplus_sdm845" />
+  <project name="LineageOS/android_hardware_oplus" path="hardware/oplus" groups="_devices,_devices_oneplus_sm8150,_devices_oneplus_sm8250,_devices_oneplus_sm8350" />
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" groups="_devices,_devices_samsung_gts4lv" />
+  <project name="LineageOS/android_hardware_sony" path="hardware/sony" groups="_devices,_devices_sony_nile,_devices_sony_sm6375" />
+  <project name="LineageOS/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" groups="_devices,_devices_sony_nile" />
+  <project name="LineageOS/android_hardware_sony_simdetect" path="hardware/sony/simdetect" groups="_devices,_devices_sony_nile" />
+  <project name="LineageOS/android_hardware_sony_SonyOpenTelephony" path="hardware/sony/SonyOpenTelephony" groups="_devices,_devices_sony_nile" />
+  <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" groups="_devices,_devices_xiaomi_msm8996" />
 
   <project name="CalyxOS/platform_packages_apps_Bellis" path="packages/apps/Bellis" revision="android14" />
   <project name="PeterCxy/OpenEUICC" path="packages/apps/OpenEUICC" remote="angry" revision="master" />
