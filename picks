@@ -75,6 +75,9 @@ repopick 433315 # contexthub: sensorhal: allow building it again with Android.bp
 # device/lineage/sepolicy
 repopickchain 435985 # common: Update compatibility mapping files
 
+# device/oneplus/sm8250-common
+repopickchain 436989 # sm8250-common: Update WFD system blobs from dada OS2.0.217.0.WOCMIXM
+
 # device/oneplus/sm8350-common
 repopickchain 436984 # sm8350-common: Update WFD system blobs from dada OS2.0.217.0.WOCMIXM
 
