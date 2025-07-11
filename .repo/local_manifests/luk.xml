@@ -113,7 +113,7 @@
   <project name="LineageOS/android_hardware_sony_SonyOpenTelephony" path="hardware/sony/SonyOpenTelephony" groups="_devices,_devices_sony_nile" />
   <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" groups="_devices,_devices_xiaomi_msm8996" />
 
-  <project name="CalyxOS/platform_packages_apps_Bellis" path="packages/apps/Bellis" revision="android14" />
+  <project name="CalyxOS/platform_packages_apps_Bellis" path="packages/apps/Bellis" revision="android15-qpr2" />
   <project name="PeterCxy/OpenEUICC" path="packages/apps/OpenEUICC" remote="angry" revision="master" />
   <project name="estkme-group/lpac" path="packages/apps/OpenEUICC/libs/lpac-jni/src/main/jni/lpac" revision="main" />
   <project name="PeterCxy/android_prebuilts_openeuicc-deps" path="prebuilts/openeuicc-deps" remote="angry" revision="master" />
