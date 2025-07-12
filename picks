@@ -75,6 +75,9 @@ repopick 433315 # contexthub: sensorhal: allow building it again with Android.bp
 # device/lineage/sepolicy
 repopickchain 435985 # common: Update compatibility mapping files
 
+# device/oneplus/sm8150-common
+repopickchain 437059 # sm8150-common: Update WFD system blobs from dada OS2.0.217.0.WOCMIXM
+
 # device/oneplus/sm8250-common
 repopickchain 436989 # sm8250-common: Update WFD system blobs from dada OS2.0.217.0.WOCMIXM
 
@@ -179,6 +182,9 @@ repopickchain 433452 # Add support for text FW configs
 
 # kernel/configs
 repopickchain 433460 # Lower q/android-4.9 requirements
+
+# kernek/oneplus/sm8150
+repopick -p 437057 # Merge commit 'refs/changes/33/436733/8' of https://github.com/LineageOS/android_kernel_qcom_sm8150 into HEAD
 
 # packages/apps/Camera2
 repopick 433461 # Override Aperture app
