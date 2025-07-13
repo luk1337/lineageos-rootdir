@@ -58,7 +58,7 @@ repopickchain 433207 # updater: Support loading dynamic partition metadata from 
 repopickchain 433302 # minui: events: Add support to exclude blacklisted input devices
 
 # build/make
-repopickchain 436011 # Don't set PRODUCT_ENABLE_UFFD_GC by default
+repopickchain 433127 # soong: Add ability to build scudo-free 32-bit libc variant.
 
 # build/soong
 repopickchain 436980 # Let qcom audio/display headers resolve to generated_kernel_headers too
