@@ -105,32 +105,17 @@ repopick 436500 # sepolicy: Remove mem_sleep sysfs label
 # device/sony/sm6375-common
 repopickchain 436817 # sm6375-common: Update WFD system blobs from dada OS2.0.217.0.WOCMIXM
 
-# external/arm-trusted-firmware
-repopickchain 433317 # Partial Revert "Tegra: memctrl: cleanup streamid override registers"
-
-# external/avb
-repopickchain 433319 # avbtool: Add retry to generate_fec_data()
-
 # external/e2fsprogs
 repopickchain 433337 # e2fsck: Loosen fscrypt_policy struct size check
 
 # external/cronet
 repopick 433320 # cronet: Fix build with custom out directory
 
-# external/dtc
-repopickchain 433334 # Add build support for more host utils
-
 # external/gptfdisk
 repopickchain 433344 # gptfdisk: Make libgptf available to product/vendor
 
-# external/mksh
-repopickchain 433347 # mksh: Set TERM to xterm-256color
-
 # external/setupcompat
 repopickchain 433354 # Change some more defaults
-
-# external/tinycompress
-repopickchain 433356 # tinycompress: Add conditional compilation check for compress param
 
 # frameworks/av
 repopickchain 433713 # codec2: Extend the queue empty work hack to MTK decoders too
@@ -177,9 +162,6 @@ repopick 436541 # composer: Link against proper vendor.qti.hardware.display.comp
 # hardware/qcom-caf/sm8750/display/hal
 repopick 436542 # composer: Link against proper vendor.qti.hardware.display.composer3 version
 
-# hardware/st/nfc
-repopickchain 433452 # Add support for text FW configs
-
 # kernel/configs
 repopickchain 433460 # Lower q/android-4.9 requirements
 
@@ -216,9 +198,6 @@ repopickchain 433752 # TvSettings: Fix energy optimization setting
 # packages/apps/TvSystemUI
 repopick 433753 # Implement USB debugging dialog
 
-# packages/apps/WallpaperPicker2
-repopickchain 433497 # WallpaperPicker2: Remove unnecessary top padding in Change wallpaper button
-
 # packages/modules/Bluetooth
 repopickchain 433508 # BondStateMachine: Check name for validity before access
 
@@ -227,18 +206,6 @@ repopickchain 433520 # fixup! Firewall: Transport-based toggle support (3/3)
 
 # packages/modules/Permission
 repopickchain 433523 # permissions: check verity before using
-
-# packages/modules/Wifi
-repopick 433524 # Wifi: Ingore miracast scan from connectivity manager
-
-# packages/modules/adb
-repopickchain 433502 # Add ADB root service changes
-
-# packages/modules/common
-repopick 433509 # Make adbroot_aidl_interface-ndk available for adbd
-
-# packages/providers/DownloadProvider
-repopickchain 433527 # DownloadProvider: Add support for manual pause/resume
 
 # packages/services/Car
 repopickchain 433542 # car_product: Guard APN copy with LINEAGE_BUILD
@@ -260,9 +227,6 @@ repopick 433595 # Restore ImportKeyRequest::SetKeyMaterial
 
 # system/libhidl
 repopick 433596 # libhidlmemory: mark as recovery_available
-
-# system/libziparchive
-repopick 433598 # ziptool: restore unzip for recovery
 
 # system/logging
 repopickchain 433600 # liblog: Always report as debuggable when building userdebug/eng
