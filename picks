@@ -285,6 +285,12 @@ repopickchain 433625 # update_engine: Add static ota_extractor target
 # system/vold
 repopickchain 433641 # vold: Add support for ISO9660/UDF CD-ROM
 
+# vendor/qcom/opensource/audio-hal/st-hal-ar
+repopickchain 437008 # Disable 32 bit variants of audio libraries for 64 bit audio targets
+
+# vendor/qcom/opensource/audio-hal/st-hal-ar-legacy
+repopickchain 437016 # STHAL: Add null pointer check
+
 # vendor/qcom/opensource/interfaces
 repopickchain 436164 # IUMDAdaptor: Add interface to enable umd-daemon
 
