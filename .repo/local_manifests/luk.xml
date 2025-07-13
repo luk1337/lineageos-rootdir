@@ -104,6 +104,12 @@
   <project name="LineageOS/android_device_xiaomi_natrium" path="device/xiaomi/natrium" groups="_devices,_devices_xiaomi_msm8996" />
   <project name="LineageOS/android_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" groups="_devices,_devices_xiaomi_msm8996" />
 
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_audioreach-graphservices" />
+  <project name="mikeNG/android_vendor_qcom_opensource_audioreach-graphservices" path="hardware/qcom-caf/sm8450/audio/graphservices" groups="qcom" revision="lineage-23.0-caf-sm8450" />
+  <project name="mikeNG/android_vendor_qcom_opensource_audioreach-graphservices" path="hardware/qcom-caf/sm8550/audio/graphservices" groups="qcom" revision="lineage-23.0-caf-sm8450" />
+  <project name="mikeNG/android_vendor_qcom_opensource_audioreach-graphservices" path="hardware/qcom-caf/sm8650/audio/graphservices" groups="qcom" revision="lineage-23.0-caf-sm8450" />
+  <project name="mikeNG/android_vendor_qcom_opensource_audioreach-graphservices" path="hardware/qcom-caf/sm8750/audio/graphservices" groups="qcom" revision="lineage-23.0-caf-sm8450" />
+
   <project name="LineageOS/android_hardware_oneplus" path="hardware/oneplus" groups="_devices,_devices_oneplus_sdm845" />
   <project name="LineageOS/android_hardware_oplus" path="hardware/oplus" groups="_devices,_devices_oneplus_sm8150,_devices_oneplus_sm8250,_devices_oneplus_sm8350" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" groups="_devices,_devices_samsung_gts4lv" />

@@ -61,7 +61,7 @@ repopickchain 433302 # minui: events: Add support to exclude blacklisted input d
 repopickchain 436011 # Don't set PRODUCT_ENABLE_UFFD_GC by default
 
 # build/soong
-repopickchain 434117 # soong: Allow adb_keys to be installed into recovery
+repopickchain 436980 # Let qcom audio/display headers resolve to generated_kernel_headers too
 
 # device/generic/goldfish
 repopickchain 435541 # goldfish: Remove NavigationBarMode2ButtonOverlay
@@ -155,6 +155,42 @@ repopickchain 435530 # compat: Enable ELF checks
 
 # hardware/lineage/interfaces
 repopickchain 435216 # power-libperfmgr: Use HintManagerT instead of HintManager.
+
+# hardware/qcom-caf/common
+repopickchain 437093 # qcom: Add sm8550 audio soong configs
+
+# hardware/qcom-caf/sm8450/audio/agm
+repopickchain 436927 # ipc: Replace direct pid writes with setting task profiles for audio interfaces
+
+# hardware/qcom-caf/sm8450/audio/pal
+repopickchain 436947 # pal: Parse LVACFS microphone feature parameter
+
+# hardware/qcom-caf/sm8450/audio/primary-hal
+repopickchain 436959 # hal: Add LVACFS microphone feature
+
+# hardware/qcom-caf/sm8450/data-ipa-cfg-mgr
+repopickchain 437140 # ipacm: Address ipacm start failure
+
+# hardware/qcom-caf/sm8450/display
+repopickchain 436979 # sdm: mark FOD pressed layer by setting a bit on ZPOS
+
+# hardware/qcom-caf/sm8550/audio/agm
+repopickchain 437069 # ipc: Replace direct pid writes with setting task profiles for audio interfaces
+
+# hardware/qcom-caf/sm8550/audio/pal
+repopickchain 437080 # pal: Expose more headers under libarpal_headers module
+
+# hardware/qcom-caf/sm8550/audio/primary-hal
+repopickchain 437089 # hal: Replace direct pid writes with setting task profiles for audio interfaces
+
+# hardware/qcom-caf/sm8550/dataipa
+repopickchain 437155 # dataipa: Disable all the debugging
+
+# hardware/qcom-caf/sm8550/data-ipa-cfg-mgr
+repopickchain 437150 # ipacm: Address ipacm start failure
+
+# hardware/qcom-caf/sm8550/display
+repopickchain 437108 # display: fix remaining code issues
 
 # hardware/qcom-caf/sm8650/display/hal
 repopick 436541 # composer: Link against proper vendor.qti.hardware.display.composer3 version
