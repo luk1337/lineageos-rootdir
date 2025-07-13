@@ -186,9 +186,6 @@ repopickchain 433460 # Lower q/android-4.9 requirements
 # kernek/oneplus/sm8150
 repopick -p 437057 # Merge commit 'refs/changes/33/436733/8' of https://github.com/LineageOS/android_kernel_qcom_sm8150 into HEAD
 
-# packages/apps/Camera2
-repopick 433461 # Override Aperture app
-
 # packages/apps/Car/Settings
 repopickchain 433464 # VolumeSettingsPreferenceController: Fix NPE when changing volumes
 
@@ -290,9 +287,6 @@ repopickchain 433641 # vold: Add support for ISO9660/UDF CD-ROM
 
 # vendor/qcom/opensource/interfaces
 repopickchain 436164 # IUMDAdaptor: Add interface to enable umd-daemon
-
-# vendor/qcom/opensource/usb
-repopick -p 436387 # init.qcom.usb.rc: Set NCM interface name
 
 # vendor/qcom/opensource/vibrator
 repopickchain 436426 # hax
