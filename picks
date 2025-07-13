@@ -124,7 +124,7 @@ repopickchain 433713 # codec2: Extend the queue empty work hack to MTK decoders 
 repopickchain 434605 # fixup! Firewall: Transport-based toggle support (1/3)
 
 # frameworks/native
-repopickchain 433384 # libgui: Add guards around mPictureProfileHandle
+repopickchain 433383 # Do not return glGetString error on desktop GL context
 
 # frameworks/opt/calendar
 repopick 433385 # fix invalid time being set when `Time.set(Time)` is being called on itself
