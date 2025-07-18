@@ -183,11 +183,11 @@ repopickchain 437089 # hal: Replace direct pid writes with setting task profiles
 # hardware/qcom-caf/sm8550/display
 repopickchain 437108 # display: fix remaining code issues
 
-# hardware/qcom-caf/sm8650/display/hal
-repopick 437787 # gralloc: avoid calling property_get() on every buffer allocation
+# hardware/qcom-caf/sm8650/display
+repopickchain 437787 # gralloc: avoid calling property_get() on every buffer allocation
 
 # hardware/qcom-caf/sm8750/display/hal
-repopick 437788 # gralloc: avoid calling property_get() on every buffer allocation
+repopickchain 437788 # gralloc: avoid calling property_get() on every buffer allocation
 
 # kernel/configs
 repopickchain 433460 # Lower q/android-4.9 requirements
