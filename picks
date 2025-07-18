@@ -183,8 +183,35 @@ repopickchain 437089 # hal: Replace direct pid writes with setting task profiles
 # hardware/qcom-caf/sm8550/display
 repopickchain 437108 # display: fix remaining code issues
 
+# hardware/qcom-caf/sm8650/audio/agm
+repopickchain 437634 # agm_ipc_service: Include libagm_headers
+
+# hardware/qcom-caf/sm8650/audio/pal
+repopickchain 437327 # pal: fix constructor reordering
+
+# hardware/qcom-caf/sm8650/audio/primary-hal
+repopickchain 437496 # libbaterylistener: Remove unused HIDL health dependencies
+
+# hardware/qcom-caf/sm8650/dataipa
+repopickchain 437521 # dataipa: Disable all the debugging
+
+# hardware/qcom-caf/sm8650/data-ipa-cfg-mgr
+repopickchain 437517 # ipacm: Address ipacm start failure
+
 # hardware/qcom-caf/sm8650/display
 repopickchain 437787 # gralloc: avoid calling property_get() on every buffer allocation
+
+# hardware/qcom-caf/sm8650/audio/agm
+repopickchain 437334 # agm: disable mem logger support
+
+# hardware/qcom-caf/sm8750/audio/pal
+repopickchain 437809 # pal: Fix compilation issues for sun-LE
+
+# hardware/qcom-caf/sm8750/audio/primary-hal
+repopickchain 437495 # libbaterylistener: Remove unused HIDL health dependencies
+
+# hardware/qcom-caf/sm8750/dataipa
+repopickchain 437553 # dataipa: Disable all the debugging
 
 # hardware/qcom-caf/sm8750/display/hal
 repopickchain 437788 # gralloc: avoid calling property_get() on every buffer allocation
