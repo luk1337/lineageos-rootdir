@@ -61,7 +61,7 @@ repopickchain 433302 # minui: events: Add support to exclude blacklisted input d
 repopickchain 433127 # soong: Add ability to build scudo-free 32-bit libc variant.
 
 # build/soong
-repopickchain 436980 # Let qcom audio/display headers resolve to generated_kernel_headers too
+repopickchain 433187 # Add ability to enable scudo-free 32-bit libc variant.
 
 # device/generic/goldfish
 repopickchain 435541 # goldfish: Remove NavigationBarMode2ButtonOverlay
