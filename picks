@@ -184,10 +184,10 @@ repopickchain 437089 # hal: Replace direct pid writes with setting task profiles
 repopickchain 437108 # display: fix remaining code issues
 
 # hardware/qcom-caf/sm8650/display/hal
-repopick 436541 # composer: Link against proper vendor.qti.hardware.display.composer3 version
+repopick 437787 # gralloc: avoid calling property_get() on every buffer allocation
 
 # hardware/qcom-caf/sm8750/display/hal
-repopick 436542 # composer: Link against proper vendor.qti.hardware.display.composer3 version
+repopick 437788 # gralloc: avoid calling property_get() on every buffer allocation
 
 # kernel/configs
 repopickchain 433460 # Lower q/android-4.9 requirements
@@ -277,7 +277,7 @@ repopickchain 433625 # update_engine: Add static ota_extractor target
 repopickchain 433641 # vold: Add support for ISO9660/UDF CD-ROM
 
 # vendor/qcom/opensource/audio-hal/st-hal-ar
-repopickchain 437008 # Disable 32 bit variants of audio libraries for 64 bit audio targets
+repopickchain 437007 # st-hal-ar: Add dependency on libarpal_headers
 
 # vendor/qcom/opensource/audio-hal/st-hal-ar-legacy
 repopickchain 437016 # STHAL: Add null pointer check
