@@ -168,9 +168,6 @@ repopickchain 436947 # pal: Parse LVACFS microphone feature parameter
 # hardware/qcom-caf/sm8450/audio/primary-hal
 repopickchain 436959 # hal: Add LVACFS microphone feature
 
-# hardware/qcom-caf/sm8450/data-ipa-cfg-mgr
-repopickchain 437140 # ipacm: Address ipacm start failure
-
 # hardware/qcom-caf/sm8450/display
 repopickchain 436979 # sdm: mark FOD pressed layer by setting a bit on ZPOS
 
@@ -182,12 +179,6 @@ repopickchain 437080 # pal: Expose more headers under libarpal_headers module
 
 # hardware/qcom-caf/sm8550/audio/primary-hal
 repopickchain 437089 # hal: Replace direct pid writes with setting task profiles for audio interfaces
-
-# hardware/qcom-caf/sm8550/dataipa
-repopickchain 437155 # dataipa: Disable all the debugging
-
-# hardware/qcom-caf/sm8550/data-ipa-cfg-mgr
-repopickchain 437150 # ipacm: Address ipacm start failure
 
 # hardware/qcom-caf/sm8550/display
 repopickchain 437108 # display: fix remaining code issues
