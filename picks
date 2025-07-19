@@ -87,20 +87,14 @@ repopickchain 436984 # sm8350-common: Update WFD system blobs from dada OS2.0.21
 # device/qcom/sepolicy
 repopickchain 436131 # sepolicy: Added attributes for Aware QSEC services.
 
-# device/qcom/sepolicy_vndr/legacy-um
-repopick 433470 # sepolicy: Remove mem_sleep sysfs label
-
-# device/qcom/sepolicy_vndr/sm8450
-repopick 435676 # sepolicy: Remove mem_sleep sysfs label
-
 # device/qcom/sepolicy_vndr/sm8550
-repopick 435693 # sepolicy: Remove mem_sleep sysfs label
+repopickchain 437776 # sepolicy_vndr: Allow USB HAL to read display brightness
 
 # device/qcom/sepolicy_vndr/sm8650
-repopick 436499 # sepolicy: Remove mem_sleep sysfs label
+repopickchain 437777 # sepolicy_vndr: Allow USB HAL to read display brightness
 
 # device/qcom/sepolicy_vndr/sm8750
-repopick 436500 # sepolicy: Remove mem_sleep sysfs label
+repopickchain 437756 # sepolicy: Remove sysfs_udc label
 
 # device/sony/sm6375-common
 repopickchain 436817 # sm6375-common: Update WFD system blobs from dada OS2.0.217.0.WOCMIXM
