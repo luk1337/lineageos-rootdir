@@ -72,9 +72,6 @@ repopickchain 433314 # products: Make generic x86_64 TV target inherit 64bit_onl
 # device/google/contexthub
 repopick 433315 # contexthub: sensorhal: allow building it again with Android.bp
 
-# device/lineage/sepolicy
-repopickchain 435985 # common: Update compatibility mapping files
-
 # device/oneplus/sm8150-common
 repopickchain 437059 # sm8150-common: Update WFD system blobs from dada OS2.0.217.0.WOCMIXM
 
@@ -144,38 +141,8 @@ repopickchain 433906 # interfaces: fix disable_configstore
 # hardware/libhardware
 repopickchain 433441 # libhardware: Add new display types.
 
-# hardware/lineage/compat
-repopickchain 435530 # compat: Enable ELF checks
-
 # hardware/lineage/interfaces
 repopickchain 435216 # power-libperfmgr: Use HintManagerT instead of HintManager.
-
-# hardware/qcom-caf/common
-repopickchain 437093 # qcom: Add sm8550 audio soong configs
-
-# hardware/qcom-caf/sm8450/audio/agm
-repopickchain 436927 # ipc: Replace direct pid writes with setting task profiles for audio interfaces
-
-# hardware/qcom-caf/sm8450/audio/pal
-repopickchain 436947 # pal: Parse LVACFS microphone feature parameter
-
-# hardware/qcom-caf/sm8450/audio/primary-hal
-repopickchain 436959 # hal: Add LVACFS microphone feature
-
-# hardware/qcom-caf/sm8450/display
-repopickchain 436979 # sdm: mark FOD pressed layer by setting a bit on ZPOS
-
-# hardware/qcom-caf/sm8550/audio/agm
-repopickchain 437069 # ipc: Replace direct pid writes with setting task profiles for audio interfaces
-
-# hardware/qcom-caf/sm8550/audio/pal
-repopickchain 437080 # pal: Expose more headers under libarpal_headers module
-
-# hardware/qcom-caf/sm8550/audio/primary-hal
-repopickchain 437089 # hal: Replace direct pid writes with setting task profiles for audio interfaces
-
-# hardware/qcom-caf/sm8550/display
-repopickchain 437108 # display: fix remaining code issues
 
 # hardware/qcom-caf/sm8650/audio/agm
 repopickchain 437634 # agm_ipc_service: Include libagm_headers
@@ -299,9 +266,6 @@ repopickchain 433641 # vold: Add support for ISO9660/UDF CD-ROM
 
 # vendor/qcom/opensource/audio-hal/st-hal-ar
 repopickchain 437007 # st-hal-ar: Add dependency on libarpal_headers
-
-# vendor/qcom/opensource/audio-hal/st-hal-ar-legacy
-repopickchain 437016 # STHAL: Add null pointer check
 
 # vendor/qcom/opensource/interfaces
 repopickchain 436164 # IUMDAdaptor: Add interface to enable umd-daemon
