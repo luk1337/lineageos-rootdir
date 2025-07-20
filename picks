@@ -163,7 +163,7 @@ repopickchain 437787 # gralloc: avoid calling property_get() on every buffer all
 repopickchain 437334 # agm: disable mem logger support
 
 # hardware/qcom-caf/sm8750/audio/pal
-repopickchain 437809 # pal: Fix compilation issues for sun-LE
+repopickchain 437868 # vui_interface: Address more compilation errors
 
 # hardware/qcom-caf/sm8750/audio/primary-hal
 repopickchain 437495 # libbaterylistener: Remove unused HIDL health dependencies
