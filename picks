@@ -73,7 +73,11 @@ repopickchain 433314 # products: Make generic x86_64 TV target inherit 64bit_onl
 repopick 433315 # contexthub: sensorhal: allow building it again with Android.bp
 
 # device/oneplus/sm8150-common
-repopickchain 437059 # sm8150-common: Update WFD system blobs from dada OS2.0.217.0.WOCMIXM
+changes=(
+    `rc 438974` # sm8150-common: Enable UFFD GC
+    437059 # sm8150-common: Update WFD system blobs from dada OS2.0.217.0.WOCMIXM
+)
+repopick ${changes[@]}
 
 # device/qcom/sepolicy
 repopickchain 436131 # sepolicy: Added attributes for Aware QSEC services.
