@@ -84,9 +84,6 @@ repopickchain 436984 # sm8350-common: Update WFD system blobs from dada OS2.0.21
 # device/qcom/sepolicy
 repopickchain 436131 # sepolicy: Added attributes for Aware QSEC services.
 
-# device/qcom/sepolicy_vndr/sm8550
-repopickchain 437776 # sepolicy_vndr: Allow USB HAL to read display brightness
-
 # device/qcom/sepolicy_vndr/sm8650
 repopickchain 437777 # sepolicy_vndr: Allow USB HAL to read display brightness
 
