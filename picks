@@ -109,17 +109,8 @@ repopickchain 434605 # fixup! Firewall: Transport-based toggle support (1/3)
 # frameworks/native
 repopickchain 433383 # Do not return glGetString error on desktop GL context
 
-# frameworks/opt/calendar
-repopick 433385 # fix invalid time being set when `Time.set(Time)` is being called on itself
-
-# frameworks/opt/colorpicker
-repopick 433386 # Migrate to androidx
-
 # frameworks/opt/telephony
 repopickchain 433395 # telephony: Make "Do not ask again" functional
-
-# frameworks/opt/timezonepicker
-repopickchain 433398 # Migrate to androidx fragment library
 
 # hardware/broadcom/libbt
 repopickchain 433406 # Improve UART baud rate handling
@@ -223,9 +214,6 @@ repopickchain 433544 # DeviceAsWebcam: jni: Make dwMaxPayloadTransferSize adjust
 # system/bpf
 repopickchain 433560 # bpfloader: prog names are only valid on 4.15+
 
-# system/chre
-repopick 433561 # Restore MSM CHRE daemon support
-
 # system/core
 repopickchain 436680 # Revert "Remove space check from overlayfs test"
 
@@ -258,11 +246,5 @@ repopickchain 433641 # vold: Add support for ISO9660/UDF CD-ROM
 
 # vendor/qcom/opensource/audio-hal/st-hal-ar
 repopickchain 437007 # st-hal-ar: Add dependency on libarpal_headers
-
-# vendor/qcom/opensource/interfaces
-repopickchain 436164 # IUMDAdaptor: Add interface to enable umd-daemon
-
-# vendor/qcom/opensource/vibrator
-repopickchain 436426 # hax
 
 wait
