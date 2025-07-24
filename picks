@@ -152,7 +152,7 @@ repopickchain 437788 # gralloc: avoid calling property_get() on every buffer all
 repopickchain 433460 # Lower q/android-4.9 requirements
 
 # kernek/oneplus/sm8150
-repopick -p 437057 # Merge commit 'refs/changes/33/436733/9' of https://github.com/LineageOS/android_kernel_qcom_sm8150 into HEAD
+repopick -p 439270 # Merge commit 'refs/changes/46/437246/6' of https://github.com/LineageOS/android_kernel_qcom_sm8150 into HEAD
 
 # packages/apps/Car/Settings
 repopickchain 433464 # VolumeSettingsPreferenceController: Fix NPE when changing volumes
