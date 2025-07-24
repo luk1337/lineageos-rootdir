@@ -130,18 +130,6 @@ repopickchain 435216 # power-libperfmgr: Use HintManagerT instead of HintManager
 # hardware/qcom-caf/sm8650/audio/agm
 repopickchain 437634 # agm_ipc_service: Include libagm_headers
 
-# hardware/qcom-caf/sm8650/audio/pal
-repopickchain 437326 # pal: fix redefinition of MS_PER_SEC / US_PER_SEC
-
-# hardware/qcom-caf/sm8650/audio/primary-hal
-repopickchain 437496 # libbaterylistener: Remove unused HIDL health dependencies
-
-# hardware/qcom-caf/sm8650/dataipa
-repopickchain 437521 # dataipa: Disable all the debugging
-
-# hardware/qcom-caf/sm8650/data-ipa-cfg-mgr
-repopickchain 437517 # ipacm: Address ipacm start failure
-
 # hardware/qcom-caf/sm8650/display
 repopickchain 437787 # gralloc: avoid calling property_get() on every buffer allocation
 
