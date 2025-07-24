@@ -223,9 +223,6 @@ repopick 433605 # Handle key parameter conversion for FBE_ICE tag
 # system/sepolicy
 repopickchain 434112 # Allow vsock_socket in recovery
 
-# system/tools/mkbootimg
-repopick 433617 # mkbootimg: add support for --dt
-
 # system/update_engine
 repopickchain 433625 # update_engine: Add static ota_extractor target
 
