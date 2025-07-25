@@ -66,9 +66,6 @@ repopickchain 433187 # Add ability to enable scudo-free 32-bit libc variant.
 # device/generic/goldfish
 repopickchain 435541 # goldfish: Remove NavigationBarMode2ButtonOverlay
 
-# device/google/atv
-repopickchain 433314 # products: Make generic x86_64 TV target inherit 64bit_only
-
 # device/google/contexthub
 repopick 433315 # contexthub: sensorhal: allow building it again with Android.bp
 
@@ -97,12 +94,6 @@ repopick 433320 # cronet: Fix build with custom out directory
 # external/gptfdisk
 repopickchain 433344 # gptfdisk: Make libgptf available to product/vendor
 
-# external/setupcompat
-repopickchain 433354 # Change some more defaults
-
-# frameworks/av
-repopickchain 433713 # codec2: Extend the queue empty work hack to MTK decoders too
-
 # frameworks/base
 repopickchain 434605 # fixup! Firewall: Transport-based toggle support (1/3)
 
@@ -126,9 +117,6 @@ repopickchain 433441 # libhardware: Add new display types.
 
 # hardware/lineage/interfaces
 repopickchain 435216 # power-libperfmgr: Use HintManagerT instead of HintManager.
-
-# hardware/qcom-caf/sm8650/audio/agm
-repopickchain 437634 # agm_ipc_service: Include libagm_headers
 
 # hardware/qcom-caf/sm8650/display
 repopickchain 437787 # gralloc: avoid calling property_get() on every buffer allocation
@@ -162,9 +150,6 @@ repopick 433465 # CarSystemUI: Fixes after QPR2
 
 # packages/apps/DocumentsUI
 repopickchain 433474 # DocumentsUI: add icons for shortcuts
-
-# packages/apps/EmergencyInfo
-repopickchain 433477 # EmergencyInfo: Apply insets
 
 # packages/apps/Launcher3
 repopickchain 435246 # Launcher3: Make taskbar start aligned in all grid sizes
