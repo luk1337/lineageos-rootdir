@@ -144,9 +144,6 @@ repopick 433465 # CarSystemUI: Fixes after QPR2
 # packages/apps/DocumentsUI
 repopickchain 433474 # DocumentsUI: add icons for shortcuts
 
-# packages/apps/Etar
-repopickchain 438985 # Revert "Enable automatic per-app language support (Closes: #1497)"
-
 # packages/apps/Launcher3
 repopickchain 435246 # Launcher3: Make taskbar start aligned in all grid sizes
 
