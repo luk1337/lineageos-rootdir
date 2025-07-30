@@ -99,9 +99,6 @@ repopickchain 433395 # telephony: Make "Do not ask again" functional
 # hardware/broadcom/libbt
 repopickchain 433406 # Improve UART baud rate handling
 
-# hardware/google/pixel
-repopickchain 433415 # pixel: Disable lineage health HAL
-
 # hardware/interfaces
 repopickchain 433906 # interfaces: fix disable_configstore
 
