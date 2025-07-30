@@ -96,17 +96,11 @@ repopickchain 433383 # Do not return glGetString error on desktop GL context
 # frameworks/opt/telephony
 repopickchain 433395 # telephony: Make "Do not ask again" functional
 
-# hardware/broadcom/libbt
-repopickchain 433406 # Improve UART baud rate handling
-
 # hardware/interfaces
 repopickchain 433906 # interfaces: fix disable_configstore
 
 # hardware/libhardware
 repopickchain 433441 # libhardware: Add new display types.
-
-# hardware/lineage/interfaces
-repopickchain 435216 # power-libperfmgr: Use HintManagerT instead of HintManager.
 
 # hardware/qcom-caf/sm8650/display
 repopickchain 437787 # gralloc: avoid calling property_get() on every buffer allocation
@@ -138,9 +132,6 @@ repopickchain 433464 # VolumeSettingsPreferenceController: Fix NPE when changing
 # packages/apps/Car/SystemUI
 repopick 433465 # CarSystemUI: Fixes after QPR2
 
-# packages/apps/DocumentsUI
-repopickchain 433474 # DocumentsUI: add icons for shortcuts
-
 # packages/apps/Launcher3
 repopickchain 435246 # Launcher3: Make taskbar start aligned in all grid sizes
 
@@ -168,9 +159,6 @@ repopickchain 433520 # fixup! Firewall: Transport-based toggle support (3/3)
 # packages/modules/Permission
 repopickchain 433523 # permissions: check verity before using
 
-# packages/services/Car
-repopickchain 433542 # car_product: Guard APN copy with LINEAGE_BUILD
-
 # packages/services/DeviceAsWebcam
 repopickchain 433544 # DeviceAsWebcam: jni: Make dwMaxPayloadTransferSize adjustable via property
 
@@ -191,9 +179,6 @@ repopickchain 433600 # liblog: Always report as debuggable when building userdeb
 
 # system/netd
 repopickchain 433604 # VPN-covered DNS traffic may not fall through
-
-# system/security
-repopick 433605 # Handle key parameter conversion for FBE_ICE tag
 
 # system/sepolicy
 repopickchain 434112 # Allow vsock_socket in recovery
