@@ -96,9 +96,6 @@ repopickchain 433383 # Do not return glGetString error on desktop GL context
 # frameworks/opt/telephony
 repopickchain 433395 # telephony: Make "Do not ask again" functional
 
-# hardware/interfaces
-repopickchain 433906 # interfaces: fix disable_configstore
-
 # hardware/libhardware
 repopickchain 433441 # libhardware: Add new display types.
 
