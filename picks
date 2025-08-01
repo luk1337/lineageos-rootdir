@@ -129,17 +129,11 @@ repopickchain 433464 # VolumeSettingsPreferenceController: Fix NPE when changing
 # packages/apps/Car/SystemUI
 repopick 433465 # CarSystemUI: Fixes after QPR2
 
-# packages/apps/Launcher3
-repopickchain 435246 # Launcher3: Make taskbar start aligned in all grid sizes
-
 # packages/apps/Settings
 repopickchain 435672 # [DNM] Revert "Settings: Add FastCharge preference into Battery settings"
 
 # packages/apps/SettingsIntelligence
 repopickchain 433482 # Style search bar to match new Settings UI
-
-# packages/apps/ThemePicker
-repopickchain 435243 # ThemePicker: Fix hardcoded launcher package name
 
 # packages/apps/TvSettings
 repopickchain 433752 # TvSettings: Fix energy optimization setting
