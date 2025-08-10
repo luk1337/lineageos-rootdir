@@ -157,7 +157,7 @@ repopickchain 433544 # DeviceAsWebcam: jni: Make dwMaxPayloadTransferSize adjust
 repopickchain 433560 # bpfloader: prog names are only valid on 4.15+
 
 # system/core
-repopickchain 436680 # Revert "Remove space check from overlayfs test"
+repopickchain 437212 # init: add a hook before parsing system properties
 
 # system/keymaster
 repopick 433595 # Restore ImportKeyRequest::SetKeyMaterial
