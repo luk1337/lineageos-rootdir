@@ -159,9 +159,6 @@ repopickchain 433560 # bpfloader: prog names are only valid on 4.15+
 # system/core
 repopickchain 437212 # init: add a hook before parsing system properties
 
-# system/keymaster
-repopick 433595 # Restore ImportKeyRequest::SetKeyMaterial
-
 # system/libhidl
 repopick 433596 # libhidlmemory: mark as recovery_available
 
