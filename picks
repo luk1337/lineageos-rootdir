@@ -81,9 +81,6 @@ repopickchain 437756 # sepolicy: Remove sysfs_udc label
 # external/e2fsprogs
 repopickchain 433337 # e2fsck: Loosen fscrypt_policy struct size check
 
-# external/cronet
-repopick 433320 # cronet: Fix build with custom out directory
-
 # external/gptfdisk
 repopickchain 433344 # gptfdisk: Make libgptf available to product/vendor
 
