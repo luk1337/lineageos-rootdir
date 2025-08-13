@@ -147,9 +147,6 @@ repopickchain 433520 # fixup! Firewall: Transport-based toggle support (3/3)
 # packages/modules/Permission
 repopickchain 433523 # permissions: check verity before using
 
-# packages/services/DeviceAsWebcam
-repopickchain 433544 # DeviceAsWebcam: jni: Make dwMaxPayloadTransferSize adjustable via property
-
 # system/bpf
 repopickchain 433560 # bpfloader: prog names are only valid on 4.15+
 
