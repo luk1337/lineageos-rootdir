@@ -118,7 +118,7 @@ repopickchain 437553 # dataipa: Disable all the debugging
 repopickchain 437788 # gralloc: avoid calling property_get() on every buffer allocation
 
 # kernel/configs
-repopickchain 433460 # Lower q/android-4.9 requirements
+repopickchain 433459 # p/android-4.4: Bump min LTS version
 
 # kernek/oneplus/sm8150
 repopick -p 439270 # Merge commit 'refs/changes/46/437246/6' of https://github.com/LineageOS/android_kernel_qcom_sm8150 into HEAD
