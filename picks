@@ -130,7 +130,7 @@ repopickchain 433464 # VolumeSettingsPreferenceController: Fix NPE when changing
 repopick 433465 # CarSystemUI: Fixes after QPR2
 
 # packages/apps/Settings
-repopickchain 435672 # [DNM] Revert "Settings: Add FastCharge preference into Battery settings"
+repopickchain 437655 # fixup! Fix background data clobbering other policies
 
 # packages/apps/SettingsIntelligence
 repopickchain 433482 # Style search bar to match new Settings UI
