@@ -69,12 +69,6 @@ repopickchain 435541 # goldfish: Remove NavigationBarMode2ButtonOverlay
 # device/google/contexthub
 repopick 433315 # contexthub: sensorhal: allow building it again with Android.bp
 
-# device/qcom/sepolicy
-repopickchain 436131 # sepolicy: Added attributes for Aware QSEC services.
-
-# device/qcom/sepolicy_vndr/sm8650
-repopickchain 437777 # sepolicy_vndr: Allow USB HAL to read display brightness
-
 # device/qcom/sepolicy_vndr/sm8750
 repopickchain 437756 # sepolicy: Remove sysfs_udc label
 
