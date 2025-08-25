@@ -48,15 +48,6 @@ function rc() {
 # android
 repopickchain 436442 # lineage: Temporarily track lineage-22.2 for certain repos
 
-# bionic
-repopickchain 433204 # Add ability to build scudo-free 32-bit libc variant.
-
-# build/make
-repopickchain 433127 # soong: Add ability to build scudo-free 32-bit libc variant.
-
-# build/soong
-repopickchain 433187 # Add ability to enable scudo-free 32-bit libc variant.
-
 # device/generic/goldfish
 repopickchain 435541 # goldfish: Remove NavigationBarMode2ButtonOverlay
 
