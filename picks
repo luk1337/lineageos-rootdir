@@ -115,7 +115,7 @@ repopickchain 433752 # TvSettings: Fix energy optimization setting
 repopickchain 433508 # BondStateMachine: Check name for validity before access
 
 # packages/modules/Connectivity
-repopickchain 433520 # fixup! Firewall: Transport-based toggle support (3/3)
+repopickchain 433518 # netd: Remove <5.4 kernel restrictions
 
 # system/bpf
 repopickchain 433560 # bpfloader: prog names are only valid on 4.15+
