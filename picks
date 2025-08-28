@@ -96,9 +96,6 @@ repopickchain 437655 # fixup! Fix background data clobbering other policies
 # packages/apps/SettingsIntelligence
 repopickchain 433482 # Style search bar to match new Settings UI
 
-# packages/apps/TvSettings
-repopickchain 433752 # TvSettings: Fix energy optimization setting
-
 # packages/modules/Bluetooth
 repopickchain 433508 # BondStateMachine: Check name for validity before access
 
