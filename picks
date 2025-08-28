@@ -61,7 +61,7 @@ repopickchain 437756 # sepolicy: Remove sysfs_udc label
 repopickchain 433337 # e2fsck: Loosen fscrypt_policy struct size check
 
 # frameworks/base
-repopickchain 434605 # fixup! Firewall: Transport-based toggle support (1/3)
+repopickchain 437656 # fixup! Firewall: Transport-based toggle support (1/3)
 
 # frameworks/opt/telephony
 repopickchain 433394 # RIL: Fix manual network selection with old modem
