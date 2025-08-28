@@ -120,9 +120,6 @@ repopickchain 433518 # netd: Remove <5.4 kernel restrictions
 # system/bpf
 repopickchain 433560 # bpfloader: prog names are only valid on 4.15+
 
-# system/core
-repopickchain 437212 # init: add a hook before parsing system properties
-
 # system/libhidl
 repopick 433596 # libhidlmemory: mark as recovery_available
 
