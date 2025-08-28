@@ -48,9 +48,6 @@ function rc() {
 # android
 repopickchain 436442 # lineage: Temporarily track lineage-22.2 for certain repos
 
-# device/generic/goldfish
-repopickchain 435541 # goldfish: Remove NavigationBarMode2ButtonOverlay
-
 # device/google/contexthub
 repopick 433315 # contexthub: sensorhal: allow building it again with Android.bp
 
@@ -92,12 +89,6 @@ repopickchain 433459 # p/android-4.4: Bump min LTS version
 
 # kernek/oneplus/sm8150
 repopick -p 439270 # Merge commit 'refs/changes/46/437246/6' of https://github.com/LineageOS/android_kernel_qcom_sm8150 into HEAD
-
-# packages/apps/Car/Settings
-repopickchain 433464 # VolumeSettingsPreferenceController: Fix NPE when changing volumes
-
-# packages/apps/Car/SystemUI
-repopick 433465 # CarSystemUI: Fixes after QPR2
 
 # packages/apps/Settings
 repopickchain 437655 # fixup! Fix background data clobbering other policies
