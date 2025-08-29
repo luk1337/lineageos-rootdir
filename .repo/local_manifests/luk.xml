@@ -2,6 +2,7 @@
 <manifest>
   <remote fetch="https://gitea.angry.im" name="angry" />
   <remote fetch="ssh://git@gitlab.com" name="gitlab" />
+  <remote fetch="https://android.googlesource.com" name="aosp-tangorpro" revision="refs/tags/android-15.0.0_r32" clone-depth="1" />
 
   <project name="TheMuppets/proprietary_vendor_google_tangorpro" path="vendor/google/tangorpro" groups="_devices,_devices_google_gs2" />
 
