@@ -78,6 +78,9 @@ repopickchain 449584 # hal: Separate xml from libaudiocorehal/libaudioeffecthal
 # hardware/qcom-caf/sm8750/dataipa
 repopickchain 437553 # dataipa: Disable all the debugging
 
+# hardware/qcom-caf/sm8750/data-ipa-cfg-mgr
+repopickchain 437549 # ipacm: Address ipacm start failure
+
 # hardware/qcom-caf/sm8750/display/core
 repopickchain 441806 # Revert "Revert^2 "sdm: add support for DS merge mode""
 
