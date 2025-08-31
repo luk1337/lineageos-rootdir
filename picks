@@ -66,9 +66,6 @@ repopickchain 433394 # RIL: Fix manual network selection with old modem
 # hardware/libhardware
 repopickchain 433441 # libhardware: Add new display types.
 
-# hardware/qcom-caf/sm8650/display
-repopickchain 437787 # gralloc: avoid calling property_get() on every buffer allocation
-
 # hardware/qcom-caf/sm8650/audio/agm
 repopickchain 437334 # agm: disable mem logger support
 
