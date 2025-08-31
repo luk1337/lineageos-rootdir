@@ -73,7 +73,7 @@ repopickchain 437334 # agm: disable mem logger support
 repopickchain 437868 # vui_interface: Address more compilation errors
 
 # hardware/qcom-caf/sm8750/audio/primary-hal
-repopickchain 437495 # libbaterylistener: Remove unused HIDL health dependencies
+repopickchain 449584 # hal: Separate xml from libaudiocorehal/libaudioeffecthal
 
 # hardware/qcom-caf/sm8750/dataipa
 repopickchain 437553 # dataipa: Disable all the debugging
