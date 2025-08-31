@@ -78,6 +78,9 @@ repopickchain 449584 # hal: Separate xml from libaudiocorehal/libaudioeffecthal
 # hardware/qcom-caf/sm8750/dataipa
 repopickchain 437553 # dataipa: Disable all the debugging
 
+# hardware/qcom-caf/sm8750/display/core
+repopickchain 441806 # Revert "Revert^2 "sdm: add support for DS merge mode""
+
 # hardware/qcom-caf/sm8750/display/hal
 repopickchain 437788 # gralloc: avoid calling property_get() on every buffer allocation
 
