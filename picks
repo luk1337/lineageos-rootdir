@@ -51,9 +51,6 @@ repopickchain 436442 # lineage: Temporarily track lineage-22.2 for certain repos
 # device/google/contexthub
 repopick 433315 # contexthub: sensorhal: allow building it again with Android.bp
 
-# external/e2fsprogs
-repopickchain 433337 # e2fsck: Loosen fscrypt_policy struct size check
-
 # frameworks/base
 repopickchain 437656 # fixup! Firewall: Transport-based toggle support (1/3)
 
