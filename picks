@@ -84,7 +84,4 @@ repopickchain 433560 # bpfloader: prog names are only valid on 4.15+
 # system/libhidl
 repopick 433596 # libhidlmemory: mark as recovery_available
 
-# system/logging
-repopickchain 433600 # liblog: Always report as debuggable when building userdebug/eng
-
 wait
