@@ -51,9 +51,6 @@ repopickchain 436442 # lineage: Temporarily track lineage-22.2 for certain repos
 # device/google/contexthub
 repopick 433315 # contexthub: sensorhal: allow building it again with Android.bp
 
-# device/qcom/sepolicy_vndr/sm8750
-repopickchain 437756 # sepolicy: Remove sysfs_udc label
-
 # external/e2fsprogs
 repopickchain 433337 # e2fsck: Loosen fscrypt_policy struct size check
 
@@ -65,27 +62,6 @@ repopickchain 433394 # RIL: Fix manual network selection with old modem
 
 # hardware/libhardware
 repopickchain 433441 # libhardware: Add new display types.
-
-# hardware/qcom-caf/sm8650/audio/agm
-repopickchain 437334 # agm: disable mem logger support
-
-# hardware/qcom-caf/sm8750/audio/pal
-repopickchain 437868 # vui_interface: Address more compilation errors
-
-# hardware/qcom-caf/sm8750/audio/primary-hal
-repopickchain 449584 # hal: Separate xml from libaudiocorehal/libaudioeffecthal
-
-# hardware/qcom-caf/sm8750/dataipa
-repopickchain 437553 # dataipa: Disable all the debugging
-
-# hardware/qcom-caf/sm8750/data-ipa-cfg-mgr
-repopickchain 437549 # ipacm: Address ipacm start failure
-
-# hardware/qcom-caf/sm8750/display/core
-repopickchain 441806 # Revert "Revert^2 "sdm: add support for DS merge mode""
-
-# hardware/qcom-caf/sm8750/display/hal
-repopickchain 437788 # gralloc: avoid calling property_get() on every buffer allocation
 
 # kernel/configs
 repopickchain 433459 # p/android-4.4: Bump min LTS version
@@ -110,8 +86,5 @@ repopick 433596 # libhidlmemory: mark as recovery_available
 
 # system/logging
 repopickchain 433600 # liblog: Always report as debuggable when building userdebug/eng
-
-# vendor/qcom/opensource/audio-hal/st-hal-ar
-repopickchain 437007 # st-hal-ar: Add dependency on libarpal_headers
 
 wait
