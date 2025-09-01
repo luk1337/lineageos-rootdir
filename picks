@@ -60,9 +60,6 @@ repopickchain 437656 # fixup! Firewall: Transport-based toggle support (1/3)
 # frameworks/opt/telephony
 repopickchain 433394 # RIL: Fix manual network selection with old modem
 
-# hardware/libhardware
-repopickchain 433441 # libhardware: Add new display types.
-
 # kernel/configs
 repopickchain 433459 # p/android-4.4: Bump min LTS version
 
