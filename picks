@@ -45,20 +45,11 @@ function rc() {
 # build/make
 # repopick -f 332045 # Don't enforce vintf kernel requirements when building without LTO
 
-# frameworks/base
-repopickchain 437656 # fixup! Firewall: Transport-based toggle support (1/3)
-
 # frameworks/opt/telephony
 repopickchain 433394 # RIL: Fix manual network selection with old modem
 
 # kernek/oneplus/sm8150
 repopick -p 439270 # Merge commit 'refs/changes/46/437246/6' of https://github.com/LineageOS/android_kernel_qcom_sm8150 into HEAD
-
-# packages/apps/Settings
-repopickchain 437655 # fixup! Fix background data clobbering other policies
-
-# packages/apps/SettingsIntelligence
-repopickchain 433482 # Style search bar to match new Settings UI
 
 # packages/modules/Connectivity
 repopickchain 433518 # netd: Remove <5.4 kernel restrictions
