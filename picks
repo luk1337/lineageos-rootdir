@@ -45,9 +45,6 @@ function rc() {
 # build/make
 # repopick -f 332045 # Don't enforce vintf kernel requirements when building without LTO
 
-# android
-repopickchain 436442 # lineage: Temporarily track lineage-22.2 for certain repos
-
 # frameworks/base
 repopickchain 437656 # fixup! Firewall: Transport-based toggle support (1/3)
 
