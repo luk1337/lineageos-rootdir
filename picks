@@ -54,9 +54,6 @@ repopickchain 437656 # fixup! Firewall: Transport-based toggle support (1/3)
 # frameworks/opt/telephony
 repopickchain 433394 # RIL: Fix manual network selection with old modem
 
-# kernel/configs
-repopickchain 433459 # p/android-4.4: Bump min LTS version
-
 # kernek/oneplus/sm8150
 repopick -p 439270 # Merge commit 'refs/changes/46/437246/6' of https://github.com/LineageOS/android_kernel_qcom_sm8150 into HEAD
 
