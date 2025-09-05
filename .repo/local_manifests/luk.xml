@@ -93,7 +93,7 @@
   <project name="LineageOS/android_device_sony_voyager" path="device/sony/voyager" groups="_devices,_devices_sony_nile" revision="lineage-22.2" />
   <project name="LineageOS/android_device_sony_kirin" path="device/sony/kirin" groups="_devices,_devices_sony_nile" revision="lineage-22.2" />
   <project name="LineageOS/android_device_sony_mermaid" path="device/sony/mermaid" groups="_devices,_devices_sony_nile" revision="lineage-22.2" />
-  <project name="sony-sm6375/android_kernel_sony_sdm660" path="kernel/sony/sdm660" groups="_devices,_devices_sony_nile" revision="lineage-22.2-cleanup-power" />
+  <project name="sony-sm6375/android_kernel_sony_sdm660" path="kernel/sony/sdm660" groups="_devices,_devices_sony_nile" />
 
   <project name="LineageOS/android_device_sony_sm6375-common" path="device/sony/sm6375-common" groups="_devices,_devices_sony_sm6375" />
   <project name="LineageOS/android_device_sony_pdx225" path="device/sony/pdx225" groups="_devices,_devices_sony_sm6375" />
