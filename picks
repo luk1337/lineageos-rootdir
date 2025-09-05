@@ -45,6 +45,9 @@ function rc() {
 # build/make
 # repopick -f 332045 # Don't enforce vintf kernel requirements when building without LTO
 
+# device/sony/nile-common
+repopickchain 450180 # nile-common: Switch to libperfmgr
+
 # kernek/oneplus/sm8150
 repopick -p 439270 # Merge commit 'refs/changes/46/437246/6' of https://github.com/LineageOS/android_kernel_qcom_sm8150 into HEAD
 

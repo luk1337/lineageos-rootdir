@@ -87,7 +87,7 @@
   <project name="LineageOS/android_device_samsung_gts4lvwifi" path="device/samsung/gts4lvwifi" groups="_devices,_devices_samsung_gts4lv" />
   <project name="LineageOS/android_kernel_samsung_sdm670" path="kernel/samsung/sdm670" groups="_devices,_devices_samsung_gts4lv" />
 
-  <project name="sony-sm6375/android_device_sony_nile-common" path="device/sony/nile-common" groups="_devices,_devices_sony_nile" revision="lineage-22.2" />
+  <project name="LineageOS/android_device_sony_nile-common" path="device/sony/nile-common" groups="_devices,_devices_sony_nile" />
   <project name="LineageOS/android_device_sony_discovery" path="device/sony/discovery" groups="_devices,_devices_sony_nile" />
   <project name="LineageOS/android_device_sony_pioneer" path="device/sony/pioneer" groups="_devices,_devices_sony_nile" />
   <project name="LineageOS/android_device_sony_voyager" path="device/sony/voyager" groups="_devices,_devices_sony_nile" />
