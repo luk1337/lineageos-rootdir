@@ -46,7 +46,7 @@ function rc() {
 # repopick -f 332045 # Don't enforce vintf kernel requirements when building without LTO
 
 # device/oneplus/sm8750-common
-repopickchain 450238 # sm8750-common: Remove libqtigefar from dependency check
+repopickchain 450259 # sm8750-common: Remove vendor/lineage device framework matrix inclusion
 
 # device/sony/nile-common
 repopickchain 450178 # nile-common: Mass blob update from HON660-T-95.00.03-(0054)
