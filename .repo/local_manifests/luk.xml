@@ -26,6 +26,10 @@
   <project name="TheMuppets/proprietary_vendor_oneplus_lemonadep" path="vendor/oneplus/lemonadep" />
   <project name="TheMuppets/proprietary_vendor_oneplus_martini" path="vendor/oneplus/martini" />
 
+  <project name="TheMuppets/proprietary_vendor_oneplus_sm8750-common" path="vendor/oneplus/sm8750-common" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_dodge" path="vendor/oneplus/dodge" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_erhai" path="vendor/oneplus/erhai" />
+
   <project name="TheMuppets/proprietary_vendor_samsung_gts4lv-common" path="vendor/samsung/gts4lv-common" />
   <project name="TheMuppets/proprietary_vendor_samsung_gts4lv" path="vendor/samsung/gts4lv" />
   <project name="TheMuppets/proprietary_vendor_samsung_gts4lvwifi" path="vendor/samsung/gts4lvwifi" />
@@ -79,6 +83,13 @@
   <project name="LineageOS/android_device_oneplus_lemonadep" path="device/oneplus/lemonadep" />
   <project name="LineageOS/android_device_oneplus_martini" path="device/oneplus/martini" />
   <project name="LineageOS/android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" />
+
+  <project name="LineageOS/android_device_oneplus_dodge" path="device/oneplus/dodge" />
+  <project name="LineageOS/android_device_oneplus_erhai" path="device/oneplus/erhai" />
+  <project name="LineageOS/android_device_oneplus_sm8750-common" path="device/oneplus/sm8750-common" />
+  <project name="oplus-dodge-dev/android_kernel_oneplus_sm8750-devicetrees" path="kernel/oneplus/sm8750-devicetrees" revision="chandu" />
+  <project name="oplus-dodge-dev/android_kernel_oneplus_sm8750-modules" path="kernel/oneplus/sm8750-modules" revision="chandu" />
+  <project name="oplus-dodge-dev/android_kernel_oneplus_sm8750" path="kernel/oneplus/sm8750" revision="chandu" />
 
   <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" />
   <project name="LineageOS/android_device_samsung_gts4lv-common" path="device/samsung/gts4lv-common" />
