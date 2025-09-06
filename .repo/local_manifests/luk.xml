@@ -27,6 +27,10 @@
   <project name="TheMuppets/proprietary_vendor_oneplus_lemonadep" path="vendor/oneplus/lemonadep" groups="_devices,_devices_oneplus_sm8350" />
   <project name="TheMuppets/proprietary_vendor_oneplus_martini" path="vendor/oneplus/martini" groups="_devices,_devices_oneplus_sm8350" />
 
+  <project name="TheMuppets/proprietary_vendor_oneplus_sm8750-common" path="vendor/oneplus/sm8750-common" groups="_devices,_devices_oneplus_sm8750" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_dodge" path="vendor/oneplus/dodge" groups="_devices,_devices_oneplus_sm8750" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_erhai" path="vendor/oneplus/erhai" groups="_devices,_devices_oneplus_sm8750" />
+
   <project name="TheMuppets/proprietary_vendor_samsung_gts4lv-common" path="vendor/samsung/gts4lv-common" groups="_devices,_devices_samsung_gts4lv" />
   <project name="TheMuppets/proprietary_vendor_samsung_gts4lv" path="vendor/samsung/gts4lv" groups="_devices,_devices_samsung_gts4lv" />
   <project name="TheMuppets/proprietary_vendor_samsung_gts4lvwifi" path="vendor/samsung/gts4lvwifi" groups="_devices,_devices_samsung_gts4lv" />
@@ -80,6 +84,13 @@
   <project name="LineageOS/android_device_oneplus_lemonadep" path="device/oneplus/lemonadep" groups="_devices,_devices_oneplus_sm8350" />
   <project name="LineageOS/android_device_oneplus_martini" path="device/oneplus/martini" groups="_devices,_devices_oneplus_sm8350" />
   <project name="LineageOS/android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" groups="_devices,_devices_oneplus_sm8350" />
+
+  <project name="LineageOS/android_device_oneplus_dodge" path="device/oneplus/dodge" groups="_devices,_devices_oneplus_sm8750" />
+  <project name="LineageOS/android_device_oneplus_erhai" path="device/oneplus/erhai" groups="_devices,_devices_oneplus_sm8750" />
+  <project name="LineageOS/android_device_oneplus_sm8750-common" path="device/oneplus/sm8750-common" groups="_devices,_devices_oneplus_sm8750" />
+  <project name="oplus-dodge-dev/android_kernel_oneplus_sm8750-devicetrees" path="kernel/oneplus/sm8750-devicetrees" revision="chandu" groups="_devices,_devices_oneplus_sm8750" />
+  <project name="oplus-dodge-dev/android_kernel_oneplus_sm8750-modules" path="kernel/oneplus/sm8750-modules" revision="chandu" groups="_devices,_devices_oneplus_sm8750" />
+  <project name="oplus-dodge-dev/android_kernel_oneplus_sm8750" path="kernel/oneplus/sm8750" revision="chandu" groups="_devices,_devices_oneplus_sm8750" />
 
   <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" groups="_devices,_devices_samsung_gts4lv" />
   <project name="LineageOS/android_device_samsung_gts4lv-common" path="device/samsung/gts4lv-common" groups="_devices,_devices_samsung_gts4lv" />
