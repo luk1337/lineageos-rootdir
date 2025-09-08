@@ -69,6 +69,9 @@ repopick 450493 # voyager: Update vendor namespace imports
 # kernek/oneplus/sm8150
 repopick -p 439270 # Merge commit 'refs/changes/46/437246/6' of https://github.com/LineageOS/android_kernel_qcom_sm8150 into HEAD
 
+# kernel/sony/sdm660
+repopickchain 450758 # nile: ARM64: configs: Enable exFAT
+
 # packages/modules/Connectivity
 repopickchain 433518 # netd: Remove <5.4 kernel restrictions
 
