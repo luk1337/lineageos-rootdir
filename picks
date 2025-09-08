@@ -49,7 +49,22 @@ function rc() {
 repopickchain 450259 # sm8750-common: Remove vendor/lineage device framework matrix inclusion
 
 # device/sony/nile-common
-repopickchain 450178 # nile-common: Mass blob update from HON660-T-95.00.03-(0054)
+repopickchain 450261 # nile-common: fstab: Switch to aes-256-xts encryption
+
+# device/sony/discovery
+repopick 450492 # discovery: Update vendor namespace imports
+
+# device/sony/kirin
+repopick 450494 # kirin: Update vendor namespace imports
+
+# device/sony/mermaid
+repopick 450495 # mermaid: Update vendor namespace imports
+
+# device/sony/pioneer
+repopick 450491 # pioneer: Update vendor namespace imports
+
+# device/sony/voyager
+repopick 450493 # voyager: Update vendor namespace imports
 
 # kernek/oneplus/sm8150
 repopick -p 439270 # Merge commit 'refs/changes/46/437246/6' of https://github.com/LineageOS/android_kernel_qcom_sm8150 into HEAD
