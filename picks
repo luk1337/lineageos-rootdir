@@ -43,7 +43,7 @@ function rc() {
 #
 
 # build/make
-# repopick -f 332045 # Don't enforce vintf kernel requirements when building without LTO
+repopick -f 332045 # Don't enforce vintf kernel requirements when building without LTO
 
 # device/oneplus/sm8750-common
 repopickchain 450259 # sm8750-common: Remove vendor/lineage device framework matrix inclusion
