@@ -54,31 +54,10 @@ repopickchain 445690 # sm8250-common: Override kernel BPF version
 # device/oneplus/sm8750-common
 repopickchain 450259 # sm8750-common: Remove vendor/lineage device framework matrix inclusion
 
-# device/sony/nile-common
-repopickchain 450261 # nile-common: fstab: Switch to aes-256-xts encryption
-
-# device/sony/discovery
-repopick 450492 # discovery: Update vendor namespace imports
-
-# device/sony/kirin
-repopick 450494 # kirin: Update vendor namespace imports
-
-# device/sony/mermaid
-repopick 450495 # mermaid: Update vendor namespace imports
-
-# device/sony/pioneer
-repopick 450491 # pioneer: Update vendor namespace imports
-
-# device/sony/voyager
-repopick 450493 # voyager: Update vendor namespace imports
-
 # kernek/oneplus/sm8150
 repopick -p 439270 # Merge commit 'refs/changes/71/447471/1' of https://github.com/LineageOS/android_kernel_qcom_sm8150 into HEAD
 
 # kernek/oneplus/sm8250
 repopick -p 447650 # oplus.config: Regenerate
-
-# kernel/sony/sdm660
-repopickchain 450758 # nile: ARM64: configs: Enable exFAT
 
 wait
