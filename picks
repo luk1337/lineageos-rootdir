@@ -54,6 +54,9 @@ repopickchain 450259 # sm8750-common: Remove vendor/lineage device framework mat
 # kernek/oneplus/sm8150
 repopick -p 439270 # Merge commit 'refs/changes/71/447471/1' of https://github.com/LineageOS/android_kernel_qcom_sm8150 into HEAD
 
+# kernek/oneplus/sm8350
+repopick 452992 # Revert "defconfig: Add UAPI_HEADER_TEST for Lahaina GKI"
+
 # kernek/oneplus/sm8750
 repopickchain 452170 # treewide: Update changes to CPH2723_15.0.2.501(EX01)
 
