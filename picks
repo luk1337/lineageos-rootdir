@@ -52,7 +52,7 @@ repopickchain 451331 # sm8150-common: Override kernel BPF version
 repopickchain 450259 # sm8750-common: Remove vendor/lineage device framework matrix inclusion
 
 # kernek/oneplus/sm8150
-repopick -p 439270 # Merge commit 'refs/changes/71/447471/1' of https://github.com/LineageOS/android_kernel_qcom_sm8150 into HEAD
+repopick -p 439270 # Merge commit 'refs/changes/71/447471/2' of https://github.com/LineageOS/android_kernel_qcom_sm8150 into HEAD
 
 # kernek/oneplus/sm8350
 repopick 452992 # Revert "defconfig: Add UAPI_HEADER_TEST for Lahaina GKI"
