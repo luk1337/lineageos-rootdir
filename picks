@@ -64,13 +64,4 @@ changes=(
 )
 repopick -P kernel/oneplus/sm8350 ${changes[@]}
 
-# kernek/oneplus/sm8750
-repopickchain 452170 # treewide: Update changes to CPH2723_15.0.2.501(EX01)
-
-# kernek/oneplus/sm8750-devicetrees
-repopickchain 452185 # Revert "ARM: dts: msm: Add DTS support for Sun SoC variants"
-
-# kernek/oneplus/sm8750-modules
-repopickchain 452233 # disp: msm: sde: increase `DRM_EVENT_TP_TOUCHDOWN` to avoid conflict
-
 wait
