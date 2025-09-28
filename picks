@@ -55,7 +55,14 @@ repopickchain 450259 # sm8750-common: Remove vendor/lineage device framework mat
 repopick -p 439270 # Merge commit 'refs/changes/71/447471/2' of https://github.com/LineageOS/android_kernel_qcom_sm8150 into HEAD
 
 # kernek/oneplus/sm8350
-repopick 452995 # arm64: configs: Regenerate Q/GKI lahaina defconfigs
+changes=(
+    453111 # bpfilter: check if $(CC) can link static libc in Kconfig
+    453112 # kbuild: fix CONFIG_CC_CAN_LINK(_STATIC) for cross-compilation with Clang
+    453113 # kbuild: add -Wall to KBUILD_HOSTCXXFLAGS
+    453114 # kbuild: add infrastructure to build userspace programs
+    453115 # FROMLIST: kbuild: Add environment variables for userprogs flags
+)
+repopick -P kernel/oneplus/sm8350 ${changes[@]}
 
 # kernek/oneplus/sm8750
 repopickchain 452170 # treewide: Update changes to CPH2723_15.0.2.501(EX01)
