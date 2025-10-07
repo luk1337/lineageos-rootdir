@@ -48,9 +48,6 @@ repopick -f 332045 # Don't enforce vintf kernel requirements when building witho
 # device/oneplus/sm8150-common
 repopickchain 451331 # sm8150-common: Override kernel BPF version
 
-# device/oneplus/sm8750-common
-repopickchain 450259 # sm8750-common: Remove vendor/lineage device framework matrix inclusion
-
 # kernek/oneplus/sm8150
 repopick -p 439270 # Merge commit 'refs/changes/71/447471/2' of https://github.com/LineageOS/android_kernel_qcom_sm8150 into HEAD
 
