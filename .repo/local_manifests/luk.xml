@@ -2,7 +2,6 @@
 <manifest>
   <remote fetch="https://gitea.angry.im" name="angry" />
   <remote fetch="ssh://git@gitlab.com" name="gitlab" />
-  <remote fetch="https://android.googlesource.com" name="aosp-tangorpro" revision="refs/tags/android-15.0.0_r32" clone-depth="1" />
 
   <project name="TheMuppets/proprietary_vendor_google_tangorpro" path="vendor/google/tangorpro" groups="_devices,_devices_google_gs2" />
 
@@ -58,7 +57,7 @@
   <project name="LineageOS/android_device_google_pantah" path="device/google/pantah" groups="_devices,_devices_google_gs2" />
   <project name="LineageOS/android_device_google_panther" path="device/google/panther" groups="_devices,_devices_google_gs2" />
   <project name="LineageOS/android_device_google_tangorpro" path="device/google/tangorpro" groups="_devices,_devices_google_gs2" />
-  <project name="device/google/tangorpro-kernels/6.1" path="device/google/tangorpro-kernels/6.1" remote="aosp-tangorpro" groups="_devices,_devices_google_gs2" clone-depth="1" />
+  <project name="LineageOS/android_device_google_tangorpro-kernels" path="device/google/tangorpro-kernels" groups="_devices,_devices_google_gs2" />
 
   <project name="LineageOS/android_device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" groups="_devices,_devices_oneplus_sdm845" />
   <project name="LineageOS/android_device_oneplus_enchilada" path="device/oneplus/enchilada" groups="_devices,_devices_oneplus_sdm845" />
