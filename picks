@@ -45,9 +45,6 @@ function rc() {
 # build/make
 repopick -f 332045 # Don't enforce vintf kernel requirements when building without LTO
 
-# device/oneplus/sm8750-common
-repopick 457885 # sm8750-common: Set PRODUCT_ENABLE_UFFD_GC to true
-
 # system/core
 repopick 436680 # Revert "Remove space check from overlayfs test"
 
