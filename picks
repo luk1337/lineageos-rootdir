@@ -45,7 +45,4 @@ function rc() {
 # build/make
 repopick -f 332045 # Don't enforce vintf kernel requirements when building without LTO
 
-# system/core
-repopick 436680 # Revert "Remove space check from overlayfs test"
-
 wait
