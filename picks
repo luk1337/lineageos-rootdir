@@ -45,4 +45,19 @@ function rc() {
 # build/make
 repopick -f 332045 # Don't enforce vintf kernel requirements when building without LTO
 
+# frameworks/base
+repopickchain 461006 # aconfig: Use old storage if /metadata is not available
+
+# packages/apps/Launcher3
+repopickchain 460770 # fixup! RecentsView: Unconditionally hide split option for Go-enabled targets
+
+# packages/apps/SeedVault
+repopick -p 462417 # Merge branch 'android16' of https://github.com/seedvault-app/seedvault into lineage-23.0
+
+# packages/apps/Settings
+repopickchain 460949 # MainlineModuleVersionPreference: Fully hide if intent is null
+
+# packages/apps/TvSettings
+repopickchain 460727 # TvSettings: Support two button mute
+
 wait
