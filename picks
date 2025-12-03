@@ -46,13 +46,13 @@ function rc() {
 repopick -f 332045 # Don't enforce vintf kernel requirements when building without LTO
 
 # frameworks/base
-repopickchain 461006 # aconfig: Use old storage if /metadata is not available
+repopickchain 462730 # fixup! SystemUI: Add support for clock auto-hiding
 
 # packages/apps/Launcher3
-repopickchain 460770 # fixup! RecentsView: Unconditionally hide split option for Go-enabled targets
+repopickchain 462894 # Launcher3: Change number of rows that deskclock widget occupies
 
 # packages/apps/Settings
-repopickchain 460949 # MainlineModuleVersionPreference: Fully hide if intent is null
+repopickchain 460678 # Settings: Place and order Google & Digital Wellbeing
 
 # packages/apps/TvSettings
 repopickchain 460727 # TvSettings: Support two button mute
