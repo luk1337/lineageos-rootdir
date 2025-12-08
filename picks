@@ -46,13 +46,13 @@ function rc() {
 repopick -f 332045 # Don't enforce vintf kernel requirements when building without LTO
 
 # frameworks/base
-repopickchain 462730 # fixup! SystemUI: Add support for clock auto-hiding
+repopickchain 463871 # VolumeDialog: Add support for left gravity
 
 # packages/apps/Launcher3
 repopickchain 462894 # Launcher3: Change number of rows that deskclock widget occupies
 
 # packages/apps/Settings
-repopickchain 460678 # Settings: Place and order Google & Digital Wellbeing
+repopickchain 463786 # Settings: Promote external doze settings to first class
 
 # packages/apps/TvSettings
 repopickchain 460727 # TvSettings: Support two button mute
