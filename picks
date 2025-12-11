@@ -54,7 +54,4 @@ repopickchain 462894 # Launcher3: Change number of rows that deskclock widget oc
 # packages/apps/Settings
 repopickchain 463786 # Settings: Promote external doze settings to first class
 
-# packages/apps/TvSettings
-repopickchain 460727 # TvSettings: Support two button mute
-
 wait
