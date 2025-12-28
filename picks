@@ -46,12 +46,12 @@ function rc() {
 repopick -f 332045 # Don't enforce vintf kernel requirements when building without LTO
 
 # frameworks/base
-repopickchain 463871 # VolumeDialog: Add support for left gravity
+repopickchain 460454 # SystemUI: Allow enabling lockscreen rotation by default
 
 # packages/apps/Launcher3
 repopickchain 465101 # Launcher3: Add resource to enable fixed landscape mode by default
 
 # packages/apps/Settings
-repopickchain 463786 # Settings: Promote external doze settings to first class
+repopickchain 460684 # Settings: Only show gesture navigation if device has a software nav bar
 
 wait
