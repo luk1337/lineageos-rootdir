@@ -46,7 +46,7 @@ function rc() {
 repopick -f 332045 # Don't enforce vintf kernel requirements when building without LTO
 
 # frameworks/base
-repopickchain 460395 # Forward port CM Screen Security settings (1/2)
+repopickchain 461006 # aconfig: Use old storage if /metadata is not available
 
 # packages/apps/Settings
 repopickchain 460684 # Settings: Only show gesture navigation if device has a software nav bar
