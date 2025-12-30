@@ -48,7 +48,4 @@ repopick -f 332045 # Don't enforce vintf kernel requirements when building witho
 # frameworks/base
 repopickchain 466846 # fixup! Firewall: Transport-based toggle support (1/3)
 
-# packages/apps/Settings
-repopickchain 460684 # Settings: Only show gesture navigation if device has a software nav bar
-
 wait
