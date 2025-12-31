@@ -45,13 +45,49 @@ function rc() {
 # build/make
 repopick -f 332045 # Don't enforce vintf kernel requirements when building without LTO
 
+# device/lineage/sepolicy
+repopickchain 464448 # Temporarily drop broken backuptool sepolicy
+
 # frameworks/base
-repopickchain 463871 # VolumeDialog: Add support for left gravity
+repopickchain 466851 # fixup! Firewall: Transport-based toggle support (1/3)
+
+# frameworks/native
+repopickchain 466048 # gpuwork: Don't abort in case map doesn't exist
+
+# hardware/qcom-caf/sm8550/audio/agm
+repopickchain 464979 # agm: Fix format specifiers
+
+# hardware/qcom-caf/sm8750/audio/agm
+repopickchain 464805 # agm: Fix format specifiers
+
+# hardware/qcom-caf/sm8750/audio/pal
+repopickchain 464845 # pal: Fix format specifiers
+
+# hardware/qcom-caf/sm8750/display/core
+repopickchain 464808 # sdm: Fix array comparison errors
+
+# hardware/qcom-caf/sm8750/display/hal
+repopickchain 464804 # hal: Fix format specifiers
+
+# lineage-sdk
+repopickchain 466949 # health: Catch all exceptions in fastcharge handleSettingChange
 
 # packages/apps/Launcher3
-repopickchain 465101 # Launcher3: Add resource to enable fixed landscape mode by default
+repopickchain 466850 # Launcher3: Hide keyboard when transitioning to home screen
 
 # packages/apps/Settings
-repopickchain 463786 # Settings: Promote external doze settings to first class
+repopickchain 466852 # fixup! Fix background data clobbering other policies
+
+# packages/apps/ThemePicker
+repopickchain 466227 # ThemePicker: Reimplement font picker
+
+# packages/apps/WallpaperPicker2
+repopickchain 466962 # WallpaperPicker2: Collapse wallpaper picker button by default
+
+# packages/modules/Connectivity
+repopickchain 464978 # NetBpfLoad: Relax 5.10 kernel requirement
+
+# vendor/lineage
+repopickchain 466783 # config: Stop building icon packs & shapes
 
 wait
