@@ -6,6 +6,7 @@ if ! docker image exists lineageos/wiki; then
     WORKDIR /pwd
     RUN mkdir -p /.repo/projects/lineage/wiki.git
     RUN gem install bundler -v 2.3.26
+    RUN bundle config set --local deployment true
     RUN bundle install
     " | docker build -t lineageos/wiki -v $PWD:/pwd:Z -
 fi
