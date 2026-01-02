@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+
 if ! docker image exists lineageos/www; then
     echo "
     FROM docker.io/ruby:3.2
