@@ -8,7 +8,6 @@ if ! podman image exists lineageos/www; then
     WORKDIR /pwd
     RUN mkdir -p /.repo/projects/lineage/website.git
     RUN gem install bundler -v 2.4.10
-    RUN bundle config set --local deployment true
     RUN bundle install
     " | podman build -t lineageos/www -v $PWD:/pwd:Z -
 fi
