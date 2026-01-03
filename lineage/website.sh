@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-if ! docker image exists lineageos/www; then
+if ! podman image exists lineageos/www; then
     echo "
     FROM docker.io/ruby:3.2
 
@@ -10,7 +10,7 @@ if ! docker image exists lineageos/www; then
     RUN gem install bundler -v 2.4.10
     RUN bundle config set --local deployment true
     RUN bundle install
-    " | docker build -t lineageos/www -v $PWD:/pwd:Z -
+    " | podman build -t lineageos/www -v $PWD:/pwd:Z -
 fi
 
-docker run -v $PWD:/pwd:Z -p 4000:4000 -w /pwd -ti lineageos/www bundle exec jekyll serve --host 0.0.0.0 --future $@
+podman run -v $PWD:/pwd:Z -p 4000:4000 -w /pwd -ti lineageos/www bundle exec jekyll serve --host 0.0.0.0 --future $@
