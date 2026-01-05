@@ -48,9 +48,6 @@ repopick -f 332045 # Don't enforce vintf kernel requirements when building witho
 # frameworks/base
 repopickchain 466851 # fixup! Firewall: Transport-based toggle support (1/3)
 
-# frameworks/native
-repopickchain 466048 # gpuwork: Don't abort in case map doesn't exist
-
 # hardware/qcom-caf/sm8550/audio/agm
 repopickchain 464979 # agm: Fix format specifiers
 
@@ -66,9 +63,6 @@ repopickchain 464808 # sdm: Fix array comparison errors
 # hardware/qcom-caf/sm8750/display/hal
 repopickchain 464804 # hal: Fix format specifiers
 
-# lineage-sdk
-repopickchain 466949 # health: Catch all exceptions in fastcharge handleSettingChange
-
 # packages/apps/Launcher3
 repopickchain 466850 # Launcher3: Hide keyboard when transitioning to home screen
 
@@ -80,9 +74,6 @@ repopickchain 466227 # ThemePicker: Reimplement font picker
 
 # packages/apps/WallpaperPicker2
 repopickchain 466962 # WallpaperPicker2: Collapse wallpaper picker button by default
-
-# packages/modules/Connectivity
-repopickchain 464978 # NetBpfLoad: Relax 5.10 kernel requirement
 
 # vendor/lineage
 repopickchain 466783 # config: Stop building icon packs & shapes
