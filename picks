@@ -64,7 +64,7 @@ repopickchain 464808 # sdm: Fix array comparison errors
 repopickchain 464804 # hal: Fix format specifiers
 
 # packages/apps/Launcher3
-repopickchain 467733 # Workspace: Allow resizing any widget
+repopickchain 466850 # Launcher3: Hide keyboard when transitioning to home screen
 
 # packages/apps/Settings
 repopickchain 466852 # fixup! Fix background data clobbering other policies
