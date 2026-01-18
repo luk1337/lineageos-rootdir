@@ -46,7 +46,7 @@ function rc() {
 repopick -f 332045 # Don't enforce vintf kernel requirements when building without LTO
 
 # frameworks/base
-repopickchain 468756 # SystemUI: Grant android.permission.ACCESS_FINE_LOCATION
+repopickchain 468776 # UdfpsHelper: Track brightness mirror to hide/show Udfps dim layer
 
 # hardware/qcom-caf/sm8550/audio/agm
 repopickchain 464979 # agm: Fix format specifiers
