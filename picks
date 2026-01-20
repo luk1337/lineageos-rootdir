@@ -72,7 +72,4 @@ repopickchain 466227 # ThemePicker: Reimplement font picker
 # packages/apps/WallpaperPicker2
 repopickchain 466962 # WallpaperPicker2: Collapse wallpaper picker button by default
 
-# vendor/lineage
-repopickchain 467431 # aconfig: enable media_controls_in_compose
-
 wait
