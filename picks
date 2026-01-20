@@ -63,7 +63,4 @@ repopickchain 464808 # sdm: Fix array comparison errors
 # hardware/qcom-caf/sm8750/display/hal
 repopickchain 464804 # hal: Fix format specifiers
 
-# packages/apps/WallpaperPicker2
-repopickchain 466962 # WallpaperPicker2: Collapse wallpaper picker button by default
-
 wait
