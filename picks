@@ -46,7 +46,7 @@ function rc() {
 repopick -f 332045 # Don't enforce vintf kernel requirements when building without LTO
 
 # frameworks/base
-repopickchain 466851 # fixup! Firewall: Transport-based toggle support (1/3)
+repopickchain 469189 # SystemUI: ToastUI: Fixup toast theme again
 
 # hardware/qcom-caf/sm8550/audio/agm
 repopickchain 464979 # agm: Fix format specifiers
