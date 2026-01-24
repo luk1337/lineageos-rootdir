@@ -55,6 +55,6 @@ repopickchain 469803 # plugins: customva_intf: Fix format specifiers
 repopickchain 469810 # Partial apply: "display-core: fix clang issues"
 
 # hardware/qcom-caf/sm8750/display/hal
-repopickchain 464804 # hal: Fix format specifiers
+repopickchain 464804 # gralloc: Fix format specifiers
 
 wait
