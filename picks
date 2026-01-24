@@ -49,7 +49,7 @@ repopick -f 332045 # Don't enforce vintf kernel requirements when building witho
 repopickchain 464805 # agm: Fix format specifiers
 
 # hardware/qcom-caf/sm8750/audio/pal
-repopickchain 464845 # pal: Fix format specifiers
+repopickchain 469803 # plugins: customva_intf: Fix format specifiers
 
 # hardware/qcom-caf/sm8750/display/core
 repopickchain 464808 # sdm: Fix array comparison errors
