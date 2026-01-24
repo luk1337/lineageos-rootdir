@@ -52,7 +52,7 @@ repopickchain 464805 # agm: Fix format specifiers
 repopickchain 469803 # plugins: customva_intf: Fix format specifiers
 
 # hardware/qcom-caf/sm8750/display/core
-repopickchain 464808 # sdm: Fix array comparison errors
+repopickchain 469810 # Partial apply: "display-core: fix clang issues"
 
 # hardware/qcom-caf/sm8750/display/hal
 repopickchain 464804 # hal: Fix format specifiers
