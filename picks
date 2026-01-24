@@ -45,9 +45,6 @@ function rc() {
 # build/make
 repopick -f 332045 # Don't enforce vintf kernel requirements when building without LTO
 
-# hardware/qcom-caf/sm8550/audio/agm
-repopickchain 464979 # agm: Fix format specifiers
-
 # hardware/qcom-caf/sm8750/audio/agm
 repopickchain 464805 # agm: Fix format specifiers
 
