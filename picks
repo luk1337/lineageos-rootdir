@@ -45,9 +45,6 @@ function rc() {
 # build/make
 repopick -f 332045 # Don't enforce vintf kernel requirements when building without LTO
 
-# frameworks/base
-repopickchain 469188 # SystemUI: QSFragmentCompose: wrap mediaHost.hostView in a FrameLayout
-
 # hardware/qcom-caf/sm8550/audio/agm
 repopickchain 464979 # agm: Fix format specifiers
 
