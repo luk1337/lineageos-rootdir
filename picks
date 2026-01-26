@@ -45,16 +45,4 @@ function rc() {
 # build/make
 repopick -f 332045 # Don't enforce vintf kernel requirements when building without LTO
 
-# hardware/qcom-caf/sm8750/audio/agm
-repopickchain 464805 # agm: Fix format specifiers
-
-# hardware/qcom-caf/sm8750/audio/pal
-repopickchain 469803 # plugins: customva_intf: Fix format specifiers
-
-# hardware/qcom-caf/sm8750/display/core
-repopickchain 469810 # Partial apply: "display-core: fix clang issues"
-
-# hardware/qcom-caf/sm8750/display/hal
-repopickchain 464804 # gralloc: Fix format specifiers
-
 wait
