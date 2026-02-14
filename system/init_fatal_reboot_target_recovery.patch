@@ -1,7 +1,7 @@
-diff --git a/init/reboot_utils.cpp b/init/reboot_utils.cpp
+diff --git a/core/init/reboot_utils.cpp b/core/init/reboot_utils.cpp
 index 547b1869f..dd0fbbfe8 100644
---- a/init/reboot_utils.cpp
-+++ b/init/reboot_utils.cpp
+--- a/core/init/reboot_utils.cpp
++++ b/core/init/reboot_utils.cpp
 @@ -37,7 +37,7 @@
  namespace android {
  namespace init {
