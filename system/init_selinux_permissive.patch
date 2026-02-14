@@ -1,0 +1,13 @@
+diff --git a/init/selinux.cpp b/init/selinux.cpp
+index 93f6312a7..79caf5363 100644
+--- a/init/selinux.cpp
++++ b/init/selinux.cpp
+@@ -107,7 +107,7 @@ EnforcingStatus StatusFromProperty() {
+     if (android::fs_mgr::GetBootconfig("androidboot.selinux", &value) && value == "permissive") {
+         return SELINUX_PERMISSIVE;
+     }
+-    return SELINUX_ENFORCING;
++    return SELINUX_PERMISSIVE;
+ }
+ 
+ bool IsEnforcing() {
