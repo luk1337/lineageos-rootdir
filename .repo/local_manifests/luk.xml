@@ -45,6 +45,8 @@
   <project name="TheMuppets/proprietary_vendor_sony_pdx225" path="vendor/sony/pdx225" groups="_devices,_devices_sony_sm6375" />
   <project name="TheMuppets/proprietary_vendor_sony_pdx235" path="vendor/sony/pdx235" groups="_devices,_devices_sony_sm6375" />
 
+  <project name="sony-sm6375/proprietary_vendor_sony_pdx257" path="vendor/sony/pdx257" groups="_devices,_devices_sony_sm6475" />
+
   <project name="TheMuppets/proprietary_vendor_xiaomi_msm8996-common" path="vendor/xiaomi/msm8996-common" groups="_devices,_devices_xiaomi_msm8996" />
   <project name="TheMuppets/proprietary_vendor_xiaomi_gemini" path="vendor/xiaomi/gemini" groups="_devices,_devices_xiaomi_msm8996" />
   <project name="TheMuppets/proprietary_vendor_xiaomi_natrium" path="vendor/xiaomi/natrium" groups="_devices,_devices_xiaomi_msm8996" />
@@ -110,6 +112,11 @@
   <project name="LineageOS/android_device_sony_pdx235" path="device/sony/pdx235" groups="_devices,_devices_sony_sm6375" />
   <project name="LineageOS/android_kernel_sony_sm6375" path="kernel/sony/sm6375" groups="_devices,_devices_sony_sm6375" />
 
+  <project name="sony-sm6375/android_device_sony_pdx257" path="device/sony/pdx257" groups="_devices,_devices_sony_sm6475" />
+  <project name="sony-sm6375/android_kernel_sony_sm6475-devicetrees" path="kernel/sony/sm6475-devicetrees" groups="_devices,_devices_sony_sm6475" revision="lineage-23.0-elbe" />
+  <project name="sony-sm6375/android_kernel_sony_sm6475-modules" path="kernel/sony/sm6475-modules" groups="_devices,_devices_sony_sm6475" revision="lineage-23.0-elbe" />
+  <project name="sony-sm6375/android_kernel_sony_sm6475" path="kernel/sony/sm6475" groups="_devices,_devices_sony_sm6475" revision="lineage-23.0-elbe" />
+
   <project name="LineageOS/android_device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" groups="_devices,_devices_xiaomi_msm8996" />
   <project name="LineageOS/android_device_xiaomi_gemini" path="device/xiaomi/gemini" groups="_devices,_devices_xiaomi_msm8996" />
   <project name="LineageOS/android_device_xiaomi_natrium" path="device/xiaomi/natrium" groups="_devices,_devices_xiaomi_msm8996" />
@@ -124,6 +131,16 @@
   <project name="LineageOS/android_hardware_sony_simdetect" path="hardware/sony/simdetect" groups="_devices,_devices_sony_nile" />
   <project name="LineageOS/android_hardware_sony_SonyOpenTelephony" path="hardware/sony/SonyOpenTelephony" groups="_devices,_devices_sony_nile" />
   <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" groups="_devices,_devices_xiaomi_msm8996" />
+
+  <project path="hardware/qcom-caf/sm8450-6.6/audio/agm" name="sony-sm6375/android_vendor_qcom_opensource_agm" groups="qcom,waipio-6.6-vendor" revision="lineage-23.2-caf-elbe" />
+  <project path="hardware/qcom-caf/sm8450-6.6/audio/graphservices" name="sony-sm6375/android_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" revision="lineage-23.2-caf-elbe" />
+  <project path="hardware/qcom-caf/sm8450-6.6/audio/pal" name="sony-sm6375/android_vendor_qcom_opensource_arpal-lx" groups="qcom,waipio-6.6-vendor" revision="lineage-23.2-caf-elbe" />
+  <project path="hardware/qcom-caf/sm8450-6.6/audio/primary-hal" name="sony-sm6375/android_hardware_qcom_audio-ar" groups="qcom,waipio-6.6-vendor" revision="lineage-23.2-caf-elbe" />
+  <project path="hardware/qcom-caf/sm8450-6.6/data-ipa-cfg-mgr" name="sony-sm6375/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,waipio-6.6-vendor" revision="lineage-23.2-caf-elbe" />
+  <project path="hardware/qcom-caf/sm8450-6.6/dataipa" name="sony-sm6375/android_vendor_qcom_opensource_dataipa" groups="qcom,waipio-6.6-vendor" revision="lineage-23.2-caf-elbe" />
+  <project path="hardware/qcom-caf/sm8450-6.6/display/core" name="sony-sm6375/android_vendor_qcom_opensource_display-core" groups="qcom" revision="lineage-23.2-caf-elbe" />
+  <project path="hardware/qcom-caf/sm8450-6.6/display/hal" name="sony-sm6375/android_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-elbe" />
+  <project path="hardware/qcom-caf/sm8450-6.6/display/intf" name="sony-sm6375/android_vendor_qcom_opensource_display-intf" groups="qcom" revision="lineage-23.2-caf-elbe" />
 
   <project name="CalyxOS/platform_packages_apps_Bellis" path="packages/apps/Bellis" revision="android15-qpr2" />
   <project name="PeterCxy/OpenEUICC" path="packages/apps/OpenEUICC" remote="angry" revision="master" />

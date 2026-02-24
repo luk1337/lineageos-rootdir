@@ -9,6 +9,7 @@ REPO_GROUPS+=",_devices_oneplus_sm8750"
 # REPO_GROUPS+=",_devices_samsung_gts4lv"
 REPO_GROUPS+=",_devices_sony_nile"
 REPO_GROUPS+=",_devices_sony_sm6375"
+REPO_GROUPS+=",_devices_sony_sm6475"
 # REPO_GROUPS+=",_devices_xiaomi_msm8996"
 
 repo init --git-lfs --no-clone-bundle -u ssh://git@github.com/LineageOS/android.git -b lineage-23.2 -g $REPO_GROUPS
