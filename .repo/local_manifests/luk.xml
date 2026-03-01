@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://gitea.angry.im" name="angry" />
   <remote fetch="ssh://git@gitlab.com" name="gitlab" />
 
   <project name="TheMuppets/proprietary_vendor_google_tangorpro" path="vendor/google/tangorpro" groups="_devices,_devices_google_gs2" />
@@ -133,9 +132,6 @@
   <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" groups="_devices,_devices_xiaomi_msm8996" />
 
   <project name="CalyxOS/platform_packages_apps_Bellis" path="packages/apps/Bellis" revision="android15-qpr2" />
-  <project name="PeterCxy/OpenEUICC" path="packages/apps/OpenEUICC" remote="angry" revision="master" />
-  <project name="estkme-group/lpac" path="packages/apps/OpenEUICC/libs/lpac-jni/src/main/jni/lpac" revision="main" />
-  <project name="PeterCxy/android_prebuilts_openeuicc-deps" path="prebuilts/openeuicc-deps" remote="angry" revision="master" />
   <project name="luk1337/android_vendor_extra" path="vendor/extra" />
   <project name="MindTheGapps/vendor_gapps" path="vendor/gapps" remote="gitlab" revision="baklava" />
   <project name="luk1337/ih8sn" path="vendor/ih8sn" revision="master" />
