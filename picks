@@ -45,6 +45,9 @@ function rc() {
 # build/make
 repopick -f 332045 # Don't enforce vintf kernel requirements when building without LTO
 
+# device/sony/pdx257
+repopick 477773 # pdx257: audio: Disable opus offloading support
+
 # kernel/sony/sm6475-devicetrees
 repopick 477765 # 72.1.A.2.127
 
