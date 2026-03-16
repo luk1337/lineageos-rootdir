@@ -45,4 +45,7 @@ function rc() {
 # build/make
 repopick -f 332045 # Don't enforce vintf kernel requirements when building without LTO
 
+# kernel/sony/sm6475-devicetrees
+repopick 477765 # 72.1.A.2.127
+
 wait

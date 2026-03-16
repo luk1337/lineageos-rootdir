@@ -44,7 +44,7 @@
   <project name="TheMuppets/proprietary_vendor_sony_pdx225" path="vendor/sony/pdx225" groups="_devices,_devices_sony_sm6375" />
   <project name="TheMuppets/proprietary_vendor_sony_pdx235" path="vendor/sony/pdx235" groups="_devices,_devices_sony_sm6375" />
 
-  <project name="sony-sm6375/proprietary_vendor_sony_pdx257" path="vendor/sony/pdx257" groups="_devices,_devices_sony_sm6475" />
+  <project name="TheMuppets/proprietary_vendor_sony_pdx257" path="vendor/sony/pdx257" groups="_devices,_devices_sony_sm6475" />
 
   <project name="TheMuppets/proprietary_vendor_xiaomi_msm8996-common" path="vendor/xiaomi/msm8996-common" groups="_devices,_devices_xiaomi_msm8996" />
   <project name="TheMuppets/proprietary_vendor_xiaomi_gemini" path="vendor/xiaomi/gemini" groups="_devices,_devices_xiaomi_msm8996" />
@@ -111,10 +111,10 @@
   <project name="LineageOS/android_device_sony_pdx235" path="device/sony/pdx235" groups="_devices,_devices_sony_sm6375" />
   <project name="LineageOS/android_kernel_sony_sm6375" path="kernel/sony/sm6375" groups="_devices,_devices_sony_sm6375" />
 
-  <project name="sony-sm6375/android_device_sony_pdx257" path="device/sony/pdx257" groups="_devices,_devices_sony_sm6475" />
-  <project name="sony-sm6375/android_kernel_sony_sm6475-devicetrees" path="kernel/sony/sm6475-devicetrees" groups="_devices,_devices_sony_sm6475" revision="72.1.A.2.127" />
-  <project name="sony-sm6375/android_kernel_sony_sm6475-modules" path="kernel/sony/sm6475-modules" groups="_devices,_devices_sony_sm6475" revision="lineage-23.2-elbe" />
-  <project name="sony-sm6375/android_kernel_sony_sm6475" path="kernel/sony/sm6475" groups="_devices,_devices_sony_sm6475" />
+  <project name="LineageOS/android_device_sony_pdx257" path="device/sony/pdx257" groups="_devices,_devices_sony_sm6475" />
+  <project name="LineageOS/android_kernel_sony_sm6475-devicetrees" path="kernel/sony/sm6475-devicetrees" groups="_devices,_devices_sony_sm6475" />
+  <project name="LineageOS/android_kernel_sony_sm6475-modules" path="kernel/sony/sm6475-modules" groups="_devices,_devices_sony_sm6475" />
+  <project name="LineageOS/android_kernel_sony_sm6475" path="kernel/sony/sm6475" groups="_devices,_devices_sony_sm6475" />
 
   <project name="LineageOS/android_device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" groups="_devices,_devices_xiaomi_msm8996" />
   <project name="LineageOS/android_device_xiaomi_gemini" path="device/xiaomi/gemini" groups="_devices,_devices_xiaomi_msm8996" />
