@@ -8,7 +8,7 @@ function repopick() {
     if [[ "$CHECK" = "1" ]]; then
         echo -n "${@: -1} - " ; ssh lineage-gerrit gerrit query ${@: -1} --format=JSON | jq --slurp -r '.[0].status'
     else
-        ${ANDROID_BUILD_TOP}/vendor/lineage/build/tools/repopick.py \
+        ${ANDROID_BUILD_TOP}/lineage/scripts/repopick/repopick.py \
             -g "ssh://$GERRIT_USERNAME@review.lineageos.org:29418" $@ &
     fi
 }
