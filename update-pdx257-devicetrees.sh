@@ -16,13 +16,13 @@ pull_latest_tag() {
     fi
 }
 
-pull_latest_tag "" https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/devicetree $TAG_KP
-pull_latest_tag qcom/audio/ https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/audio-devicetree $TAG_MAIN
-pull_latest_tag qcom/bt/ https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/bt-devicetree $TAG_BT
-pull_latest_tag qcom/data/ https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/data-devicetree $TAG_MAIN
-pull_latest_tag qcom/dsp/ https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/dsp-devicetree $TAG_MAIN
-pull_latest_tag qcom/eSE/ https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/eSE-devicetree $TAG_MAIN
+pull_latest_tag "" https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/devicetree.git $TAG_KP
+pull_latest_tag qcom/audio/ https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/audio-devicetree.git $TAG_MAIN
+pull_latest_tag qcom/bt/ https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/bt-devicetree.git $TAG_BT
+pull_latest_tag qcom/data/ https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/data-devicetree.git $TAG_MAIN
+pull_latest_tag qcom/dsp/ https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/dsp-devicetree.git $TAG_MAIN
+pull_latest_tag qcom/eSE/ https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/eSE-devicetree.git $TAG_MAIN
 pull_latest_tag qcom/nfc/ https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/nfc-devicetree.git $TAG_MAIN
 pull_latest_tag qcom/synx/ https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/synx-devicetree.git $TAG_MAIN
-pull_latest_tag qcom/video/ https://git.codelinaro.org/clo/la/platform/vendor/opensource/video-devicetree $TAG_MAIN
-pull_latest_tag qcom/wlan/ https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/wlan-devicetree $TAG_WLAN
+pull_latest_tag qcom/video/ https://git.codelinaro.org/clo/la/platform/vendor/opensource/video-devicetree.git $TAG_MAIN
+pull_latest_tag qcom/wlan/ https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/wlan-devicetree.git $TAG_WLAN
