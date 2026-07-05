@@ -8,7 +8,7 @@ REPO_GROUPS="default,-darwin,-_devices"
 # REPO_GROUPS+=",_devices_oneplus_sm8750"
 # REPO_GROUPS+=",_devices_samsung_gts4lv"
 # REPO_GROUPS+=",_devices_sony_nile"
-# REPO_GROUPS+=",_devices_sony_sm6375"
+REPO_GROUPS+=",_devices_sony_sm6375"
 REPO_GROUPS+=",_devices_sony_sm6475"
 # REPO_GROUPS+=",_devices_xiaomi_msm8996"
 

@@ -40,9 +40,9 @@
   <project name="TheMuppets/proprietary_vendor_sony_kirin" path="vendor/sony/kirin" groups="_devices,_devices_sony_nile" />
   <project name="TheMuppets/proprietary_vendor_sony_mermaid" path="vendor/sony/mermaid" groups="_devices,_devices_sony_nile" />
 
-  <project name="TheMuppets/proprietary_vendor_sony_sm6375-common" path="vendor/sony/sm6375-common" groups="_devices,_devices_sony_sm6375" />
-  <project name="TheMuppets/proprietary_vendor_sony_pdx225" path="vendor/sony/pdx225" groups="_devices,_devices_sony_sm6375" />
-  <project name="TheMuppets/proprietary_vendor_sony_pdx235" path="vendor/sony/pdx235" groups="_devices,_devices_sony_sm6375" />
+  <project name="TheMuppets/proprietary_vendor_sony_sm6375-common" path="vendor/sony/sm6375-common" groups="_devices,_devices_sony_sm6375" revision="lineage-23.2" />
+  <project name="TheMuppets/proprietary_vendor_sony_pdx225" path="vendor/sony/pdx225" groups="_devices,_devices_sony_sm6375" revision="lineage-23.2" />
+  <project name="TheMuppets/proprietary_vendor_sony_pdx235" path="vendor/sony/pdx235" groups="_devices,_devices_sony_sm6375" revision="lineage-23.2" />
 
   <project name="TheMuppets/proprietary_vendor_sony_pdx257" path="vendor/sony/pdx257" groups="_devices,_devices_sony_sm6475" revision="lineage-23.2" />
 
@@ -106,10 +106,10 @@
   <project name="LineageOS/android_device_sony_mermaid" path="device/sony/mermaid" groups="_devices,_devices_sony_nile" />
   <project name="LineageOS/android_kernel_sony_sdm660" path="kernel/sony/sdm660" groups="_devices,_devices_sony_nile" />
 
-  <project name="LineageOS/android_device_sony_sm6375-common" path="device/sony/sm6375-common" groups="_devices,_devices_sony_sm6375" />
-  <project name="LineageOS/android_device_sony_pdx225" path="device/sony/pdx225" groups="_devices,_devices_sony_sm6375" />
-  <project name="LineageOS/android_device_sony_pdx235" path="device/sony/pdx235" groups="_devices,_devices_sony_sm6375" />
-  <project name="LineageOS/android_kernel_sony_sm6375" path="kernel/sony/sm6375" groups="_devices,_devices_sony_sm6375" />
+  <project name="LineageOS/android_device_sony_sm6375-common" path="device/sony/sm6375-common" groups="_devices,_devices_sony_sm6375" revision="lineage-23.2" />
+  <project name="LineageOS/android_device_sony_pdx225" path="device/sony/pdx225" groups="_devices,_devices_sony_sm6375" revision="lineage-23.2" />
+  <project name="LineageOS/android_device_sony_pdx235" path="device/sony/pdx235" groups="_devices,_devices_sony_sm6375" revision="lineage-23.2" />
+  <project name="LineageOS/android_kernel_sony_sm6375" path="kernel/sony/sm6375" groups="_devices,_devices_sony_sm6375" revision="lineage-23.2" />
 
   <project name="LineageOS/android_device_sony_pdx257" path="device/sony/pdx257" groups="_devices,_devices_sony_sm6475" revision="lineage-23.2" />
   <project name="LineageOS/android_kernel_sony_sm6475-devicetrees" path="kernel/sony/sm6475-devicetrees" groups="_devices,_devices_sony_sm6475" revision="lineage-23.2" />
