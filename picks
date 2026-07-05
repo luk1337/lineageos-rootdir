@@ -87,6 +87,9 @@ repopickchain 491757 # sepolicy: Move com.qualcomm.qti.poweroffalarm label to sy
 # device/qcom/sepolicy_vndr/sm8750
 repopickchain 491870 # sepolicy: Move com.qualcomm.qti.poweroffalarm label to system_ext
 
+# device/sony/pdx257
+repopickchain 493311 # pdx257: Update WFD system blobs from CPH2747_11_C_OTA_1020_all_6yqNTQ_01000100
+
 # external/avb
 repopickchain 491140 # DNM Revert "Add ANDROID_SECURE_STORAGE_CMD support in RSAPublicKey()"
 
@@ -147,8 +150,14 @@ repopickchain 491864 # power-libperfmgr: Update included soong namespaces
 # hardware/nxp/nfc
 repopick 490713 # snxxx: Support overriding FW filename
 
+# hardware/sony
+repopickchain 492602 # sepolicy: Rename 202404 compatibility mapping to 202504
+
 # hardware/qcom-caf/bootctrl
 repopickchain 492819 # bootctrl/gpt-utils: Check for full partition name instead of partial prefix
+
+# hardware/qcom-caf/sm8450-6.6/audio/primary-hal
+repopick 493305 # audio: primary-hal: Add support for acnMask
 
 # hardware/qcom-caf/wlan
 repopickchain 492846 # wcnss-service: Convert to Android.bp
