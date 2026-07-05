@@ -125,7 +125,7 @@
   <project name="LineageOS/android_hardware_oplus" path="hardware/oplus" groups="_devices,_devices_oneplus_sm8150,_devices_oneplus_sm8250,_devices_oneplus_sm8350" />
   <project name="LineageOS/android_hardware_pixelworks_interfaces" path="hardware/pixelworks/interfaces" groups="_devices,_devices_oneplus_sm8250,_devices_oneplus_sm8350" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" groups="_devices,_devices_samsung_gts4lv" />
-  <project name="LineageOS/android_hardware_sony" path="hardware/sony" groups="_devices,_devices_sony_nile,_devices_sony_sm6375" />
+  <project name="LineageOS/android_hardware_sony" path="hardware/sony" groups="_devices,_devices_sony_nile,_devices_sony_sm6375,_devices_sony_sm6475" />
   <project name="LineageOS/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" groups="_devices,_devices_sony_nile" />
   <project name="LineageOS/android_hardware_sony_simdetect" path="hardware/sony/simdetect" groups="_devices,_devices_sony_nile" />
   <project name="LineageOS/android_hardware_sony_SonyOpenTelephony" path="hardware/sony/SonyOpenTelephony" groups="_devices,_devices_sony_nile" />
