@@ -193,7 +193,7 @@ repopickchain 490738 # DocumentsUI: add icons for shortcuts
 repopickchain 490740 # EmergencyInfo: Apply insets
 
 # packages/apps/Launcher3
-repopickchain 493267 # Launcher3: Double tap on home screen to turn off screen
+repopickchain 493357 # Revert "Revert^2 "Removing some deprecated APIs around LauncherOverlay""
 
 # packages/apps/Settings
 repopickchain 491435 # Require "tap to show" in SIM settings
