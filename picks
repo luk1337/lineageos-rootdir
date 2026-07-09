@@ -60,12 +60,6 @@ repopickchain 491482 # Revert "Add message suggesting SOONG_INCREMENTAL_ANALYSIS
 # build/soong
 repopickchain 492465 # gen_build_prop: Disable dalvik debugging in userdebug builds
 
-# device/generic/car
-repopickchain 490548 # car: emulator: Enforce EPPE
-
-# device/google_car
-repopickchain 490557 # car: tangorpro: Introduce lineage target
-
 # device/lineage/sepolicy
 repopickchain 492606 # Import legacy libion policy
 
@@ -150,9 +144,6 @@ repopickchain 492476 # libaudioclient: Shim legacy AudioTrack ctor lacking opPac
 # hardware/lineage/interfaces
 repopickchain 491864 # power-libperfmgr: Update included soong namespaces
 
-# hardware/nxp/nfc
-repopick 490713 # snxxx: Support overriding FW filename
-
 # hardware/sony
 repopickchain 492602 # sepolicy: Rename 202404 compatibility mapping to 202504
 
@@ -161,9 +152,6 @@ repopickchain 492819 # bootctrl/gpt-utils: Check for full partition name instead
 
 # hardware/qcom-caf/sm8450-6.6/audio/primary-hal
 repopick 493305 # audio: primary-hal: Add support for acnMask
-
-# hardware/qcom-caf/wlan
-repopickchain 492846 # wcnss-service: Convert to Android.bp
 
 # hardware/qcom/wlan
 repopickchain 490717 # legacy: Build wpa_supplicant.conf from make to soong
@@ -176,12 +164,6 @@ repopickchain 492481 # Align t/android-4.14 with t/android-4.19
 
 # lineage-sdk
 repopickchain 492179 # sdk: Default to showing fastbootd in reboot menu
-
-# packages/apps/Car/Settings
-repopickchain 490730 # VolumeSettingsPreferenceController: Fix NPE when changing volumes
-
-# packages/apps/Car/SystemUI
-repopickchain 490732 # HvacController: Switch DEBUG check to "ro.debuggable"
 
 # packages/apps/Contacts
 repopick -p 490734 # Merge tag 'android-17.0.0_r1' into staging/lineage-24.0_merge-android-17.0.0_r1
@@ -228,9 +210,6 @@ repopickchain 490818 # DownloadProvider: Add support for manual pause/resume
 # packages/providers/MediaProvider
 repopickchain 490821 # Reject private paths with ignorable codepoints
 
-# packages/services/Car
-repopickchain 490832 # car_product: Dedupliate curl
-
 # packages/services/DeviceAsWebcam
 repopickchain 490834 # DeviceAsWebcam: jni: Make dwMaxPayloadTransferSize adjustable via property
 
@@ -270,26 +249,14 @@ repopickchain 490934 # Use ro.build.type in HardwareAndroid::AllowDowngrade()
 # system/vold
 repopickchain 490949 # vold: Add support for ISO9660/UDF CD-ROM
 
-# vendor/codeaurora/telephony
-repopickchain 492666 # IMS: Add Motorola specific API for VT
-
 # vendor/lineage
 repopickchain 493072 # kernel: Rip out GCC support
 
 # vendor/qcom/opensource/audio-hal/st-hal-ar
 repopickchain 493134 # Revert "st-hal: add support for forceRecognitionEvent"
 
-# vendor/qcom/opensource/commonsys-intf/display
-repopickchain 492671 # Partially revert gralloc struct changes
-
-# vendor/qcom/opensource/commonsys/display
-repopickchain 492682 # commonsys: services: Delete device_obj_ to release the memory
-
 # vendor/qcom/opensource/commonsys/fm
 repopickchain 492722 # FM: Add backward compatiblity support for oreo FM configs
-
-# vendor/qcom/opensource/commonsys/wfd
-repopickchain 490983 # libwfdaac_vendor: Update external/aac include paths
 
 # vendor/qcom/opensource/interfaces
 repopickchain 493139 # Drop vendor.qti.hardware.qacs.ambientdatacapture
