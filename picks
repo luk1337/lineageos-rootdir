@@ -121,7 +121,7 @@ repopickchain 490623 # zstd: Android.bp: Allow rsync to add zstd compression sup
 repopickchain 490648 # CAMX: CHI: Added support for handling jpeg debug data.
 
 # frameworks/base
-repopickchain 493135 # PhoneWindowManager: Fix assist key wakeup
+repopickchain 493676 # webkit: WebViewUpdateServiceImpl2: Use compile time debuggable check
 
 # frameworks/native
 repopickchain 492289 # libui: Restore support for gralloc 2/3
