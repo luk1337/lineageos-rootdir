@@ -156,12 +156,6 @@ repopick 493305 # audio: primary-hal: Add support for acnMask
 # hardware/qcom/wlan
 repopickchain 490717 # legacy: Build wpa_supplicant.conf from make to soong
 
-# hardware/st/nfc
-repopickchain 490721 # Add support for text FW configs
-
-# kernel/configs
-repopickchain 492481 # Align t/android-4.14 with t/android-4.19
-
 # lineage-sdk
 repopickchain 492179 # sdk: Default to showing fastbootd in reboot menu
 
