@@ -255,9 +255,6 @@ repopickchain 493072 # kernel: Rip out GCC support
 # vendor/qcom/opensource/audio-hal/st-hal-ar
 repopickchain 493134 # Revert "st-hal: add support for forceRecognitionEvent"
 
-# vendor/qcom/opensource/commonsys/fm
-repopickchain 492722 # FM: Add backward compatiblity support for oreo FM configs
-
 # vendor/qcom/opensource/interfaces
 repopickchain 493139 # Drop vendor.qti.hardware.qacs.ambientdatacapture
 
