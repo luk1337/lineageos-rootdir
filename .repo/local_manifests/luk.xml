@@ -50,7 +50,7 @@
   <project name="TheMuppets/proprietary_vendor_xiaomi_gemini" path="vendor/xiaomi/gemini" groups="_devices,_devices_xiaomi_msm8996" />
   <project name="TheMuppets/proprietary_vendor_xiaomi_natrium" path="vendor/xiaomi/natrium" groups="_devices,_devices_xiaomi_msm8996" />
 
-  <project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" groups="_devices,_devices_google_gs2" />
+  <project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" groups="_devices,_devices_google_gs2" revision="lineage-23.2" />
   <project name="LineageOS/android_device_google_gs101" path="device/google/gs101" groups="_devices,_devices_google_gs2" />
   <project name="LineageOS/android_device_google_gs201" path="device/google/gs201" groups="_devices,_devices_google_gs2" />
   <project name="LineageOS/android_device_google_cheetah" path="device/google/cheetah" groups="_devices,_devices_google_gs2" />

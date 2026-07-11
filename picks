@@ -60,6 +60,9 @@ repopickchain 491482 # Revert "Add message suggesting SOONG_INCREMENTAL_ANALYSIS
 # build/soong
 repopickchain 492465 # gen_build_prop: Disable dalvik debugging in userdebug builds
 
+# device/google/gs-common
+repopick 491863 # sepolicy: Update ignored sepolicy for CP2A
+
 # device/lineage/sepolicy
 repopickchain 492606 # Import legacy libion policy
 
