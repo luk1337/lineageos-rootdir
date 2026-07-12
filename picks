@@ -66,6 +66,9 @@ repopick 491863 # sepolicy: Update ignored sepolicy for CP2A
 # device/lineage/sepolicy
 repopickchain 492606 # Import legacy libion policy
 
+# device/qcom/sepolicy
+repopickchain 492655 # sepolicy: Added attributes for Aware QSEC services.
+
 # device/qcom/sepolicy-legacy-um
 repopickchain 491886 # sepolicy: Add sepolicy rules for PowerState HAL
 
