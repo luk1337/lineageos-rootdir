@@ -57,32 +57,11 @@ repopickchain 490544 # recovery: Add support for analog dpad
 # build/make
 repopickchain 491482 # Revert "Add message suggesting SOONG_INCREMENTAL_ANALYSIS=true after builds"
 
-# build/soong
-repopickchain 492465 # gen_build_prop: Disable dalvik debugging in userdebug builds
-
 # device/google/gs-common
 repopick 491863 # sepolicy: Update ignored sepolicy for CP2A
 
-# device/lineage/sepolicy
-repopickchain 492606 # Import legacy libion policy
-
 # device/qcom/sepolicy-legacy-um
 repopickchain 491886 # sepolicy: Add sepolicy rules for PowerState HAL
-
-# device/qcom/sepolicy_vndr/legacy-um
-repopickchain 491885 # sepolicy: Move com.qualcomm.qti.poweroffalarm label to system_ext
-
-# device/qcom/sepolicy_vndr/sm8450
-repopickchain 491872 # sepolicy: Move com.qualcomm.qti.poweroffalarm label to system_ext
-
-# device/qcom/sepolicy_vndr/sm8550
-repopickchain 492538 # sepolicy: Move com.qualcomm.qti.poweroffalarm label to system_ext
-
-# device/qcom/sepolicy_vndr/sm8650
-repopickchain 491757 # sepolicy: Move com.qualcomm.qti.poweroffalarm label to system_ext
-
-# device/qcom/sepolicy_vndr/sm8750
-repopickchain 491870 # sepolicy: Move com.qualcomm.qti.poweroffalarm label to system_ext
 
 # device/sony/pdx257
 repopickchain 493311 # pdx257: Update WFD system blobs from CPH2747_11_C_OTA_1020_all_6yqNTQ_01000100
@@ -96,17 +75,8 @@ repopickchain 491140 # DNM Revert "Add ANDROID_SECURE_STORAGE_CMD support in RSA
 # external/dng_sdk
 repopickchain 490572 # dng_area_task: Provide backwards compatibility with legacy blobs
 
-# external/e2fsprogs
-repopickchain 490590 # e2fsck: Loosen fscrypt_policy struct size check
-
-# external/gptfdisk
-repopickchain 490597 # gptfdisk: Make libgptf available to product/vendor
-
 # external/libjxl
 repopick 490598 # libjxl: Make it available to vendor
-
-# external/mksh
-repopickchain 490601 # mksh: Set TERM to xterm-256color
 
 # external/setupcompat
 repopickchain 490608 # Change some more defaults
@@ -116,9 +86,6 @@ repopickchain 491128 # Use the output pixel format requested by the decoder when
 
 # external/wpa_supplicant_8
 repopick 490621 # wpa_supplicant: add support for bcmdhd SAE authentication offload
-
-# external/zstd
-repopickchain 490623 # zstd: Android.bp: Allow rsync to add zstd compression support
 
 # frameworks/av
 repopickchain 490648 # CAMX: CHI: Added support for handling jpeg debug data.
@@ -144,14 +111,8 @@ repopickchain 490712 # libhardware: Add new display types.
 # hardware/lineage/compat
 repopickchain 492476 # libaudioclient: Shim legacy AudioTrack ctor lacking opPackageName
 
-# hardware/lineage/interfaces
-repopickchain 491864 # power-libperfmgr: Update included soong namespaces
-
 # hardware/sony
 repopickchain 492602 # sepolicy: Rename 202404 compatibility mapping to 202504
-
-# hardware/qcom-caf/bootctrl
-repopickchain 492819 # bootctrl/gpt-utils: Check for full partition name instead of partial prefix
 
 # hardware/qcom-caf/sm8450-6.6/audio/primary-hal
 repopick 493305 # audio: primary-hal: Add support for acnMask
@@ -161,9 +122,6 @@ repopickchain 490717 # legacy: Build wpa_supplicant.conf from make to soong
 
 # lineage-sdk
 repopickchain 492179 # sdk: Default to showing fastbootd in reboot menu
-
-# packages/apps/Contacts
-repopick -p 490734 # Merge tag 'android-17.0.0_r1' into staging/lineage-24.0_merge-android-17.0.0_r1
 
 # packages/apps/DocumentsUI
 repopickchain 490738 # DocumentsUI: add icons for shortcuts
@@ -177,9 +135,6 @@ repopickchain 493818 # Launcher3: Kill OSE widget
 # packages/apps/Settings
 repopickchain 491435 # Require "tap to show" in SIM settings
 
-# packages/apps/SetupWizard
-repopick 491139 # SetupWizard: Migrate to getLocaleFromMccMnc
-
 # packages/apps/ThemePicker
 repopickchain 490751 # ThemePicker: Remove Beta tag from themed icons toggle
 
@@ -188,9 +143,6 @@ repopickchain 490777 # TvSettings: Support two button mute
 
 # packages/apps/TvSystemUI
 repopick 490778 # Implement USB debugging dialog
-
-# packages/inputmethods/LatinIME
-repopick -p 490780 # Merge tag 'android-17.0.0_r1' into staging/lineage-24.0_merge-android-17.0.0_r1
 
 # packages/modules/Bluetooth
 repopickchain 490791 # le_audio: Allow overriding the bit depth
@@ -254,8 +206,5 @@ repopickchain 493134 # Revert "st-hal: add support for forceRecognitionEvent"
 
 # vendor/qcom/opensource/interfaces
 repopickchain 493139 # Drop vendor.qti.hardware.qacs.ambientdatacapture
-
-# vendor/qcom/opensource/vibrator
-repopickchain 492902 # vibrator: Disable CL interface by default
 
 wait
