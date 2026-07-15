@@ -131,7 +131,7 @@
   <project name="LineageOS/android_hardware_sony_SonyOpenTelephony" path="hardware/sony/SonyOpenTelephony" groups="_devices,_devices_sony_nile" />
   <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" groups="_devices,_devices_xiaomi_msm8996" />
 
-  <project name="CalyxOS/platform_packages_apps_Bellis" path="packages/apps/Bellis" revision="android16-qpr2" />
+  <project name="CalyxOS/platform_packages_apps_Bellis" path="packages/apps/Bellis" revision="android17" />
   <project name="luk1337/android_vendor_extra" path="vendor/extra" />
   <project name="MindTheGapps/vendor_gapps" path="vendor/gapps" revision="cinnamonbun" />
   <project name="luk1337/ih8sn" path="vendor/ih8sn" revision="master" />
