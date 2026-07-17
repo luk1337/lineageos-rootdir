@@ -52,7 +52,7 @@ repopick 490428 # libc: libstdc++: Introduce libstdc++_vendor
 repopickchain 490431 # updater: Support loading dynamic partition metadata from OTA
 
 # bootable/recovery
-repopickchain 490544 # recovery: Add support for analog dpad
+repopickchain 494194 # recovery_ui: Adjust menu items style
 
 # build/make
 repopickchain 491482 # Revert "Add message suggesting SOONG_INCREMENTAL_ANALYSIS=true after builds"
