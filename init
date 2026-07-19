@@ -12,5 +12,5 @@ REPO_GROUPS+=",_devices_sony_sm6375"
 REPO_GROUPS+=",_devices_sony_sm6475"
 # REPO_GROUPS+=",_devices_xiaomi_msm8996"
 
-repo init --git-lfs --no-clone-bundle -u ssh://git@github.com/LineageOS/android.git -b refs/changes/32/491432/13 -g $REPO_GROUPS
+repo init --git-lfs --no-clone-bundle -u ssh://git@github.com/LineageOS/android.git -b refs/changes/32/491432/17 -g $REPO_GROUPS
 mkdir -p vendor/extra && cp ~/.android/adbkey.pub vendor/extra/adbkey.pub
