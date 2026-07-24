@@ -175,7 +175,7 @@ repopickchain 490876 # Partially Revert "usbd: Exit in case of charger mode."
 repopick 490893 # Revert "lpmake: Remove --auto-slot-suffixing support."
 
 # system/fs/fs_mgr
-repopickchain 494093 # libsnapshot: Let dm-snapshot live
+repopickchain 494302 # libsnapshot: Implement DM_USER_REQ_MAP_WRITE/UBLK_IO_OP_WRITE
 
 # system/media
 repopickchain 490899 # audio: Allow opting out of speaker_layout_channel_mask field
