@@ -108,9 +108,6 @@ repopickchain 492976 # libradiocompat: Fix non-null argument error by passing em
 # hardware/libhardware
 repopickchain 490712 # libhardware: Add new display types.
 
-# hardware/lineage/compat
-repopickchain 492476 # libaudioclient: Shim legacy AudioTrack ctor lacking opPackageName
-
 # hardware/sony
 repopickchain 492602 # sepolicy: Rename 202404 compatibility mapping to 202504
 
