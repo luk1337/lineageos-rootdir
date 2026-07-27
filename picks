@@ -48,20 +48,11 @@ function rc() {
 # bionic
 repopick 490428 # libc: libstdc++: Introduce libstdc++_vendor
 
-# bootable/deprecated-ota
-repopickchain 490431 # updater: Support loading dynamic partition metadata from OTA
-
-# bootable/recovery
-repopickchain 494194 # recovery_ui: Adjust menu items style
-
 # build/make
 repopickchain 491482 # Revert "Add message suggesting SOONG_INCREMENTAL_ANALYSIS=true after builds"
 
 # device/google/gs-common
 repopick 491863 # sepolicy: Update ignored sepolicy for CP2A
-
-# device/qcom/sepolicy-legacy-um
-repopickchain 491886 # sepolicy: Add sepolicy rules for PowerState HAL
 
 # device/sony/pdx257
 repopickchain 493311 # pdx257: Update WFD system blobs from CPH2747_11_C_OTA_1020_all_6yqNTQ_01000100
@@ -74,9 +65,6 @@ repopickchain 490572 # dng_area_task: Provide backwards compatibility with legac
 
 # external/libjxl
 repopick 490598 # libjxl: Make it available to vendor
-
-# external/setupcompat
-repopickchain 490608 # Change some more defaults
 
 # external/v4l2_codec2
 repopickchain 491128 # Use the output pixel format requested by the decoder when available
@@ -102,9 +90,6 @@ repopickchain 490687 # libbt: Convert to Android.bp
 # hardware/interfaces
 repopickchain 492976 # libradiocompat: Fix non-null argument error by passing empty string
 
-# hardware/libhardware
-repopickchain 490712 # libhardware: Add new display types.
-
 # hardware/sony
 repopickchain 492602 # sepolicy: Rename 202404 compatibility mapping to 202504
 
@@ -119,9 +104,6 @@ repopickchain 492179 # sdk: Default to showing fastbootd in reboot menu
 
 # packages/apps/DocumentsUI
 repopickchain 490738 # DocumentsUI: add icons for shortcuts
-
-# packages/apps/EmergencyInfo
-repopickchain 490740 # EmergencyInfo: Apply insets
 
 # packages/apps/Launcher3
 repopickchain 493818 # Launcher3: Kill OSE widget
