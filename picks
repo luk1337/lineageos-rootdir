@@ -69,9 +69,6 @@ repopickchain 493311 # pdx257: Update WFD system blobs from CPH2747_11_C_OTA_102
 # device/sony/sm6375-common
 repopickchain 493329 # sm6375-common: Use legacy libion implementation
 
-# external/avb
-repopickchain 491140 # DNM Revert "Add ANDROID_SECURE_STORAGE_CMD support in RSAPublicKey()"
-
 # external/dng_sdk
 repopickchain 490572 # dng_area_task: Provide backwards compatibility with legacy blobs
 
@@ -131,9 +128,6 @@ repopickchain 493818 # Launcher3: Kill OSE widget
 
 # packages/apps/Settings
 repopickchain 491435 # Require "tap to show" in SIM settings
-
-# packages/apps/ThemePicker
-repopickchain 490751 # ThemePicker: Remove Beta tag from themed icons toggle
 
 # packages/apps/TvSettings
 repopickchain 490777 # TvSettings: Support two button mute
