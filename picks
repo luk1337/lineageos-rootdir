@@ -76,7 +76,7 @@ repopick 490621 # wpa_supplicant: add support for bcmdhd SAE authentication offl
 repopickchain 490648 # CAMX: CHI: Added support for handling jpeg debug data.
 
 # frameworks/base
-repopickchain 493676 # webkit: WebViewUpdateServiceImpl2: Use compile time debuggable check
+repopickchain 494757 # wm: Preserve locked rotation during screen state changes
 
 # frameworks/native
 repopickchain 492289 # libui: Restore support for gralloc 2/3
