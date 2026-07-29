@@ -172,7 +172,7 @@ repopickchain 490934 # Use ro.build.type in HardwareAndroid::AllowDowngrade()
 repopickchain 490949 # vold: Add support for ISO9660/UDF CD-ROM
 
 # vendor/lineage
-repopickchain 493316 # lineage: Update path to rust toolchains
+repopickchain 493909 # build: Drop build-manifest.xml generation
 
 # vendor/qcom/opensource/audio-hal/st-hal-ar
 repopickchain 493134 # Revert "st-hal: add support for forceRecognitionEvent"
