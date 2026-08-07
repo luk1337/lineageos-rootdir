@@ -99,9 +99,6 @@ repopick 493305 # audio: primary-hal: Add support for acnMask
 # hardware/qcom/wlan
 repopickchain 490717 # legacy: Build wpa_supplicant.conf from make to soong
 
-# lineage-sdk
-repopickchain 492179 # sdk: Default to showing fastbootd in reboot menu
-
 # packages/apps/DocumentsUI
 repopickchain 490738 # DocumentsUI: add icons for shortcuts
 
@@ -170,9 +167,6 @@ repopickchain 490934 # Use ro.build.type in HardwareAndroid::AllowDowngrade()
 
 # system/vold
 repopickchain 490949 # vold: Add support for ISO9660/UDF CD-ROM
-
-# vendor/lineage
-repopickchain 493909 # build: Drop build-manifest.xml generation
 
 # vendor/qcom/opensource/audio-hal/st-hal-ar
 repopickchain 493134 # Revert "st-hal: add support for forceRecognitionEvent"
