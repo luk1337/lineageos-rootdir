@@ -34,3 +34,4 @@ pull_latest_tag qcom/opensource/wlan/platform/ https://git.codelinaro.org/clo/la
 pull_latest_tag qcom/opensource/wlan/qca-wifi-host-cmn/ https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn.git $TAG_WLAN
 pull_latest_tag qcom/opensource/wlan/qcacld-3.0/ https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0.git $TAG_WLAN
 pull_latest_tag nxp/opensource/driver/ https://git.codelinaro.org/clo/la/platform/vendor/nxp/opensource/driver.git $TAG_MAIN
+pull_latest_tag st/opensource/driver/ https://git.codelinaro.org/clo/la/platform/vendor/st/opensource/driver.git $TAG_MAIN
