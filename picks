@@ -111,9 +111,6 @@ repopickchain 491435 # Require "tap to show" in SIM settings
 # packages/apps/TvSettings
 repopickchain 490777 # TvSettings: Support two button mute
 
-# packages/apps/TvSystemUI
-repopick 490778 # Implement USB debugging dialog
-
 # packages/modules/Bluetooth
 repopickchain 490791 # le_audio: Allow overriding the bit depth
 
