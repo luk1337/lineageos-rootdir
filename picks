@@ -130,7 +130,7 @@ repopickchain 490821 # Reject private paths with ignorable codepoints
 repopickchain 490834 # DeviceAsWebcam: jni: Make dwMaxPayloadTransferSize adjustable via property
 
 # packages/services/Telecomm
-repopickchain 491138 # DNM Revert "Telecom: Add sensitive phone numbers hooks"
+repopickchain 494440 # CallLogManager: Reflect SensitivePhoneNumbers
 
 # packages/services/Telephony
 repopickchain 490845 # Telephony: Migrate RadioInfo from ScrollView to NestedScrollView
@@ -139,7 +139,7 @@ repopickchain 490845 # Telephony: Migrate RadioInfo from ScrollView to NestedScr
 repopick 490848 # Restore MSM CHRE daemon support
 
 # system/core
-repopickchain 490876 # Partially Revert "usbd: Exit in case of charger mode."
+repopickchain 490853 # reboot: Enable fastbootd by default & allow opting-out
 
 # system/extras
 repopick 490893 # Revert "lpmake: Remove --auto-slot-suffixing support."
