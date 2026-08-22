@@ -58,7 +58,7 @@ repopick 491863 # sepolicy: Update ignored sepolicy for CP2A
 repopickchain 493311 # pdx257: Update WFD system blobs from CPH2747_11_C_OTA_1020_all_6yqNTQ_01000100
 
 # device/sony/sm6375-common
-repopickchain 493329 # sm6375-common: Use legacy libion implementation
+repopickchain 498123 # sm6375-common: Override PRODUCT_ENABLE_UFFD_GC to true
 
 # external/dng_sdk
 repopickchain 490572 # dng_area_task: Provide backwards compatibility with legacy blobs
