@@ -55,7 +55,7 @@ repopickchain 491482 # Revert "Add message suggesting SOONG_INCREMENTAL_ANALYSIS
 repopick 491863 # sepolicy: Update ignored sepolicy for CP2A
 
 # device/sony/pdx257
-repopickchain 493311 # pdx257: Update WFD system blobs from CPH2747_11_C_OTA_1020_all_6yqNTQ_01000100
+repopickchain 493311 # pdx257: Update WFD system blobs from marvel_g A171WEH.20
 
 # device/sony/sm6375-common
 repopickchain 499105 # sm6375-common: Update WFD system blobs from marvel_g A171WEH.20
