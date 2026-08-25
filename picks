@@ -76,7 +76,7 @@ repopick 490621 # wpa_supplicant: add support for bcmdhd SAE authentication offl
 repopickchain 490648 # CAMX: CHI: Added support for handling jpeg debug data.
 
 # frameworks/base
-repopickchain 497970 # ServiceWatcher: Allow microG location provider to be installed in /data
+repopickchain 499117 # services: core: wfd: Add newly introduced listen() args
 
 # frameworks/native
 repopickchain 492289 # libui: Restore support for gralloc 2/3
