@@ -90,6 +90,9 @@ repopickchain 490687 # libbt: Convert to Android.bp
 # hardware/interfaces
 repopickchain 492976 # libradiocompat: Fix non-null argument error by passing empty string
 
+# hardware/oplus
+repopickchain 493145 # sepolicy: qti: Remove PowerOffAllarm app rules
+
 # hardware/sony
 repopickchain 492602 # sepolicy: Rename 202404 compatibility mapping to 202504
 
