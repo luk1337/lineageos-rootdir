@@ -88,7 +88,7 @@ repopickchain 490678 # EuiccCardController: Avoid NPE for legacy euicc devices
 repopickchain 490687 # libbt: Convert to Android.bp
 
 # hardware/interfaces
-repopickchain 492976 # libradiocompat: Fix non-null argument error by passing empty string
+repopickchain 493678 # compatibility_matrices: Allow soundtrigger HIDL 2.1 and 2.2 on target-level 7
 
 # hardware/oplus
 repopickchain 493145 # sepolicy: qti: Remove PowerOffAllarm app rules
