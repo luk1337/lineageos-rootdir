@@ -76,7 +76,7 @@ repopick 490621 # wpa_supplicant: add support for bcmdhd SAE authentication offl
 repopickchain 490648 # CAMX: CHI: Added support for handling jpeg debug data.
 
 # frameworks/base
-repopickchain 499117 # services: core: wfd: Add newly introduced listen() args
+repopickchain 498224 # FusedLocation: Use GPS when NLP is not available
 
 # frameworks/native
 repopickchain 492289 # libui: Restore support for gralloc 2/3
