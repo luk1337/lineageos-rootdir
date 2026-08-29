@@ -33,12 +33,12 @@
   <project name="TheMuppets/proprietary_vendor_samsung_gts4lv" path="vendor/samsung/gts4lv" groups="_devices,_devices_samsung_gts4lv" />
   <project name="TheMuppets/proprietary_vendor_samsung_gts4lvwifi" path="vendor/samsung/gts4lvwifi" groups="_devices,_devices_samsung_gts4lv" />
 
-  <project name="TheMuppets/proprietary_vendor_sony_nile-common" path="vendor/sony/nile-common" groups="_devices,_devices_sony_nile" />
-  <project name="TheMuppets/proprietary_vendor_sony_discovery" path="vendor/sony/discovery" groups="_devices,_devices_sony_nile" />
-  <project name="TheMuppets/proprietary_vendor_sony_pioneer" path="vendor/sony/pioneer" groups="_devices,_devices_sony_nile" />
-  <project name="TheMuppets/proprietary_vendor_sony_voyager" path="vendor/sony/voyager" groups="_devices,_devices_sony_nile" />
-  <project name="TheMuppets/proprietary_vendor_sony_kirin" path="vendor/sony/kirin" groups="_devices,_devices_sony_nile" />
-  <project name="TheMuppets/proprietary_vendor_sony_mermaid" path="vendor/sony/mermaid" groups="_devices,_devices_sony_nile" />
+  <project name="TheMuppets/proprietary_vendor_sony_nile-common" path="vendor/sony/nile-common" groups="_devices,_devices_sony_nile" revision="lineage-23.2" />
+  <project name="TheMuppets/proprietary_vendor_sony_discovery" path="vendor/sony/discovery" groups="_devices,_devices_sony_nile" revision="lineage-23.2" />
+  <project name="TheMuppets/proprietary_vendor_sony_pioneer" path="vendor/sony/pioneer" groups="_devices,_devices_sony_nile" revision="lineage-23.2" />
+  <project name="TheMuppets/proprietary_vendor_sony_voyager" path="vendor/sony/voyager" groups="_devices,_devices_sony_nile" revision="lineage-23.2" />
+  <project name="TheMuppets/proprietary_vendor_sony_kirin" path="vendor/sony/kirin" groups="_devices,_devices_sony_nile" revision="lineage-23.2" />
+  <project name="TheMuppets/proprietary_vendor_sony_mermaid" path="vendor/sony/mermaid" groups="_devices,_devices_sony_nile" revision="lineage-23.2" />
 
   <project name="TheMuppets/proprietary_vendor_sony_sm6375-common" path="vendor/sony/sm6375-common" groups="_devices,_devices_sony_sm6375" revision="lineage-23.2" />
   <project name="TheMuppets/proprietary_vendor_sony_pdx225" path="vendor/sony/pdx225" groups="_devices,_devices_sony_sm6375" revision="lineage-23.2" />
@@ -98,13 +98,13 @@
   <project name="LineageOS/android_device_samsung_gts4lvwifi" path="device/samsung/gts4lvwifi" groups="_devices,_devices_samsung_gts4lv" />
   <project name="LineageOS/android_kernel_samsung_sdm670" path="kernel/samsung/sdm670" groups="_devices,_devices_samsung_gts4lv" />
 
-  <project name="LineageOS/android_device_sony_nile-common" path="device/sony/nile-common" groups="_devices,_devices_sony_nile" />
-  <project name="LineageOS/android_device_sony_discovery" path="device/sony/discovery" groups="_devices,_devices_sony_nile" />
-  <project name="LineageOS/android_device_sony_pioneer" path="device/sony/pioneer" groups="_devices,_devices_sony_nile" />
-  <project name="LineageOS/android_device_sony_voyager" path="device/sony/voyager" groups="_devices,_devices_sony_nile" />
-  <project name="LineageOS/android_device_sony_kirin" path="device/sony/kirin" groups="_devices,_devices_sony_nile" />
-  <project name="LineageOS/android_device_sony_mermaid" path="device/sony/mermaid" groups="_devices,_devices_sony_nile" />
-  <project name="LineageOS/android_kernel_sony_sdm660" path="kernel/sony/sdm660" groups="_devices,_devices_sony_nile" />
+  <project name="LineageOS/android_device_sony_nile-common" path="device/sony/nile-common" groups="_devices,_devices_sony_nile" revision="lineage-23.2" />
+  <project name="LineageOS/android_device_sony_discovery" path="device/sony/discovery" groups="_devices,_devices_sony_nile" revision="lineage-23.2" />
+  <project name="LineageOS/android_device_sony_pioneer" path="device/sony/pioneer" groups="_devices,_devices_sony_nile" revision="lineage-23.2" />
+  <project name="LineageOS/android_device_sony_voyager" path="device/sony/voyager" groups="_devices,_devices_sony_nile" revision="lineage-23.2" />
+  <project name="LineageOS/android_device_sony_kirin" path="device/sony/kirin" groups="_devices,_devices_sony_nile" revision="lineage-23.2" />
+  <project name="LineageOS/android_device_sony_mermaid" path="device/sony/mermaid" groups="_devices,_devices_sony_nile" revision="lineage-23.2" />
+  <project name="LineageOS/android_kernel_sony_sdm660" path="kernel/sony/sdm660" groups="_devices,_devices_sony_nile" revision="lineage-23.2" />
 
   <project name="LineageOS/android_device_sony_sm6375-common" path="device/sony/sm6375-common" groups="_devices,_devices_sony_sm6375" revision="lineage-23.2" />
   <project name="LineageOS/android_device_sony_pdx225" path="device/sony/pdx225" groups="_devices,_devices_sony_sm6375" revision="lineage-23.2" />
