@@ -46,7 +46,7 @@ function rc() {
 # repopick -f 332045 # Don't enforce vintf kernel requirements when building without LTO
 
 # build/make
-repopickchain 491482 # Revert "Add message suggesting SOONG_INCREMENTAL_ANALYSIS=true after builds"
+repopickchain 497048 # Enable PRODUCT_ENABLE_UFFD_GC by default
 
 # device/google/gs-common
 repopick 491863 # sepolicy: Update ignored sepolicy for CP2A
