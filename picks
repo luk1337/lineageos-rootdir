@@ -51,6 +51,9 @@ repopickchain 491482 # Revert "Add message suggesting SOONG_INCREMENTAL_ANALYSIS
 # device/google/gs-common
 repopick 491863 # sepolicy: Update ignored sepolicy for CP2A
 
+# device/oneplus/sm8350-common
+repopickchain 499700 # Revert "sm8350-common: Use Clang r563880c for kernel build"
+
 # device/sony/pdx257
 repopickchain 493311 # pdx257: Update WFD system blobs from marvel_g A171WEH.20
 
