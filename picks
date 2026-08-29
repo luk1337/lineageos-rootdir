@@ -93,9 +93,6 @@ repopickchain 490821 # Reject private paths with ignorable codepoints
 # packages/services/Telecomm
 repopickchain 494440 # CallLogManager: Reflect SensitivePhoneNumbers
 
-# system/fs/fs_mgr
-repopickchain 494302 # libsnapshot: Implement DM_USER_REQ_MAP_WRITE/UBLK_IO_OP_WRITE
-
 # vendor/lineage
 repopickchain 499713 # release: Update default Clang version from 22.0.1 to 22.0.2
 
