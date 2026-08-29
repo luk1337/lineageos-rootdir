@@ -87,9 +87,6 @@ repopickchain 493818 # Launcher3: Kill OSE widget
 # packages/apps/Settings
 repopickchain 491435 # Require "tap to show" in SIM settings
 
-# packages/modules/Bluetooth
-repopickchain 490791 # le_audio: Allow overriding the bit depth
-
 # packages/providers/MediaProvider
 repopickchain 490821 # Reject private paths with ignorable codepoints
 
