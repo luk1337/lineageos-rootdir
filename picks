@@ -93,9 +93,6 @@ repopickchain 490821 # Reject private paths with ignorable codepoints
 # packages/services/Telecomm
 repopickchain 494440 # CallLogManager: Reflect SensitivePhoneNumbers
 
-# vendor/lineage
-repopickchain 499713 # release: Update default Clang version from 22.0.1 to 22.0.2
-
 # vendor/qcom/opensource/audio-hal/st-hal-ar
 repopickchain 493134 # Revert "st-hal: add support for forceRecognitionEvent"
 
