@@ -72,9 +72,6 @@ repopickchain 499105 # sm6375-common: Update WFD system blobs from marvel_g A171
 # frameworks/base
 repopickchain 500237 # SystemUI: Disable keyguard indication for falsing on non-eng builds
 
-# frameworks/opt/telephony
-repopickchain 490678 # EuiccCardController: Avoid NPE for legacy euicc devices
-
 # hardware/interfaces
 repopickchain 493678 # compatibility_matrices: Allow soundtrigger HIDL 2.1 and 2.2 on target-level 7
 
