@@ -60,9 +60,6 @@ repopick 500185 # hotdog: fastbootd is now enabled by default
 # device/oneplus/hotdogb
 repopick 500186 # hotdogb: fastbootd is now enabled by default
 
-# device/oneplus/sm8350-common
-repopickchain 499700 # Revert "sm8350-common: Use Clang r563880c for kernel build"
-
 # device/sony/nile-common
 repopickchain 500175 # nile-common: Drop UFFD flags
 
