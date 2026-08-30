@@ -70,7 +70,7 @@ repopickchain 493311 # pdx257: Update WFD system blobs from marvel_g A171WEH.20
 repopickchain 499105 # sm6375-common: Update WFD system blobs from marvel_g A171WEH.20
 
 # frameworks/base
-repopickchain 498224 # FusedLocation: Use GPS when NLP is not available
+repopickchain 500237 # SystemUI: Disable keyguard indication for falsing on non-eng builds
 
 # frameworks/opt/telephony
 repopickchain 490678 # EuiccCardController: Avoid NPE for legacy euicc devices
