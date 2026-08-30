@@ -52,7 +52,7 @@ repopickchain 497048 # Enable PRODUCT_ENABLE_UFFD_GC by default
 repopick 491863 # sepolicy: Update ignored sepolicy for CP2A
 
 # device/oneplus/sm8150-common
-repopick 500184 # sm8150-common: Update WFD system blobs from marvel_g A171WEH.20
+repopickchain 500184 # sm8150-common: Update WFD system blobs from marvel_g A171WEH.20
 
 # device/oneplus/hotdog
 repopick 500185 # hotdog: fastbootd is now enabled by default
