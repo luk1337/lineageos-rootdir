@@ -48,6 +48,9 @@ function rc() {
 # build/make
 repopickchain 497048 # Enable PRODUCT_ENABLE_UFFD_GC by default
 
+# build/soong
+repopick 501455 # hax
+
 # device/oneplus/sm8150-common
 repopickchain 500184 # sm8150-common: Update WFD system blobs from marvel_g A171WEH.20
 
