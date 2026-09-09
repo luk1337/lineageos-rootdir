@@ -48,6 +48,9 @@ function rc() {
 # build/make
 repopickchain 497048 # Enable PRODUCT_ENABLE_UFFD_GC by default
 
+# build/soong
+repopick 501455 # hax
+
 # device/oneplus/sm8150-common
 repopickchain 500184 # sm8150-common: Update WFD system blobs from marvel_g A171WEH.20
 
@@ -66,14 +69,50 @@ repopickchain 493311 # pdx257: Update WFD system blobs from marvel_g A171WEH.20
 # device/sony/sm6375-common
 repopickchain 499105 # sm6375-common: Update WFD system blobs from marvel_g A171WEH.20
 
+# device/qcom/sepolicy_vndr/sm8850
+repopickchain 502000 # sepolicy: Hack away board api 202604 checks
+
 # hardware/interfaces
 repopickchain 493678 # compatibility_matrices: Allow soundtrigger HIDL 2.1 and 2.2 on target-level 7
 
 # hardware/sony
 repopickchain 492602 # sepolicy: Rename 202404 compatibility mapping to 202504
 
+# hardware/qcom-caf/common
+repopickchain 475021 # rfs: Add dycnvbk to MPSS symlinks
+
 # hardware/qcom-caf/sm8450-6.6/audio/primary-hal
 repopick 493305 # audio: primary-hal: Add support for acnMask
+
+# hardware/qcom-caf/sm8750/display/hal
+repopick 487653 # composer/qmaa: Recognize composer version v3_4
+
+# hardware/qcom-caf/sm8850/audio/agm
+repopickchain 501890 # agm: Fix format specifiers
+
+# hardware/qcom-caf/sm8850/audio/graphservices
+repopickchain 501900 # Fix build errors
+
+# hardware/qcom-caf/sm8850/audio/pal
+repopickchain 501924 # pal: Build palnotifierserver against paleventnotifier V3
+
+# hardware/qcom-caf/sm8850/audio/primary-hal
+repopickchain 501938 # effects: Account for 'acnMask'
+
+# hardware/qcom-caf/sm8850/data-ipa-cfg-mgr
+repopickchain 501967 # ipacm: Address ipacm start failure
+
+# hardware/qcom-caf/sm8850/dataipa
+repopickchain 501971 # dataipa: Disable all the debugging
+
+# hardware/qcom-caf/sm8850/display/core
+repopickchain 501945 # sdmclient: Skip device composition for cursor layer
+
+# hardware/qcom-caf/sm8850/display/hal
+repopickchain 501957 # display: fix qssi 16.1.1 tag update compiler issues
+
+# hardware/qcom-caf/sm8850/display/intf
+repopickchain 501958 # Add .gitupstream file
 
 # packages/services/Telecomm
 repopickchain 494440 # CallLogManager: Reflect SensitivePhoneNumbers
