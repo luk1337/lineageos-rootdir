@@ -66,9 +66,6 @@ repopickchain 493311 # pdx257: Update WFD system blobs from marvel_g A171WEH.20
 # device/sony/sm6375-common
 repopickchain 499105 # sm6375-common: Update WFD system blobs from marvel_g A171WEH.20
 
-# frameworks/base
-repopickchain 500237 # SystemUI: Disable keyguard indication for falsing on non-eng builds
-
 # hardware/interfaces
 repopickchain 493678 # compatibility_matrices: Allow soundtrigger HIDL 2.1 and 2.2 on target-level 7
 
@@ -77,12 +74,6 @@ repopickchain 492602 # sepolicy: Rename 202404 compatibility mapping to 202504
 
 # hardware/qcom-caf/sm8450-6.6/audio/primary-hal
 repopick 493305 # audio: primary-hal: Add support for acnMask
-
-# packages/apps/Settings
-repopickchain 491435 # Require "tap to show" in SIM settings
-
-# packages/providers/MediaProvider
-repopickchain 490821 # Reject private paths with ignorable codepoints
 
 # packages/services/Telecomm
 repopickchain 494440 # CallLogManager: Reflect SensitivePhoneNumbers
