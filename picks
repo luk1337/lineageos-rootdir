@@ -66,9 +66,6 @@ repopickchain 493311 # pdx257: Update WFD system blobs from marvel_g A171WEH.20
 # device/sony/sm6375-common
 repopickchain 499105 # sm6375-common: Update WFD system blobs from marvel_g A171WEH.20
 
-# hardware/interfaces
-repopickchain 493678 # compatibility_matrices: Allow soundtrigger HIDL 2.1 and 2.2 on target-level 7
-
 # vendor/qcom/opensource/audio-hal/st-hal-ar
 repopickchain 493134 # Revert "st-hal: add support for forceRecognitionEvent"
 
