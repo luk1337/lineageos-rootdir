@@ -57,7 +57,4 @@ repopick 500185 # hotdog: fastbootd is now enabled by default
 # device/oneplus/hotdogb
 repopick 500186 # hotdogb: fastbootd is now enabled by default
 
-# device/sony/pdx257
-repopickchain 493311 # pdx257: Update WFD system blobs from marvel_g A171WEH.20
-
 wait
