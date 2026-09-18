@@ -1,5 +1,5 @@
 #!/bin/bash
-REPO_GROUPS="default,-darwin,-_devices"
+REPO_GROUPS="default,-darwin,-linux-musl,-_devices"
 REPO_GROUPS+=",_devices_google_gs2"
 # REPO_GROUPS+=",_devices_oneplus_sdm845"
 REPO_GROUPS+=",_devices_oneplus_sm8150"
