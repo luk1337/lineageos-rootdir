@@ -31,8 +31,8 @@
   <project name="TheMuppets/proprietary_vendor_oneplus_dodge" path="vendor/oneplus/dodge" groups="_devices,_devices_oneplus_sm8750" />
   <project name="TheMuppets/proprietary_vendor_oneplus_erhai" path="vendor/oneplus/erhai" groups="_devices,_devices_oneplus_sm8750" />
 
-  <project name="OnePlus-SM8850-Development/proprietary_vendor_oneplus_sm8850-common" path="vendor/oneplus/sm8850-common" groups="_devices,_devices_oneplus_sm8850" />
-  <project name="OnePlus-SM8850-Development/proprietary_vendor_oneplus_fairlady" path="vendor/oneplus/fairlady" groups="_devices,_devices_oneplus_sm8850" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_sm8850-common" path="vendor/oneplus/sm8850-common" groups="_devices,_devices_oneplus_sm8850" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_fairlady" path="vendor/oneplus/fairlady" groups="_devices,_devices_oneplus_sm8850" />
 
   <project name="TheMuppets/proprietary_vendor_samsung_gts4lv-common" path="vendor/samsung/gts4lv-common" groups="_devices,_devices_samsung_gts4lv" />
   <project name="TheMuppets/proprietary_vendor_samsung_gts4lv" path="vendor/samsung/gts4lv" groups="_devices,_devices_samsung_gts4lv" />
@@ -96,11 +96,11 @@
   <project name="LineageOS/android_kernel_oneplus_sm8750-modules" path="kernel/oneplus/sm8750-modules" groups="_devices,_devices_oneplus_sm8750" />
   <project name="LineageOS/android_kernel_oneplus_sm8750" path="kernel/oneplus/sm8750" groups="_devices,_devices_oneplus_sm8750" />
 
-  <project name="OnePlus-SM8850-Development/android_device_oneplus_fairlady" path="device/oneplus/fairlady" groups="_devices,_devices_oneplus_sm8850" />
-  <project name="OnePlus-SM8850-Development/android_device_oneplus_sm8850-common" path="device/oneplus/sm8850-common" groups="_devices,_devices_oneplus_sm8850" />
-  <project name="OnePlus-SM8850-Development/android_kernel_oneplus_sm8850" path="kernel/platform/kernel-6.12/vendor/oneplus/kernel" groups="_devices,_devices_oneplus_sm8850" />
-  <project name="OnePlus-SM8850-Development/android_kernel_oneplus_sm8850-devicetrees" path="kernel/platform/kernel-6.12/vendor/oneplus/sm8850-devicetrees" groups="_devices,_devices_oneplus_sm8850" />
-  <project name="OnePlus-SM8850-Development/android_kernel_oneplus_sm8850-modules" path="kernel/platform/kernel-6.12/vendor/oneplus/sm8850-modules" groups="_devices,_devices_oneplus_sm8850" />
+  <project name="LineageOS/android_device_oneplus_fairlady" path="device/oneplus/fairlady" groups="_devices,_devices_oneplus_sm8850" />
+  <project name="LineageOS/android_device_oneplus_sm8850-common" path="device/oneplus/sm8850-common" groups="_devices,_devices_oneplus_sm8850" />
+  <project name="LineageOS/android_kernel_oneplus_sm8850" path="kernel/platform/kernel-6.12/vendor/oneplus/sm8850" groups="_devices,_devices_oneplus_sm8850" />
+  <project name="LineageOS/android_kernel_oneplus_sm8850-devicetrees" path="kernel/platform/kernel-6.12/vendor/oneplus/sm8850-devicetrees" groups="_devices,_devices_oneplus_sm8850" />
+  <project name="LineageOS/android_kernel_oneplus_sm8850-modules" path="kernel/platform/kernel-6.12/vendor/oneplus/sm8850-modules" groups="_devices,_devices_oneplus_sm8850" />
 
   <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" groups="_devices,_devices_samsung_gts4lv" />
   <project name="LineageOS/android_device_samsung_gts4lv-common" path="device/samsung/gts4lv-common" groups="_devices,_devices_samsung_gts4lv" />
