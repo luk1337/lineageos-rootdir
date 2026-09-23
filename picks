@@ -55,6 +55,6 @@ repopickchain 504238 # thermal: qcom: Support oplus dynamic VBAT thresholds
 repopickchain 504291 # oplus: infiniti: Disable partial update for the AA601 panel
 
 # kernel/platform/kernel-6.12/vendor/oneplus/sm8850-modules
-repopickchain 504269 # qcom: audio-kernel: oplus: ASoC: Turn off debugging macro
+repopickchain 504443 # Revert "bt-kernel: Added support for APTX_PLUS codec"
 
 wait
