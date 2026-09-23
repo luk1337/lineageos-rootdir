@@ -2,6 +2,8 @@
 <manifest>
   <remote fetch="ssh://git@gitlab.com" name="gitlab" />
 
+  <remove-project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" />
+
   <include name="manifests/snippets/kernel-6.12.xml" groups="_devices,_devices_oneplus_sm8850" />
 
   <project name="TheMuppets/proprietary_vendor_google_tangorpro" path="vendor/google/tangorpro" groups="_devices,_devices_google_gs2" />
