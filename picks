@@ -48,13 +48,4 @@ function rc() {
 # device/oneplus/sm8750-common
 repopickchain 502873 # sm8750-common: fastbootd is now enabled by default
 
-# kernel/platform/kernel-6.12/vendor/oneplus/sm8850
-repopickchain 504238 # thermal: qcom: Support oplus dynamic VBAT thresholds
-
-# kernel/platform/kernel-6.12/vendor/oneplus/sm8850-devicetrees
-repopickchain 504291 # oplus: infiniti: Disable partial update for the AA601 panel
-
-# kernel/platform/kernel-6.12/vendor/oneplus/sm8850-modules
-repopickchain 504443 # Revert "bt-kernel: Added support for APTX_PLUS codec"
-
 wait
