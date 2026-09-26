@@ -25,6 +25,15 @@ index 2f1407f..b012f0c 100644
              return base
                  .replace("{device}", DeviceInfoUtils.device)
                  .replace("{type}", DeviceInfoUtils.releaseType.lowercase())
+@@ -29,7 +26,7 @@ class UpdatesNetworkDataSource(private val context: Context) {
+         }
+ 
+     private val client = OkHttpClient.Builder()
+-        .callTimeout(10, TimeUnit.SECONDS)
++        .callTimeout(120, TimeUnit.SECONDS)
+         .followRedirects(false)
+         .build()
+ 
 diff --git a/packages/apps/Updater/app/src/main/res/values/strings.xml b/packages/apps/Updater/app/src/main/res/values/strings.xml
 index df56e15..63a100a 100644
 --- a/packages/apps/Updater/app/src/main/res/values/strings.xml
