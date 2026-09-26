@@ -1,8 +1,29 @@
+diff --git a/packages/apps/Updater/app/default-permissions_org.lineageos.updater.xml b/packages/apps/Updater/app/default-permissions_org.lineageos.updater.xml
+index d53347c..cbd5bef 100644
+--- a/packages/apps/Updater/app/default-permissions_org.lineageos.updater.xml
++++ b/packages/apps/Updater/app/default-permissions_org.lineageos.updater.xml
+@@ -5,6 +5,8 @@
+ -->
+ <exceptions>
+     <exception package="org.lineageos.updater">
++        <!-- Local network -->
++        <permission name="android.permission.ACCESS_LOCAL_NETWORK" fixed="false"/>
+         <!-- Notifications -->
+         <permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
+     </exception>
 diff --git a/packages/apps/Updater/app/src/main/AndroidManifest.xml b/packages/apps/Updater/app/src/main/AndroidManifest.xml
 index 1cfa4d1..5ea98a1 100644
 --- a/packages/apps/Updater/app/src/main/AndroidManifest.xml
 +++ b/packages/apps/Updater/app/src/main/AndroidManifest.xml
-@@ -28,7 +28,7 @@
+@@ -8,6 +8,7 @@
+     android:versionCode="1">
+ 
+     <uses-permission android:name="android.permission.ACCESS_CACHE_FILESYSTEM" />
++    <uses-permission android:name="android.permission.ACCESS_LOCAL_NETWORK" />
+     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+@@ -28,7 +29,7 @@
          android:requestLegacyExternalStorage="true"
          android:supportsRtl="true"
          android:theme="@style/Theme.SpaLib"
