@@ -8,7 +8,7 @@
 
   <project name="TheMuppets/proprietary_vendor_google_tangorpro" path="vendor/google/tangorpro" groups="_devices,_devices_google_gs2" />
 
-  <project name="TheMuppets/proprietary_vendor_oneplus_sdm845-common" path="vendor/oneplus/sdm845-common" groups="_devices,_devices_oneplus_sdm845" />
+  <project name="EdwinMoq/proprietary_vendor_oneplus_sdm845-common" path="vendor/oneplus/sdm845-common" groups="_devices,_devices_oneplus_sdm845" />
   <project name="TheMuppets/proprietary_vendor_oneplus_enchilada" path="vendor/oneplus/enchilada" groups="_devices,_devices_oneplus_sdm845" />
   <project name="TheMuppets/proprietary_vendor_oneplus_fajita" path="vendor/oneplus/fajita" groups="_devices,_devices_oneplus_sdm845" />
 
@@ -69,7 +69,7 @@
   <project name="LineageOS/android_device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" groups="_devices,_devices_oneplus_sdm845" />
   <project name="LineageOS/android_device_oneplus_enchilada" path="device/oneplus/enchilada" groups="_devices,_devices_oneplus_sdm845" />
   <project name="LineageOS/android_device_oneplus_fajita" path="device/oneplus/fajita" groups="_devices,_devices_oneplus_sdm845" />
-  <project name="LineageOS/android_kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" groups="_devices,_devices_oneplus_sdm845" />
+  <project name="EdwinMoq/android_kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" groups="_devices,_devices_oneplus_sdm845" />
 
   <project name="LineageOS/android_device_oneplus_sm8150-common" path="device/oneplus/sm8150-common" groups="_devices,_devices_oneplus_sm8150" />
   <project name="LineageOS/android_device_oneplus_guacamole" path="device/oneplus/guacamole" groups="_devices,_devices_oneplus_sm8150" />

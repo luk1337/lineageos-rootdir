@@ -45,4 +45,7 @@ function rc() {
 # build/make
 # repopick -f 332045 # Don't enforce vintf kernel requirements when building without LTO
 
+# device/oneplus/sdm845-common
+repopickchain 506474 # sdm845-common: Update WFD vendor blobs from sweet_k6a OS1.0.19.0.THGMIX
+
 wait
