@@ -2,3 +2,4 @@
 * Never use Co-Authored-By for LLM annotation
 * Never use lunch, always use breakfast
 * Use zsh (with zshrc loaded) instead of bash
+* Keep first line of commit msg at max 72ch
