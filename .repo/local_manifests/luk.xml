@@ -133,7 +133,7 @@
   <project name="LineageOS/android_device_xiaomi_natrium" path="device/xiaomi/natrium" groups="_devices,_devices_xiaomi_msm8996" />
   <project name="LineageOS/android_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" groups="_devices,_devices_xiaomi_msm8996" />
 
-  <project name="LineageOS/android_hardware_oneplus" path="hardware/oneplus" groups="_devices,_devices_oneplus_sdm845" />
+  <project name="LineageOS/android_hardware_oneplus" path="hardware/oneplus" groups="_devices,_devices_oneplus_sdm845,_devices_oneplus_sm8150,_devices_oneplus_sm8250,_devices_oneplus_sm8350" />
   <project name="LineageOS/android_hardware_oplus" path="hardware/oplus" groups="_devices,_devices_oneplus_sm8150,_devices_oneplus_sm8250,_devices_oneplus_sm8350,_devices_oneplus_sm8750,_devices_oneplus_sm8850" />
   <project name="LineageOS/android_hardware_pixelworks_interfaces" path="hardware/pixelworks/interfaces" groups="_devices,_devices_oneplus_sm8250,_devices_oneplus_sm8350" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" groups="_devices,_devices_samsung_gts4lv" />
