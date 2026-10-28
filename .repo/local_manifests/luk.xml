@@ -36,6 +36,9 @@
   <project name="TheMuppets/proprietary_vendor_oneplus_sm8850-common" path="vendor/oneplus/sm8850-common" groups="_devices,_devices_oneplus_sm8850" />
   <project name="TheMuppets/proprietary_vendor_oneplus_fairlady" path="vendor/oneplus/fairlady" groups="_devices,_devices_oneplus_sm8850" />
 
+  <project name="RPQ7790Dev/proprietary_vendor_retroidpocket_cq7790s-common" path="vendor/retroidpocket/cq7790s-common" groups="_devices,_devices_retroidpocket_duo" />
+  <project name="RPQ7790Dev/proprietary_vendor_retroidpocket_RPDuo" path="vendor/retroidpocket/RPDuo" groups="_devices,_devices_retroidpocket_duo" />
+
   <project name="TheMuppets/proprietary_vendor_samsung_gts4lv-common" path="vendor/samsung/gts4lv-common" groups="_devices,_devices_samsung_gts4lv" />
   <project name="TheMuppets/proprietary_vendor_samsung_gts4lv" path="vendor/samsung/gts4lv" groups="_devices,_devices_samsung_gts4lv" />
   <project name="TheMuppets/proprietary_vendor_samsung_gts4lvwifi" path="vendor/samsung/gts4lvwifi" groups="_devices,_devices_samsung_gts4lv" />
@@ -106,6 +109,13 @@
   <project name="LineageOS/android_kernel_oneplus_sm8850-devicetrees" path="kernel/platform/kernel-6.12/vendor/oneplus/sm8850-devicetrees" groups="_devices,_devices_oneplus_sm8850" />
   <project name="LineageOS/android_kernel_oneplus_sm8850-modules" path="kernel/platform/kernel-6.12/vendor/oneplus/sm8850-modules" groups="_devices,_devices_oneplus_sm8850" />
 
+  <project name="RPQ7790Dev/android_device_retroidpocket_cq7790s-common" path="device/retroidpocket/cq7790s-common" groups="_devices,_devices_retroidpocket_duo" />
+  <project name="RPQ7790Dev/android_device_retroidpocket_RPDuo" path="device/retroidpocket/RPDuo" groups="_devices,_devices_retroidpocket_duo" />
+  <project name="LineageOS/android_kernel_ayn_common-modules" path="kernel/ayn/common-modules" groups="_devices,_devices_retroidpocket_duo" />
+  <project name="RPQ7790Dev/android_kernel_retroidpocket_cq7790s-devicetrees" path="kernel/retroidpocket/cq7790s-devicetrees" groups="_devices,_devices_retroidpocket_duo" />
+  <project name="RPQ7790Dev/android_kernel_retroidpocket_cq7790s-modules" path="kernel/retroidpocket/cq7790s-modules" groups="_devices,_devices_retroidpocket_duo" />
+  <project name="RPQ7790Dev/android_kernel_retroidpocket_cq7790s" path="kernel/retroidpocket/cq7790s" groups="_devices,_devices_retroidpocket_duo" />
+
   <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" groups="_devices,_devices_samsung_gts4lv" />
   <project name="LineageOS/android_device_samsung_gts4lv-common" path="device/samsung/gts4lv-common" groups="_devices,_devices_samsung_gts4lv" />
   <project name="LineageOS/android_device_samsung_gts4lv" path="device/samsung/gts4lv" groups="_devices,_devices_samsung_gts4lv" />
@@ -137,6 +147,7 @@
   <project name="LineageOS/android_device_xiaomi_natrium" path="device/xiaomi/natrium" groups="_devices,_devices_xiaomi_msm8996" />
   <project name="LineageOS/android_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" groups="_devices,_devices_xiaomi_msm8996" />
 
+  <project name="LineageOS/android_hardware_ayn" path="hardware/ayn" groups="_devices,_devices_retroidpocket_duo" />
   <project name="LineageOS/android_hardware_oneplus" path="hardware/oneplus" groups="_devices,_devices_oneplus_sdm845,_devices_oneplus_sm8150,_devices_oneplus_sm8250,_devices_oneplus_sm8350" />
   <project name="LineageOS/android_hardware_oplus" path="hardware/oplus" groups="_devices,_devices_oneplus_sm8150,_devices_oneplus_sm8250,_devices_oneplus_sm8350,_devices_oneplus_sm8750,_devices_oneplus_sm8850" />
   <project name="LineageOS/android_hardware_pixelworks_interfaces" path="hardware/pixelworks/interfaces" groups="_devices,_devices_oneplus_sm8250,_devices_oneplus_sm8350" />
