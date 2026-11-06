@@ -4,6 +4,8 @@ set -ex
 TAG_BT=BTFM.LA.1.0.r3-.....-pakala.0
 TAG_GRAPHICS=GRAPHICS.LA.15.1.r1-.....-WAIPIO.0
 TAG_MAIN=LA.VENDOR.15.4.1.r1-.....-WAIPIO.0
+TAG_MAIN_1_0=LA.VENDOR.1.0.r1-.....-WAIPIO.QSSI16.0
+TAG_MAIN_NEOLA=LA.VENDOR.14.3.11.r1-.....-NEOLA.0
 TAG_WLAN=WLAN.LA.1.1.r1-.....-WAIPIO.0
 
 pull_latest_tag() {
@@ -20,6 +22,7 @@ pull_latest_tag qcom/opensource/datarmnet/ https://git.codelinaro.org/clo/la/pla
 pull_latest_tag qcom/opensource/datarmnet-ext/ https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/datarmnet-ext.git $TAG_MAIN
 pull_latest_tag qcom/opensource/display-drivers/ https://git.codelinaro.org/clo/la/platform/vendor/opensource/display-drivers.git $TAG_MAIN
 pull_latest_tag qcom/opensource/dsp-kernel/ https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/dsp-kernel.git $TAG_MAIN
+pull_latest_tag qcom/opensource/eva-kernel-v1/ https://git.codelinaro.org/clo/la/platform/vendor/opensource/eva-kernel.git $TAG_MAIN_1_0
 pull_latest_tag qcom/opensource/graphics-kernel/ https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/graphics-kernel.git $TAG_GRAPHICS
 pull_latest_tag qcom/opensource/mm-drivers/ https://git.codelinaro.org/clo/la/platform/vendor/opensource/mm-drivers.git $TAG_MAIN
 pull_latest_tag qcom/opensource/mm-sys-kernel/ https://git.codelinaro.org/clo/la/platform/vendor/opensource/mm-sys-kernel.git $TAG_MAIN
@@ -27,6 +30,7 @@ pull_latest_tag qcom/opensource/mmrm-driver/ https://git.codelinaro.org/clo/la/p
 pull_latest_tag qcom/opensource/securemsm-kernel/ https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/securemsm-kernel.git $TAG_MAIN
 pull_latest_tag qcom/opensource/spu-kernel/ https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/spu-kernel.git $TAG_MAIN
 pull_latest_tag qcom/opensource/synx-kernel/ https://git.codelinaro.org/clo/la/platform/vendor/opensource/synx-kernel.git $TAG_MAIN
+pull_latest_tag qcom/opensource/synx-kernel-v1/ https://git.codelinaro.org/clo/la/platform/vendor/opensource/synx-kernel.git $TAG_MAIN_NEOLA
 pull_latest_tag qcom/opensource/touch-drivers/ https://git.codelinaro.org/clo/la/platform/vendor/opensource/touch-drivers.git $TAG_MAIN
 pull_latest_tag qcom/opensource/video-driver/ https://git.codelinaro.org/clo/la/platform/vendor/opensource/video-driver.git $TAG_MAIN
 pull_latest_tag qcom/opensource/wlan/fw-api/ https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/fw-api.git $TAG_WLAN
