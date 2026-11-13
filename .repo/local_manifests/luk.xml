@@ -39,9 +39,9 @@
   <project name="RPQ7790Dev/proprietary_vendor_retroidpocket_cq7790s-common" path="vendor/retroidpocket/cq7790s-common" groups="_devices,_devices_retroidpocket_duo" />
   <project name="RPQ7790Dev/proprietary_vendor_retroidpocket_RPDuo" path="vendor/retroidpocket/RPDuo" groups="_devices,_devices_retroidpocket_duo" />
 
-  <project name="TheMuppets/proprietary_vendor_samsung_gts4lv-common" path="vendor/samsung/gts4lv-common" groups="_devices,_devices_samsung_gts4lv" />
-  <project name="TheMuppets/proprietary_vendor_samsung_gts4lv" path="vendor/samsung/gts4lv" groups="_devices,_devices_samsung_gts4lv" />
-  <project name="TheMuppets/proprietary_vendor_samsung_gts4lvwifi" path="vendor/samsung/gts4lvwifi" groups="_devices,_devices_samsung_gts4lv" />
+  <project name="luk1337/proprietary_vendor_samsung_gts4lv-common" path="vendor/samsung/gts4lv-common" groups="_devices,_devices_samsung_gts4lv" />
+  <project name="TheMuppets/proprietary_vendor_samsung_gts4lv" path="vendor/samsung/gts4lv" groups="_devices,_devices_samsung_gts4lv" revision="lineage-22.2" />
+  <project name="TheMuppets/proprietary_vendor_samsung_gts4lvwifi" path="vendor/samsung/gts4lvwifi" groups="_devices,_devices_samsung_gts4lv" revision="lineage-22.2" />
 
   <project name="TheMuppets/proprietary_vendor_sony_nile-common" path="vendor/sony/nile-common" groups="_devices,_devices_sony_nile" />
   <project name="TheMuppets/proprietary_vendor_sony_discovery" path="vendor/sony/discovery" groups="_devices,_devices_sony_nile" />
@@ -116,11 +116,10 @@
   <project name="RPQ7790Dev/android_kernel_retroidpocket_cq7790s-modules" path="kernel/retroidpocket/cq7790s-modules" groups="_devices,_devices_retroidpocket_duo" />
   <project name="RPQ7790Dev/android_kernel_retroidpocket_cq7790s" path="kernel/retroidpocket/cq7790s" groups="_devices,_devices_retroidpocket_duo" />
 
-  <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" groups="_devices,_devices_samsung_gts4lv" />
-  <project name="LineageOS/android_device_samsung_gts4lv-common" path="device/samsung/gts4lv-common" groups="_devices,_devices_samsung_gts4lv" />
-  <project name="LineageOS/android_device_samsung_gts4lv" path="device/samsung/gts4lv" groups="_devices,_devices_samsung_gts4lv" />
-  <project name="LineageOS/android_device_samsung_gts4lvwifi" path="device/samsung/gts4lvwifi" groups="_devices,_devices_samsung_gts4lv" />
-  <project name="LineageOS/android_kernel_samsung_sdm670" path="kernel/samsung/sdm670" groups="_devices,_devices_samsung_gts4lv" />
+  <project name="luk1337/android_device_samsung_gts4lv-common" path="device/samsung/gts4lv-common" groups="_devices,_devices_samsung_gts4lv" />
+  <project name="luk1337/android_device_samsung_gts4lv" path="device/samsung/gts4lv" groups="_devices,_devices_samsung_gts4lv" />
+  <project name="luk1337/android_device_samsung_gts4lvwifi" path="device/samsung/gts4lvwifi" groups="_devices,_devices_samsung_gts4lv" />
+  <project name="luk1337/android_kernel_samsung_sdm670" path="kernel/samsung/sdm670" groups="_devices,_devices_samsung_gts4lv" />
 
   <project name="LineageOS/android_device_sony_nile-common" path="device/sony/nile-common" groups="_devices,_devices_sony_nile" />
   <project name="LineageOS/android_device_sony_discovery" path="device/sony/discovery" groups="_devices,_devices_sony_nile" />

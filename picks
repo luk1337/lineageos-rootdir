@@ -48,4 +48,16 @@ function rc() {
 # device/oneplus/sdm845-common
 repopickchain 508618 # sdm845-common: Add video system specs
 
+# device/qcom/sepolicy_vndr/legacy-um
+repopickchain 513218 # sdm845: Label SDM710 devfreq nodes
+
+# hardware/qcom-caf/common
+repopick 512934 # qcom: Treat SDM710 4.19 same as SDM845 4.19
+
+# hardware/qcom-caf/sm8250/audio
+repopick 512935 # hal: Add support for sdm710
+
+# hardware/qcom-caf/sm8250/display
+repopick 512964 # gralloc: Add option for unaligned YCrCb/YCbCr pixel format height
+
 wait
