@@ -48,7 +48,4 @@ function rc() {
 # device/oneplus/sdm845-common
 repopickchain 508618 # sdm845-common: Add video system specs
 
-# device/qcom/sepolicy_vndr/legacy-um
-repopickchain 513218 # sdm845: Label SDM710 devfreq nodes
-
 wait
