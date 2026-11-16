@@ -49,10 +49,18 @@ function rc() {
 repopickchain 508618 # sdm845-common: Add video system specs
 
 # kernel/ayn/cq8725s
-repopickchain 513859 # defconfig: Remove SYSVIPC configs for kera SoC
+changes=(
+    `rc 511012` # BACKPORT: thermal: gov_step_wise: Fix stale mitigation vote with non-zero lower bounds
+    `rc 513859` # defconfig: Remove SYSVIPC configs for kera SoC
+)
+repopick ${changes[@]}
 
 # kernel/ayn/cq8725s-devicetrees
-repopick 513862 # devicetrees: Add Retroid Pocket Duo
+changes=(
+    `rc 511007` # moorechip: Increase CPU and GPU fan trip hysteresis
+    513862 # devicetrees: Add Retroid Pocket Duo
+)
+repopick ${changes[@]}
 
 # kernel/ayn/cq8725s-modules
 repopickchain 513875 # audio: Add es8326 codec
