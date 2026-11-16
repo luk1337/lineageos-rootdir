@@ -48,4 +48,19 @@ function rc() {
 # device/oneplus/sdm845-common
 repopickchain 508618 # sdm845-common: Add video system specs
 
+# device/retroidpocket/cq7790s-common
+repopickchain 513844 # cq7790s-common: init: Add workaround for broken offline charging
+
+# device/retroidpocket/RPDuo
+repopickchain 513775 # RPDuo: Allow games to use 120fps
+
+# kernel/ayn/cq8725s
+repopickchain 513859 # defconfig: Remove SYSVIPC configs for kera SoC
+
+# kernel/ayn/cq8725s-devicetrees
+repopick 513862 # devicetrees: Add Retroid Pocket Duo
+
+# kernel/ayn/cq8725s-modules
+repopickchain 513875 # audio: Add es8326 codec
+
 wait
