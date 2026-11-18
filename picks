@@ -48,6 +48,12 @@ function rc() {
 # device/oneplus/sdm845-common
 repopickchain 508618 # sdm845-common: Add video system specs
 
+# device/retroidpocket/RPDuo
+repopickchain 514067 # RPDuo: Don't allow nav bar to move
+
+# frameworks/base
+repopickchain 514157 # SystemUI: Auto-hide transient taskbars on connected displays
+
 # kernel/ayn/cq8725s
 changes=(
     `rc 511012` # BACKPORT: thermal: gov_step_wise: Fix stale mitigation vote with non-zero lower bounds
@@ -64,5 +70,8 @@ repopick ${changes[@]}
 
 # kernel/ayn/cq8725s-modules
 repopickchain 513875 # audio: Add es8326 codec
+
+# packages/apps/Launcher3
+repopickchain 514068 # Launcher3: Honor config_navBarCanMove
 
 wait
