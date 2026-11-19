@@ -49,10 +49,14 @@ function rc() {
 repopickchain 513644 # sdm845-common: Add sensors.oneplus to hals.conf at extract time
 
 # device/retroidpocket/RPDuo
-repopickchain 514067 # RPDuo: Don't allow nav bar to move
+repopick 514313 # RPDuo: Unlink displays' brightness levels
 
 # frameworks/base
-repopickchain 514157 # SystemUI: Auto-hide transient taskbars on connected displays
+changes=(
+    `rc 514157` # SystemUI: Auto-hide transient taskbars on connected displays
+    `rc 514305` # DisplayManagerService: Route follower brightness to the lead display
+)
+repopick ${changes[@]}
 
 # kernel/ayn/cq8725s
 changes=(
