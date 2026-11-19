@@ -46,7 +46,7 @@ function rc() {
 # repopick -f 332045 # Don't enforce vintf kernel requirements when building without LTO
 
 # device/oneplus/sdm845-common
-repopickchain 508618 # sdm845-common: Add video system specs
+repopickchain 513644 # sdm845-common: Add sensors.oneplus to hals.conf at extract time
 
 # device/retroidpocket/RPDuo
 repopickchain 514067 # RPDuo: Don't allow nav bar to move
