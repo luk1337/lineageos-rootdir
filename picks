@@ -75,7 +75,4 @@ repopick ${changes[@]}
 # kernel/ayn/cq8725s-modules
 repopickchain 513875 # audio: Add es8326 codec
 
-# packages/apps/Launcher3
-repopickchain 514068 # Launcher3: Honor config_navBarCanMove
-
 wait
