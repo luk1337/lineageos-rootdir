@@ -48,6 +48,9 @@ function rc() {
 # device/oneplus/sdm845-common
 repopickchain 513644 # sdm845-common: Add sensors.oneplus to hals.conf at extract time
 
+# device/retroidpocket/cq7790s-common
+repopick 514309 # cq7790s-common: Route QSH sensors through sensors.ayn
+
 # device/retroidpocket/RPDuo
 repopick 514313 # RPDuo: Unlink displays' brightness levels
 
@@ -57,6 +60,9 @@ changes=(
     `rc 514305` # DisplayManagerService: Route follower brightness to the lead display
 )
 repopick ${changes[@]}
+
+# hardware/ayn
+repopick 514308 # sensors: Add sub-HAL wrapper rotating sensor axes
 
 # kernel/ayn/cq8725s
 changes=(
