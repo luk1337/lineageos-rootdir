@@ -55,11 +55,7 @@ repopick 514309 # cq7790s-common: Route QSH sensors through sensors.ayn
 repopick 514313 # RPDuo: Unlink displays' brightness levels
 
 # frameworks/base
-changes=(
-    `rc 514157` # SystemUI: Auto-hide transient taskbars on connected displays
-    `rc 514305` # DisplayManagerService: Route follower brightness to the lead display
-)
-repopick ${changes[@]}
+repopickchain 514305 # DisplayManagerService: Route follower brightness to the lead display
 
 # hardware/ayn
 repopick 514308 # sensors: Add sub-HAL wrapper rotating sensor axes
