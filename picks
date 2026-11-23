@@ -49,11 +49,7 @@ function rc() {
 repopickchain 513644 # sdm845-common: Add sensors.oneplus to hals.conf at extract time
 
 # kernel/ayn/cq8725s
-changes=(
-    `rc 511012` # BACKPORT: thermal: gov_step_wise: Fix stale mitigation vote with non-zero lower bounds
-    `rc 513859` # defconfig: Remove SYSVIPC configs for kera SoC
-)
-repopick ${changes[@]}
+repopickchain 511012 # BACKPORT: thermal: gov_step_wise: Fix stale mitigation vote with non-zero lower bounds
 
 # kernel/ayn/cq8725s-devicetrees
 changes=(
