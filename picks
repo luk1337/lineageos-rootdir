@@ -52,11 +52,7 @@ repopickchain 513644 # sdm845-common: Add sensors.oneplus to hals.conf at extrac
 repopickchain 511012 # BACKPORT: thermal: gov_step_wise: Fix stale mitigation vote with non-zero lower bounds
 
 # kernel/ayn/cq8725s-devicetrees
-changes=(
-    `rc 511007` # moorechip: Increase CPU and GPU fan trip hysteresis
-    513862 # devicetrees: Add Retroid Pocket Duo
-)
-repopick ${changes[@]}
+repopick 513862 # devicetrees: Add Retroid Pocket Duo
 
 # kernel/ayn/cq8725s-modules
 repopickchain 513875 # audio: Add es8326 codec
