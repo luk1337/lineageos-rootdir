@@ -57,4 +57,10 @@ repopick 513862 # devicetrees: Add Retroid Pocket Duo
 # kernel/ayn/cq8725s-modules
 repopickchain 513875 # audio: Add es8326 codec
 
+# packages/apps/Launcher3
+repopickchain 515288 # Launcher3: Show system bars in recents in app drawer only mode
+
+# vendor/lineage
+repopick 515237 # release: Enable enable_recents_window_blur
+
 wait
