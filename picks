@@ -49,7 +49,7 @@ function rc() {
 repopickchain 513644 # sdm845-common: Add sensors.oneplus to hals.conf at extract time
 
 # kernel/ayn/cq8725s
-repopickchain 511012 # BACKPORT: thermal: gov_step_wise: Fix stale mitigation vote with non-zero lower bounds
+repopickchain 515273 # BACKPORT: thermal: trip: Avoid skipping trips in thermal_zone_set_trips()
 
 # kernel/ayn/cq8725s-devicetrees
 repopick 513862 # devicetrees: Add Retroid Pocket Duo
